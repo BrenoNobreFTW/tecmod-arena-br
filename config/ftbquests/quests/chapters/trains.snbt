@@ -1,0 +1,361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trains"
+	group: "6F1A8C7B9D2E5432"
+	icon: {
+		id: "create:track"
+	}
+	id: "7474747474747401"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:track"
+			}
+			id: "7400000000000001"
+			rewards: [{
+				id: "7500000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7600000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7400000000000001"]
+			id: "7400000000000002"
+			rewards: [
+				{
+					id: "5B880C3D377494E6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "0F6C357FFDD270BB"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4606E04C0A5A0A80"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "7600000000000002"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7400000000000002"]
+			id: "7400000000000003"
+			rewards: [
+				{
+					id: "7C32328D53671750"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "40F012D18148DD8A"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4CF71F31B7E10D86"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7600000000000003"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000004"
+			rewards: [
+				{
+					id: "6904A69E89CDD783"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "4C75008628CC3F5D"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "06BC8F7018F7BEF5"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7600000000000004"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000005"
+			rewards: [
+				{
+					id: "3A537B50153ABE0A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "587AB7B4484253D7"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "11A592DA14F7A06E"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7600000000000005"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000006"
+			rewards: [
+				{
+					id: "1D660361DC596FE8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "5E1A6A2351AF63AA"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1EB2D90FA7AACFC1"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7600000000000006"
+				item: { count: 1, id: "create:track_observer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7400000000000004"]
+			id: "7400000000000007"
+			rewards: [
+				{
+					id: "4888A531890C4280"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "17D4A8D8ACD3592B"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7D265F5E51054D35"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7600000000000007"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7400000000000004"]
+			id: "7400000000000008"
+			rewards: [
+				{
+					id: "60366FA18504B814"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "32B0BA4E972D886E"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "57ED57D204787059"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7600000000000008"
+				item: { count: 1, id: "create:train_trapdoor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000009"
+			optional: true
+			rewards: [
+				{
+					id: "2E2D79E6C446907A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "483D79766E7D82D0"
+					item: {
+						count: 1
+						id: "railways:knuckle_coupler"
+					}
+					type: "item"
+				}
+				{
+					id: "7D18102C64C6908C"
+					item: {
+						count: 1
+						id: "railways:track_coupler"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "7600000000000009"
+				item: { count: 1, id: "railways:track_create_andesite_wide" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"7400000000000007"
+				"7400000000000008"
+			]
+			id: "740000000000FFFF"
+			rewards: [
+				{
+					count: 32
+					id: "750000000000FFFF"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "750000000000FF01"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "760000000000FFFF"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

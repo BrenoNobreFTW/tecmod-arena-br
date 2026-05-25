@@ -1,0 +1,530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "mekanism:steel_casing"
+	}
+	id: "6AAA6AAA6AAA6AAA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mekanism:steel_casing"
+			}
+			id: "6A00000000000001"
+			rewards: [{
+				id: "6B00000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6C00000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			id: "6A00000000000002"
+			rewards: [{
+				count: 4
+				id: "6B00000000000002"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6C00000000000002"
+				item: { count: 1, id: "mekanism:ingot_steel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000002"]
+			id: "6A00000000000003"
+			rewards: [{
+				id: "6B00000000000003"
+				item: {
+					count: 1
+					id: "mekanism:steel_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000003"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000003"]
+			id: "6A00000000000004"
+			rewards: [{
+				id: "6B00000000000004"
+				item: {
+					count: 1
+					id: "mekanism:metallurgic_infuser"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000004"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A00000000000003"]
+			id: "6A00000000000005"
+			rewards: [{
+				id: "6B00000000000005"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000005"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000003"]
+			id: "6A00000000000006"
+			rewards: [{
+				id: "6B00000000000006"
+				item: {
+					count: 1
+					id: "mekanism:enrichment_chamber"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000006"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A00000000000005"]
+			id: "6A00000000000007"
+			rewards: [{
+				id: "6B00000000000007"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000007"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6A00000000000007"]
+			id: "6A00000000000008"
+			rewards: [{
+				id: "6B00000000000008"
+				item: {
+					count: 1
+					id: "mekanismgenerators:wind_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000008"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A00000000000007"]
+			id: "6A00000000000009"
+			rewards: [{
+				id: "6B00000000000009"
+				item: {
+					count: 1
+					id: "mekanismgenerators:solar_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000009"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000006"]
+			id: "6A0000000000000A"
+			rewards: [{
+				id: "6B0000000000000A"
+				item: {
+					count: 1
+					id: "mekanism:combiner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C0000000000000A"
+				item: { count: 1, id: "mekanism:combiner" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6A00000000000006"]
+			id: "6A0000000000000B"
+			rewards: [{
+				id: "6B0000000000000B"
+				item: {
+					count: 1
+					id: "mekanism:crusher"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C0000000000000B"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6A0000000000000A"]
+			id: "6A0000000000000C"
+			rewards: [{
+				id: "6B0000000000000C"
+				item: {
+					count: 1
+					id: "mekanism:energized_smelter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C0000000000000C"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A0000000000000C"]
+			id: "6A0000000000000D"
+			rewards: [
+				{
+					id: "6B0000000000000D"
+					item: {
+						count: 1
+						id: "mekanism:purification_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "6B0000000000000E"
+					item: {
+						count: 1
+						id: "mekanism:advanced_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C0000000000000D"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A0000000000000D"]
+			id: "6A0000000000000E"
+			rewards: [
+				{
+					id: "6B0000000000000F"
+					item: {
+						count: 1
+						id: "mekanism:chemical_injection_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "6B00000000000010"
+					item: {
+						count: 1
+						id: "mekanism:elite_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C0000000000000E"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A0000000000000E"]
+			id: "6A0000000000000F"
+			rewards: [
+				{
+					id: "6B00000000000011"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					id: "6B00000000000012"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C0000000000000F"
+				item: { count: 1, id: "mekanism:ultimate_energy_cube" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A0000000000000F"]
+			id: "6A00000000000010"
+			optional: true
+			rewards: [{
+				id: "6B00000000000013"
+				item: {
+					count: 1
+					id: "mekanism:digital_miner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000010"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6A00000000000004"]
+			id: "6A00000000000011"
+			optional: true
+			rewards: [{
+				id: "6B00000000000014"
+				item: {
+					count: 1
+					id: "mekanismtools:steel_paxel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000011"
+				item: { count: 1, id: "mekanismtools:steel_paxel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6A0000000000000F"]
+			id: "6A00000000000012"
+			rewards: [{
+				id: "6B00000000000015"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_helmet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000012"
+				item: { count: 1, id: "mekanism:mekasuit_helmet" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6A0000000000000F"]
+			id: "6A00000000000013"
+			rewards: [{
+				id: "6B00000000000016"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_bodyarmor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000013"
+				item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["6A0000000000000F"]
+			id: "6A00000000000014"
+			rewards: [{
+				id: "6B00000000000017"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_pants"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000014"
+				item: { count: 1, id: "mekanism:mekasuit_pants" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6A0000000000000F"]
+			id: "6A00000000000015"
+			rewards: [{
+				id: "6B00000000000018"
+				item: {
+					count: 1
+					id: "mekanism:mekasuit_boots"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000015"
+				item: { count: 1, id: "mekanism:mekasuit_boots" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6A0000000000000F"]
+			id: "6A00000000000016"
+			rewards: [{
+				count: 4
+				id: "6B00000000000019"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fission_reactor_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C00000000000016"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6A00000000000016"]
+			id: "6A00000000000017"
+			rewards: [
+				{
+					count: 4
+					id: "6B0000000000001A"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "6B0000000000001B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "6C00000000000017"
+				item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000012"
+				"6A00000000000013"
+				"6A00000000000014"
+				"6A00000000000015"
+				"6A00000000000017"
+			]
+			id: "6A0000000000FFFF"
+			rewards: [
+				{
+					count: 4
+					id: "6B0000000000001C"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+				{
+					id: "6B0000000000001D"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "6B0000000000001E"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "6C0000000000FFFF"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+	]
+}

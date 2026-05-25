@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "mecanicas_sobrevivencia"
+	group: "7A2B8D9C1E3F4567"
+	icon: {
+		id: "not_enough_revives:cross_of_revival"
+	}
+	id: "43E70C8164A63E0A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "24F8A0833305E1A4"
+			rewards: [{
+				id: "4ACDB00F8C6EA42C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "432B8561253E1267"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			icon: {
+				id: "not_enough_revives:cross_of_revival"
+			}
+			id: "3CA29CA37B42CCC2"
+			rewards: [{
+				id: "67C663F3A08FD188"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "470C6FB3660F645B"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "not_enough_revives:cross_of_revival"
+			}
+			id: "2625C90EC9A0BB49"
+			rewards: [{
+				id: "731E524B610EC460"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "40A1C45429B8FCA3"
+				item: { count: 1, id: "not_enough_revives:cross_of_revival" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "gravestone:gravestone"
+			}
+			id: "6AC77BF33D418202"
+			rewards: [{
+				id: "29EE47CA84B2C871"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "547B90D77818B7FE"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "gravestone:gravestone"
+			}
+			id: "65F9C71FEDB2E3CF"
+			rewards: [{
+				id: "194087B765916401"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "07D88ACE672D767D"
+				item: { count: 1, id: "gravestone:gravestone" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "gravestone:obituary"
+			}
+			id: "44BABECAEA5012A4"
+			rewards: [{
+				id: "0656329E6CF93FAF"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "02DF7A651379D9BE"
+				item: { count: 1, id: "gravestone:obituary" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "comforts:sleeping_bag_white"
+			}
+			id: "2AD2972C73020FDD"
+			rewards: [{
+				id: "1ADC62AF58D854A3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B2BB25C0146AB4F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "comforts:sleeping_bag_white"
+			}
+			id: "3019D057CB0D3151"
+			rewards: [{
+				id: "3B40E4D387F064B7"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "01E70896C5B5A497"
+				item: { count: 1, id: "comforts:sleeping_bag_white" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "comforts:hammock_white"
+			}
+			id: "7DFA8E1604452858"
+			rewards: [{
+				id: "61A1E525B4F3F51E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1956245D36C9A38F"
+				item: { count: 1, id: "comforts:hammock_white" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "6D8C72F89E41B618"
+			rewards: [{
+				id: "67FAA5EDB66EB3D3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25D10C209EC55A42"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "simple_burnout_torch:burnable_torch"
+			}
+			id: "66D1FB9FA7151FCD"
+			rewards: [{
+				id: "3DCE6747E4C215EE"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EEE587DCC94F68C"
+				item: { count: 1, id: "simple_burnout_torch:burnable_torch" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "3A56AF2D0605DB0C"
+			rewards: [{
+				id: "57B44D0DFD9463BC"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "419177E80CFF0FEA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

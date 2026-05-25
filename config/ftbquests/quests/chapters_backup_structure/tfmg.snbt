@@ -1,0 +1,212 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg"
+	group: "1A8B3F2C4D5E6789"
+	icon: { id: "tfmg:cast_iron_block" }
+	id: "341680433DF32BF6"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "tfmg:cast_iron_block" }
+			id: "20BB79EACA791D74"
+			rewards: [{
+				id: "025DF143944AD6CE"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0F041CC24449FFF1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20BB79EACA791D74"]
+			id: "54C2AE81263DD0E6"
+			rewards: [{
+				count: 8
+				id: "45759C02C750127C"
+				item: {
+					count: 1
+					id: "tfmg:cast_iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0C57F4EEDDCCD51A"
+				item: { count: 1, id: "tfmg:cast_iron_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54C2AE81263DD0E6"]
+			id: "0C5F867454CCBC6D"
+			rewards: [{
+				count: 4
+				id: "17D375BB1CEEEF0E"
+				item: {
+					count: 1
+					id: "tfmg:heavy_plate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5E444BD00F956038"
+				item: { count: 1, id: "tfmg:heavy_plate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C5F867454CCBC6D"]
+			id: "3D9171D49AAF27A8"
+			rewards: [{
+				count: 4
+				id: "4DBBD78E58E137BA"
+				item: { count: 1, id: "tfmg:cast_iron_block" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6327A245DBCED920"
+				item: { count: 1, id: "tfmg:cast_iron_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3D9171D49AAF27A8"]
+			id: "0CCDAC8EB49AAF2F"
+			rewards: [{
+				id: "18FA1590512B0A39"
+				item: { count: 1, id: "tfmg:blast_furnace_hatch" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "379EFDA00FDF8EB6"
+				item: { count: 1, id: "tfmg:blast_furnace_hatch" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D9171D49AAF27A8"]
+			id: "4146A3BA38FC9304"
+			rewards: [{
+				id: "12FBC2B018B72A4B"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "04FAEC4B05A7DC06"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D9171D49AAF27A8"]
+			id: "6C37DA2A2B2B5C74"
+			rewards: [{
+				id: "48AC5E9E86953C0F"
+				item: { count: 1, id: "tfmg:diesel_engine_cylinder" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ACF60588758E41E"
+				item: { count: 1, id: "tfmg:diesel_engine_cylinder" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4146A3BA38FC9304"]
+			id: "0E450ECBE856DAD6"
+			rewards: [
+				{
+					count: 4
+					id: "135FE30210735D23"
+					item: {
+						count: 1
+						id: "tfmg:diesel_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "36E4AA7D2F51215D"
+					item: {
+						count: 1
+						id: "tfmg:gasoline_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37AB914E0045B512"
+				item: { count: 1, id: "tfmg:diesel_bucket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C5F867454CCBC6D"]
+			id: "240421BDC8D55589"
+			optional: true
+			rewards: [{
+				id: "409E33CDED368CCC"
+				item: { count: 1, id: "create:yellow_toolbox" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "242F1C37BE1ACAD1"
+				item: { count: 1, id: "create:yellow_toolbox" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0E450ECBE856DAD6"]
+			id: "046352CCA33CA915"
+			rewards: [
+				{
+					count: 8
+					id: "044F7FCE1AE02819"
+					item: { count: 1, id: "tfmg:cast_iron_block" }
+					type: "item"
+				}
+				{
+					id: "30734C24F8C3E0BC"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "05B2C4917077A759"
+				item: { count: 1, id: "tfmg:diesel_engine_cylinder" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

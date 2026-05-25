@@ -1,0 +1,707 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ferramentas"
+	group: "3C7D5F4E6A8B9C12"
+	icon: {
+		components: {
+			"industrialforegoing:infinity_can_charge": 1b
+			"industrialforegoing:infinity_item_power": 0L
+			"industrialforegoing:infinity_item_selected_tier": "poor"
+			"industrialforegoing:infinity_item_special": 0b
+		}
+		id: "industrialforegoing:infinity_drill"
+	}
+	id: "7DFD49F248073594"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"industrialforegoing:infinity_can_charge": 1b
+					"industrialforegoing:infinity_item_power": 0L
+					"industrialforegoing:infinity_item_selected_tier": "poor"
+					"industrialforegoing:infinity_item_special": 0b
+				}
+				id: "industrialforegoing:infinity_drill"
+			}
+			id: "63393CEF1E57B514"
+			rewards: [{
+				id: "6413541984CC5579"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1873AFFB068AEE6F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63393CEF1E57B514"]
+			id: "0ADF55C7DA044ED8"
+			rewards: [
+				{
+					id: "57309DFB77E7B245"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "76524D7F640F075F"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B679218967CCF75"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A47C09B76339E50"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ADF55C7DA044ED8"]
+			id: "0DB446A3C481B9D8"
+			rewards: [
+				{
+					id: "7EB8B9FB3C45AB49"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "76ECA0FAFD6C2393"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "19E81954FB69A188"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "714FCBD374D50043"
+				item: { count: 1, id: "create_sa:copper_pickaxe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0DB446A3C481B9D8"]
+			id: "4E0F12DDE2749D52"
+			rewards: [
+				{
+					id: "754FFAEFDC667708"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3D4719BA22A9DD1F"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "603A587DEBB11C03"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "60BEE1F41EE28D98"
+				item: { count: 1, id: "create_sa:brass_pickaxe" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0ADF55C7DA044ED8"]
+			id: "39F8CB6901D6FD6A"
+			rewards: [
+				{
+					id: "6BCA49DA1DCD5A4E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "75B0F7BE45E49520"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "649B2E11FE7E2898"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36DF955403E39BAB"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["39F8CB6901D6FD6A"]
+			id: "49D6CD42659AD854"
+			rewards: [
+				{
+					id: "275E727AB0CA3083"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "4E48E3F6C05AACAB"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "026A65DFCC87513F"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "1E2C6E0E8FF83688"
+				item: { count: 1, id: "create_sa:portable_drill" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4E0F12DDE2749D52"]
+			id: "58180D68C861ED82"
+			rewards: [
+				{
+					id: "2D7B407713862B59"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "45EDA204093637DF"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C0ABDA95F8BE335"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3016FE77FE08E217"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58180D68C861ED82"]
+			id: "3C2F86CB0E944360"
+			rewards: [
+				{
+					id: "1E861245B2BEAA13"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3A4665FE48E7E367"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1BAE4C69ADBC2FFC"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "016D1F867CEF66A9"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["58180D68C861ED82"]
+			id: "17D750FE9C66459F"
+			rewards: [
+				{
+					id: "2D9AC1AF61853F59"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "5C54D73E754064B0"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "214E7C050913D56C"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "108E07D50C1C8F01"
+				item: { count: 1, id: "create_sa:experience_pickaxe" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3C2F86CB0E944360"]
+			id: "1A68C26C54DDB96F"
+			rewards: [
+				{
+					id: "688498E7FFE9D656"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "633D82B09B640B58"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47E3D9423CE79558"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "79F58A0FF95951E8"
+				item: { count: 1, id: "create_sa:blazing_pickaxe" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3C2F86CB0E944360"]
+			id: "70481D640E540DDB"
+			rewards: [
+				{
+					id: "1CAB7E2F8A0F0FBE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "23B1256B55F8878B"
+					item: {
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+				{
+					id: "1E7647D99DAF68EF"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7CAF8E183CBB42BA"
+				item: { count: 1, id: "cataclysm:black_steel_pickaxe" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["70481D640E540DDB"]
+			id: "68859992AF81EC60"
+			rewards: [
+				{
+					id: "42534D99680B9D57"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "3BB73B83132E97B2"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "303C98F01FFCF690"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A95EA3D7046DD95"
+				item: { count: 1, id: "mysticalagriculture:supremium_pickaxe" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68859992AF81EC60"]
+			id: "0831CCF781EF0B4C"
+			rewards: [
+				{
+					id: "6A7FDA6B7B0EBB38"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "21781A56CF56140D"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4A2A655C3DD881F7"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "654C6CA634DE6DBF"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_pickaxe" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0831CCF781EF0B4C"]
+			id: "3BBF9846173C1160"
+			rewards: [
+				{
+					id: "4D973DB28AAC92F3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "3C0248BB3B98CFE5"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:arcane_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "47F58043E1599B06"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "288EFE3E334631C1"
+				item: { count: 1, id: "forbidden_arcanus:draco_arcanus_pickaxe" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0831CCF781EF0B4C"]
+			id: "28380E5A682E4270"
+			rewards: [
+				{
+					id: "19495F5D7CA64BAA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "0C5FEE46ADF100B2"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "21BD663FD3AE5B9C"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "163C0EBF0681F4DD"
+				item: { count: 1, id: "ender_dragon_loot:dragon_pickaxe" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["28380E5A682E4270"]
+			id: "0017A9FC8B5E6B73"
+			rewards: [
+				{
+					id: "359D3ADF8FA10BB7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "00F1498D8E15ABCC"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A5730415B3DC289"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "032A5370BD027F32"
+				item: { count: 1, id: "ender_dragon_loot:dragon_paxel" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1A68C26C54DDB96F"]
+			id: "08E5DDEA0F9C5802"
+			rewards: [
+				{
+					id: "4DE0DE57D550BDBC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "445DFBCA98AB4849"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7A15E53546697CAF"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E6B4DC850B498DF"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A68C26C54DDB96F"]
+			id: "7F50FC243F061826"
+			rewards: [
+				{
+					id: "537055601527FD3C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "17323D93545C0DF0"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BAAEE43EE85217D"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B3514956FDEAE5D"
+				item: { count: 1, id: "createbigcannons:cannon_drill" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"08E5DDEA0F9C5802"
+				"3BBF9846173C1160"
+			]
+			id: "394DD7E00A0073BC"
+			rewards: [
+				{
+					id: "6CFBF7092CA0D976"
+					item: {
+						components: {
+							"industrialforegoing:infinity_can_charge": 1b
+							"industrialforegoing:infinity_item_power": 0L
+							"industrialforegoing:infinity_item_selected_tier": "poor"
+							"industrialforegoing:infinity_item_special": 0b
+						}
+						count: 1
+						id: "industrialforegoing:infinity_drill"
+					}
+					type: "item"
+				}
+				{
+					id: "0044612FE34C42B2"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "55A6CDA26563ECBA"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_drill" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.75d
+		}
+	]
+}

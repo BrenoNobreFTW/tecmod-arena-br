@@ -1,0 +1,1916 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "enigmatic_legacy"
+	group: "3C7D5F4E6A8B9C12"
+	icon: {
+		id: "enigmaticlegacyplus:cursed_ring"
+	}
+	id: "6B5C49C4AC53ABC7"
+	images: [
+		{
+			height: 1.0d
+			image: "tecmod:textures/quest_labels/el_title.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_maldicao.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -11.0d
+			y: -7.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_etherium.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: -8.7d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_aneis.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 11.0d
+			y: -7.9d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_amuletos.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -11.0d
+			y: 1.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_scrolls.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 1.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_spellstones.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 11.0d
+			y: 1.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_coracoes.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -11.0d
+			y: 10.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_armas.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 10.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/el_reliquias.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 11.0d
+			y: 10.1d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "enigmaticlegacyplus:cursed_ring"
+			}
+			id: "36C424AEE3C19C7C"
+			rewards: [{
+				id: "5CAF64930629B115"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "238CF5E527E76200"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:cursed_ring"
+			}
+			id: "4FCE8435F34C1EB3"
+			rewards: [{
+				id: "7B8AF428C6A44E4D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "035E5C597413055C"
+				item: { count: 1, id: "enigmaticlegacyplus:cursed_ring" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["4FCE8435F34C1EB3"]
+			icon: {
+				id: "enigmaticlegacyplus:cursed_stone"
+			}
+			id: "6B8806A3E219C1FD"
+			rewards: [{
+				id: "61C16852D1108A82"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0846E1C363311809"
+				item: { count: 1, id: "enigmaticlegacyplus:cursed_stone" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["6B8806A3E219C1FD"]
+			icon: {
+				id: "enigmaticlegacyplus:cursed_scroll"
+			}
+			id: "41C3A06E2B292F33"
+			rewards: [{
+				id: "35B6D58EF2903AA8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "513A2497E8EBDC0C"
+				item: { count: 1, id: "enigmaticlegacyplus:cursed_scroll" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:cursed_xp_scroll"
+			}
+			id: "070AE396E5E16991"
+			rewards: [{
+				id: "50400B7F97B8668D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "62BBC4C7C29505BE"
+				item: { count: 1, id: "enigmaticlegacyplus:cursed_xp_scroll" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["070AE396E5E16991"]
+			icon: {
+				id: "enigmaticlegacyplus:curse_transposer"
+			}
+			id: "68C10CF492AECA1A"
+			rewards: [{
+				id: "4C0EDF7F743E8405"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "79FD095E3ADE167D"
+				item: { count: 1, id: "enigmaticlegacyplus:curse_transposer" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:the_acknowledgment"
+			}
+			id: "3664D28AF850C0EF"
+			rewards: [{
+				id: "616A53C484D01D04"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "1C656B2A609FF235"
+				item: { count: 1, id: "enigmaticlegacyplus:the_acknowledgment" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:unholy_grail"
+			}
+			id: "54B2372B9391E212"
+			rewards: [{
+				id: "46C268FFEEED2DA0"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "6EE1E55DCA3A1B95"
+				item: { count: 1, id: "enigmaticlegacyplus:unholy_grail" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:totem_of_malice"
+			}
+			id: "58AB9CC8AD1F446F"
+			rewards: [{
+				id: "19BE5A2F2174EC0B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1C7595AB36E38CBC"
+				item: { count: 1, id: "enigmaticlegacyplus:totem_of_malice" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:raw_etherium"
+			}
+			id: "0F47C0B5CEBD176F"
+			rewards: [{
+				id: "12C39BC829736427"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6A98F4BAEA109D54"
+				item: { count: 1, id: "enigmaticlegacyplus:raw_etherium" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -7.25d
+		}
+		{
+			dependencies: ["0F47C0B5CEBD176F"]
+			icon: {
+				id: "enigmaticlegacyplus:etherium_ingot"
+			}
+			id: "46C1C16F49BF5747"
+			rewards: [{
+				id: "7ABE0C5A9FFD9795"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6C2527B78BF1F527"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_ingot" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -7.25d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:etherium_nugget"
+			}
+			id: "47E5D49192164E73"
+			rewards: [{
+				id: "2A066BF464FFDB44"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0C60251E96F68835"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_nugget" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -7.25d
+		}
+		{
+			dependencies: ["47E5D49192164E73"]
+			icon: {
+				id: "enigmaticlegacyplus:etherium_block"
+			}
+			id: "5BCA3B2B3B2F86EB"
+			rewards: [{
+				id: "5D7A6EAF12A6C96E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "09DA71F8605F822D"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_block" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -7.25d
+		}
+		{
+			dependencies: ["5BCA3B2B3B2F86EB"]
+			icon: {
+				id: "enigmaticlegacyplus:etherium_core"
+			}
+			id: "06D20AAC2C5C26CF"
+			rewards: [{
+				id: "71E2E8A41CE3F850"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2904910C8898E82C"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_core" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:etherium_ore"
+			}
+			id: "2B44B1170211CB4B"
+			rewards: [{
+				id: "1C0D2AD0FE02F9E5"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "7797FF2AE5EFD57F"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_ore" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2B44B1170211CB4B"]
+			icon: {
+				id: "enigmaticlegacyplus:etherium_sword"
+			}
+			id: "2D688232FDF9A778"
+			rewards: [{
+				id: "19395156833EDC81"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "2F6FC78BF189B8D4"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_sword" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:etherium_hammer"
+			}
+			id: "67FFF1F50B5C230F"
+			rewards: [{
+				id: "4ACB193F6305E354"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "211A6097B905AB19"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_hammer" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:etherium_scythe"
+			}
+			id: "03904D9D2F12F429"
+			rewards: [{
+				id: "0607A09C6BDF21A3"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "5CC8B4CD1952DE7A"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_scythe" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["03904D9D2F12F429"]
+			icon: {
+				id: "enigmaticlegacyplus:etherium_helmet"
+			}
+			id: "5605A71DCF0F4F2A"
+			rewards: [{
+				id: "34F550DAF2AC691B"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "74231D2AE10AE2DD"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_helmet" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:etherium_chestplate"
+			}
+			id: "08B4EABF82CEF50E"
+			rewards: [{
+				id: "42D43E6AF589FF8E"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "1E60852771DA1341"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_chestplate" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:etherium_leggings"
+			}
+			id: "1BCC85BDF229D625"
+			rewards: [{
+				id: "4CC85EAA112B9CB5"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "0B36F209A8B79C69"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_leggings" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["1BCC85BDF229D625"]
+			icon: {
+				id: "enigmaticlegacyplus:etherium_boots"
+			}
+			id: "2BF934D5E4452FC9"
+			rewards: [{
+				id: "3E16B6DA7B4F87EB"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "03FA215DE313DF5F"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_boots" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:iron_ring"
+			}
+			id: "1E0B369626BFC7D8"
+			rewards: [{
+				id: "2418541B5153EB30"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4A724A86EEBBBA72"
+				item: { count: 1, id: "enigmaticlegacyplus:iron_ring" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1E0B369626BFC7D8"]
+			icon: {
+				id: "enigmaticlegacyplus:golden_ring"
+			}
+			id: "1B07A62CD03C8EC6"
+			rewards: [{
+				id: "18154A0CB02931B6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "15399EE5D492CE7D"
+				item: { count: 1, id: "enigmaticlegacyplus:golden_ring" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B07A62CD03C8EC6"]
+			icon: {
+				id: "enigmaticlegacyplus:quartz_ring"
+			}
+			id: "1CDBA2C84F8399A9"
+			rewards: [{
+				id: "5927842D08D3502A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1672EAA87F7297AC"
+				item: { count: 1, id: "enigmaticlegacyplus:quartz_ring" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: -6.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:ender_ring"
+			}
+			id: "3024D5CA494FB531"
+			rewards: [{
+				id: "53258DB2F2BEAB96"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2B795B0D17B10B48"
+				item: { count: 1, id: "enigmaticlegacyplus:ender_ring" }
+				type: "item"
+			}]
+			x: 13.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3024D5CA494FB531"]
+			icon: {
+				id: "enigmaticlegacyplus:miner_ring"
+			}
+			id: "2D095D92D6BCB87B"
+			rewards: [{
+				id: "0C7D66B43BC47210"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "5E2CEECA98CC3940"
+				item: { count: 1, id: "enigmaticlegacyplus:miner_ring" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2D095D92D6BCB87B"]
+			icon: {
+				id: "enigmaticlegacyplus:magnet_ring"
+			}
+			id: "2B21963929B5877A"
+			rewards: [{
+				id: "3640C211A2EA4B7C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "4CB89D57FFE12753"
+				item: { count: 1, id: "enigmaticlegacyplus:magnet_ring" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:extra_ring"
+			}
+			id: "7572E05F274E7D0E"
+			rewards: [{
+				id: "1B717D30F4A6ECBE"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "54558374B7F574A7"
+				item: { count: 1, id: "enigmaticlegacyplus:extra_ring" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7572E05F274E7D0E"]
+			icon: {
+				id: "enigmaticlegacyplus:infernal_ring"
+			}
+			id: "13C9C82B2C03D751"
+			rewards: [{
+				id: "6E64DBF22E4E3489"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0D4E490DAA704421"
+				item: { count: 1, id: "enigmaticlegacyplus:infernal_ring" }
+				type: "item"
+			}]
+			x: 13.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["13C9C82B2C03D751"]
+			icon: {
+				id: "enigmaticlegacyplus:desolation_ring"
+			}
+			id: "3C14E522A741A4EE"
+			rewards: [{
+				id: "5DEABE4833F1158A"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "22D270A179C26450"
+				item: { count: 1, id: "enigmaticlegacyplus:desolation_ring" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3C14E522A741A4EE"]
+			icon: {
+				id: "enigmaticlegacyplus:dislocation_ring"
+			}
+			id: "74B1AF67C8A8A2FA"
+			rewards: [{
+				id: "07FDAAF0095576D7"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "55664D270BD11E33"
+				item: { count: 1, id: "enigmaticlegacyplus:dislocation_ring" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:redemption_ring"
+			}
+			id: "409146DF420179ED"
+			rewards: [{
+				id: "2ADF1100D14B6E86"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "0D8835390C8EC211"
+				item: { count: 1, id: "enigmaticlegacyplus:redemption_ring" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:eldritch_amulet"
+			}
+			id: "7D4C3BCE403F0409"
+			rewards: [{
+				id: "4D4FBE02C339BE63"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5AF875C16A9FC3AC"
+				item: { count: 1, id: "enigmaticlegacyplus:eldritch_amulet" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D4C3BCE403F0409"]
+			icon: {
+				id: "enigmaticlegacyplus:ascension_amulet"
+			}
+			id: "0BD606A33DB5F207"
+			rewards: [{
+				id: "21CD82DD0EB63DD9"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1FEE7A2C67BB2350"
+				item: { count: 1, id: "enigmaticlegacyplus:ascension_amulet" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:unwitnessed_amulet"
+			}
+			id: "70916D14A0235379"
+			rewards: [{
+				id: "0856B36C44147363"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5ED3B9290ECAA2A1"
+				item: { count: 1, id: "enigmaticlegacyplus:unwitnessed_amulet" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70916D14A0235379"]
+			icon: {
+				id: "enigmaticlegacyplus:enigmatic_amulet_red"
+			}
+			id: "5A534C8EA0543FEE"
+			rewards: [{
+				id: "29B46FD39847F1C3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "552226DA4B90E9A1"
+				item: { count: 1, id: "enigmaticlegacyplus:enigmatic_amulet_red" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:berserk_emblem"
+			}
+			id: "1D76DC6A71A21225"
+			rewards: [{
+				id: "317C0B05658F05B9"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2EF076C3121BEC71"
+				item: { count: 1, id: "enigmaticlegacyplus:berserk_emblem" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:mining_charm"
+			}
+			id: "79144F359689BEC7"
+			rewards: [{
+				id: "522D084017B5DBEE"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "37CA1C6F1CF2222D"
+				item: { count: 1, id: "enigmaticlegacyplus:mining_charm" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:monster_charm"
+			}
+			id: "24CDEAC386B0458B"
+			rewards: [{
+				id: "601AA9B0A7F229B8"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "1835B5513EB75284"
+				item: { count: 1, id: "enigmaticlegacyplus:monster_charm" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24CDEAC386B0458B"]
+			icon: {
+				id: "enigmaticlegacyplus:scorched_charm"
+			}
+			id: "3D44ADA4103B4E59"
+			rewards: [{
+				id: "1218ECC3EBE16D95"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7E2DB84F1CD0553E"
+				item: { count: 1, id: "enigmaticlegacyplus:scorched_charm" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:hell_blade_charm"
+			}
+			id: "0FB3F9F73734270C"
+			rewards: [{
+				id: "3E2670164F2900AE"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "296B704738A0206D"
+				item: { count: 1, id: "enigmaticlegacyplus:hell_blade_charm" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0FB3F9F73734270C"]
+			icon: {
+				id: "enigmaticlegacyplus:ethereal_forging_charm"
+			}
+			id: "73736137113A8538"
+			rewards: [{
+				id: "71B67B8846CC7073"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "45F6B3126A8DF894"
+				item: { count: 1, id: "enigmaticlegacyplus:ethereal_forging_charm" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:blank_scroll"
+			}
+			id: "2F2821A18E2B6163"
+			rewards: [{
+				id: "2990D111D327A745"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "32814B4459FB1582"
+				item: { count: 1, id: "enigmaticlegacyplus:blank_scroll" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:xp_scroll"
+			}
+			id: "652CD2A847997BF8"
+			rewards: [{
+				id: "3EAB82C8871D90E7"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2323CFE6273C08DE"
+				item: { count: 1, id: "enigmaticlegacyplus:xp_scroll" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:escape_scroll"
+			}
+			id: "6451A7FA50B4B6C6"
+			rewards: [{
+				id: "6AEF2215C15FA87F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4B26C7781019563A"
+				item: { count: 1, id: "enigmaticlegacyplus:escape_scroll" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:explorer_scroll"
+			}
+			id: "03609642735215EB"
+			rewards: [{
+				id: "0ADB914CDE18729A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6B3BE0DFA0E78935"
+				item: { count: 1, id: "enigmaticlegacyplus:explorer_scroll" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:hunter_scroll"
+			}
+			id: "51D12F0DAF53CB5E"
+			rewards: [{
+				id: "2511B1E97B104585"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "29A6421D53D7E4C5"
+				item: { count: 1, id: "enigmaticlegacyplus:hunter_scroll" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:survivor_scroll"
+			}
+			id: "1F4AD3A0854CDE9E"
+			rewards: [{
+				id: "3A160343634B6B55"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "2D0A408DFEB68FB8"
+				item: { count: 1, id: "enigmaticlegacyplus:survivor_scroll" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:avarice_scroll"
+			}
+			id: "2A4D7B13E326D593"
+			rewards: [{
+				id: "6233540C86A49FAA"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "18196A7423369108"
+				item: { count: 1, id: "enigmaticlegacyplus:avarice_scroll" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:fabulous_scroll"
+			}
+			id: "4C8EFA2E10A1B2C9"
+			rewards: [{
+				id: "55757FE4A4834A2A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "645D267CFBAC7354"
+				item: { count: 1, id: "enigmaticlegacyplus:fabulous_scroll" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C8EFA2E10A1B2C9"]
+			icon: {
+				id: "enigmaticlegacyplus:heaven_scroll"
+			}
+			id: "7A648D19DC90F798"
+			rewards: [{
+				id: "6ED9D91384EBC060"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "0ED90B9856F35F75"
+				item: { count: 1, id: "enigmaticlegacyplus:heaven_scroll" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A648D19DC90F798"]
+			icon: {
+				id: "enigmaticlegacyplus:night_scroll"
+			}
+			id: "60CCF94030F7D7A8"
+			rewards: [{
+				id: "155A9A24EFD9EAA2"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "7132A11878F04EA2"
+				item: { count: 1, id: "enigmaticlegacyplus:night_scroll" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60CCF94030F7D7A8"]
+			icon: {
+				id: "enigmaticlegacyplus:thunder_scroll"
+			}
+			id: "37696E993A2260D2"
+			rewards: [{
+				id: "0B499255C5366FF3"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "19681AF680F0B19B"
+				item: { count: 1, id: "enigmaticlegacyplus:thunder_scroll" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:violence_scroll"
+			}
+			id: "27266870DFE7B16C"
+			rewards: [{
+				id: "473EB6B4DE0FFBD0"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "1168C8FA8278E891"
+				item: { count: 1, id: "enigmaticlegacyplus:violence_scroll" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:spellcore"
+			}
+			id: "37A45B4792FC24A8"
+			rewards: [{
+				id: "326D3EFD9BE14D0D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7B199C2A0BAC6626"
+				item: { count: 1, id: "enigmaticlegacyplus:spellcore" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37A45B4792FC24A8"]
+			icon: {
+				id: "enigmaticlegacyplus:spelltuner"
+			}
+			id: "063BAEE61E291D27"
+			rewards: [{
+				id: "27AF93F5DA765C7A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4795755D83BEDFE1"
+				item: { count: 1, id: "enigmaticlegacyplus:spelltuner" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:spellstone_table"
+			}
+			id: "062BE832CD1B5B58"
+			rewards: [{
+				id: "41235BB86DA54B7A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "49BF4BA23FC078F2"
+				item: { count: 1, id: "enigmaticlegacyplus:spellstone_table" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:spellstone_sword"
+			}
+			id: "3CEBA9E72CE686CD"
+			rewards: [{
+				id: "5F2CC93182DB6107"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5AFA144249BADB19"
+				item: { count: 1, id: "enigmaticlegacyplus:spellstone_sword" }
+				type: "item"
+			}]
+			x: 13.25d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:spellstone_debris"
+			}
+			id: "3E160D0BE0F8DD6F"
+			rewards: [{
+				id: "61B92B71F3A70299"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "5E79E107703DEFAC"
+				item: { count: 1, id: "enigmaticlegacyplus:spellstone_debris" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:the_cube"
+			}
+			id: "046FB1B7249AA376"
+			rewards: [{
+				id: "064C21478621485B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "0AA818DE29B5CAF4"
+				item: { count: 1, id: "enigmaticlegacyplus:the_cube" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["046FB1B7249AA376"]
+			icon: {
+				id: "enigmaticlegacyplus:the_twist"
+			}
+			id: "49078DBA80B0B2C0"
+			rewards: [{
+				id: "45142D3C30908A7B"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "4CCE2C0FBC0B2FD9"
+				item: { count: 1, id: "enigmaticlegacyplus:the_twist" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49078DBA80B0B2C0"]
+			icon: {
+				id: "enigmaticlegacyplus:the_judgement"
+			}
+			id: "7EB7CAF9D22ED569"
+			rewards: [{
+				id: "1B609ACAC3CE3597"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5508D91F1F140ACB"
+				item: { count: 1, id: "enigmaticlegacyplus:the_judgement" }
+				type: "item"
+			}]
+			x: 13.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EB7CAF9D22ED569"]
+			icon: {
+				id: "enigmaticlegacyplus:the_infinitum"
+			}
+			id: "48AE99DB740E07A2"
+			rewards: [{
+				id: "103FFBE092A31D2C"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "33C997201C8D6791"
+				item: { count: 1, id: "enigmaticlegacyplus:the_infinitum" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["48AE99DB740E07A2"]
+			icon: {
+				id: "enigmaticlegacyplus:eye_of_nebula"
+			}
+			id: "1CA0026A604A51B8"
+			rewards: [{
+				id: "57BB060FA8B613E6"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "48B5146BDDD04607"
+				item: { count: 1, id: "enigmaticlegacyplus:eye_of_nebula" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:earth_heart"
+			}
+			id: "751650CC860076A2"
+			rewards: [{
+				id: "3B80907BDB004EA7"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6A91D53F8457AD9C"
+				item: { count: 1, id: "enigmaticlegacyplus:earth_heart" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["751650CC860076A2"]
+			icon: {
+				id: "enigmaticlegacyplus:earth_heart_fragment"
+			}
+			id: "1B439086BF4647B9"
+			rewards: [{
+				id: "0794EF6D63415238"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7AFFACD7A49EDDDB"
+				item: { count: 1, id: "enigmaticlegacyplus:earth_heart_fragment" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:golem_heart"
+			}
+			id: "1D93EE7D7ECAAF6D"
+			rewards: [{
+				id: "0A5D9077DD005EC3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "505C6E3B87A02EBB"
+				item: { count: 1, id: "enigmaticlegacyplus:golem_heart" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1D93EE7D7ECAAF6D"]
+			icon: {
+				id: "enigmaticlegacyplus:guardian_heart"
+			}
+			id: "22F166993B13BFC0"
+			rewards: [{
+				id: "6E90705FBFE96482"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "345A31B12126BE2D"
+				item: { count: 1, id: "enigmaticlegacyplus:guardian_heart" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["22F166993B13BFC0"]
+			icon: {
+				id: "enigmaticlegacyplus:pure_heart"
+			}
+			id: "309F800BB9F6B746"
+			rewards: [{
+				id: "1A126ABC3FB3A18E"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "7E1DB92F73E41D5B"
+				item: { count: 1, id: "enigmaticlegacyplus:pure_heart" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 13.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:twisted_heart"
+			}
+			id: "45DDDFFEBE085547"
+			rewards: [{
+				id: "71610FCF3545CB0A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "1CD1AE546B15161F"
+				item: { count: 1, id: "enigmaticlegacyplus:twisted_heart" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 13.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:cosmic_heart"
+			}
+			id: "516CD5A5EF0C6FC6"
+			rewards: [{
+				id: "4A1693D82F47FBCC"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "3B658C3CFA374544"
+				item: { count: 1, id: "enigmaticlegacyplus:cosmic_heart" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["516CD5A5EF0C6FC6"]
+			icon: {
+				id: "enigmaticlegacyplus:creation_heart"
+			}
+			id: "2FBCDDCD8A8C284C"
+			rewards: [{
+				id: "7490170440CF02A6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1C3677A2B49C615A"
+				item: { count: 1, id: "enigmaticlegacyplus:creation_heart" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2FBCDDCD8A8C284C"]
+			icon: {
+				id: "enigmaticlegacyplus:abyssal_heart"
+			}
+			id: "7C51F8586CF77300"
+			rewards: [{
+				id: "5588628E3AAC7CE7"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "594E984EEEF54A14"
+				item: { count: 1, id: "enigmaticlegacyplus:abyssal_heart" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7C51F8586CF77300"]
+			icon: {
+				id: "enigmaticlegacyplus:soul_crystal"
+			}
+			id: "780784F2A7E51158"
+			rewards: [{
+				id: "5B045ECB9863D760"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "1319F8ECE5659D10"
+				item: { count: 1, id: "enigmaticlegacyplus:soul_crystal" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 14.5d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:annihilating_sword"
+			}
+			id: "16139BFF9D159E8D"
+			rewards: [{
+				id: "79FD83E1F6F318BA"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "036898DE46B1CDA6"
+				item: { count: 1, id: "enigmaticlegacyplus:annihilating_sword" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["16139BFF9D159E8D"]
+			icon: {
+				id: "enigmaticlegacyplus:execution_axe"
+			}
+			id: "121B36B3CCB9A103"
+			rewards: [{
+				id: "04035EE5E5E3C19A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1A2D983349B8351F"
+				item: { count: 1, id: "enigmaticlegacyplus:execution_axe" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["121B36B3CCB9A103"]
+			icon: {
+				id: "enigmaticlegacyplus:dragon_breath_bow"
+			}
+			id: "424924FA1B1A4448"
+			rewards: [{
+				id: "780A560ED43478AC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "77F80A613A6F9164"
+				item: { count: 1, id: "enigmaticlegacyplus:dragon_breath_bow" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["424924FA1B1A4448"]
+			icon: {
+				id: "enigmaticlegacyplus:ichor_spear"
+			}
+			id: "584D67033F15C188"
+			rewards: [{
+				id: "1A8CB0BD188E97C7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "442BAB01BCBFA821"
+				item: { count: 1, id: "enigmaticlegacyplus:ichor_spear" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:astral_spear"
+			}
+			id: "0EE2C4BA8578EE8B"
+			rewards: [{
+				id: "5EEED92DA6860F0A"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "390C1D43E68A6A17"
+				item: { count: 1, id: "enigmaticlegacyplus:astral_spear" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0EE2C4BA8578EE8B"]
+			icon: {
+				id: "enigmaticlegacyplus:infernal_spear"
+			}
+			id: "178689E08CF474F5"
+			rewards: [{
+				id: "6CB66748732C1788"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "01961AC7B15CAB07"
+				item: { count: 1, id: "enigmaticlegacyplus:infernal_spear" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["178689E08CF474F5"]
+			icon: {
+				id: "enigmaticlegacyplus:infernal_shield"
+			}
+			id: "0810728129497422"
+			rewards: [{
+				id: "26E72E04C9E3713A"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "180D7B17FC22CB46"
+				item: { count: 1, id: "enigmaticlegacyplus:infernal_shield" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0810728129497422"]
+			icon: {
+				id: "enigmaticlegacyplus:angel_blessing"
+			}
+			id: "0DEEA05B0B1435FF"
+			rewards: [{
+				id: "2714197FF2E782CB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2AB8767750334EBA"
+				item: { count: 1, id: "enigmaticlegacyplus:angel_blessing" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 13.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:ender_slayer"
+			}
+			id: "02736B0ACCBAD832"
+			rewards: [{
+				id: "40BEC314367F46AB"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "1F236FE2D05336B6"
+				item: { count: 1, id: "enigmaticlegacyplus:ender_slayer" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 14.5d
+		}
+		{
+			dependencies: ["02736B0ACCBAD832"]
+			icon: {
+				id: "enigmaticlegacyplus:exterminato"
+			}
+			id: "0A57B4DC7DA67468"
+			rewards: [{
+				id: "4F1B4C6B1ECB2E52"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "0C188E229EF0FC38"
+				item: { count: 1, id: "enigmaticlegacyplus:exterminato" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 14.5d
+		}
+		{
+			dependencies: ["36C424AEE3C19C7C"]
+			icon: {
+				id: "enigmaticlegacyplus:forbidden_fruit"
+			}
+			id: "1CFC08AAC362EDB8"
+			rewards: [{
+				id: "7ED9A0BAB87D93D0"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "444887312448DF8C"
+				item: { count: 1, id: "enigmaticlegacyplus:forbidden_fruit" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1CFC08AAC362EDB8"]
+			icon: {
+				id: "enigmaticlegacyplus:astral_fruit"
+			}
+			id: "528AE9BB82A094F0"
+			rewards: [{
+				id: "3B059ECE15881333"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2430C5DD181C1DC7"
+				item: { count: 1, id: "enigmaticlegacyplus:astral_fruit" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:enchanted_astral_fruit"
+			}
+			id: "4E4B5ECBEF28F634"
+			rewards: [{
+				id: "5CE01AED76882240"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4E1391A1D204089E"
+				item: { count: 1, id: "enigmaticlegacyplus:enchanted_astral_fruit" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4E4B5ECBEF28F634"]
+			icon: {
+				id: "enigmaticlegacyplus:ichor_bottle"
+			}
+			id: "4F487CF4E8A155B5"
+			rewards: [{
+				id: "308C15689A9579F7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "154A5AA9460959CD"
+				item: { count: 1, id: "enigmaticlegacyplus:ichor_bottle" }
+				type: "item"
+			}]
+			x: 13.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4F487CF4E8A155B5"]
+			icon: {
+				id: "enigmaticlegacyplus:the_bless"
+			}
+			id: "5FBB7BED328725BF"
+			rewards: [{
+				id: "4487020DF28AAE66"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "07254DB697986EDE"
+				item: { count: 1, id: "enigmaticlegacyplus:the_bless" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5FBB7BED328725BF"]
+			icon: {
+				id: "enigmaticlegacyplus:bless_stone"
+			}
+			id: "3CAAFF4522400393"
+			rewards: [{
+				id: "43695F57485A0820"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "5B119C4EFB0DFF2D"
+				item: { count: 1, id: "enigmaticlegacyplus:bless_stone" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: 13.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:revival_leaf"
+			}
+			id: "7E555DA69F79EF59"
+			rewards: [{
+				id: "2A3D0B1D8B73BBBA"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "6C713FFB39C433B4"
+				item: { count: 1, id: "enigmaticlegacyplus:revival_leaf" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7E555DA69F79EF59"]
+			icon: {
+				id: "enigmaticlegacyplus:ode_to_living"
+			}
+			id: "4424B35F04C18ADC"
+			rewards: [{
+				id: "51709285BE806240"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7888FACA201C53EC"
+				item: { count: 1, id: "enigmaticlegacyplus:ode_to_living" }
+				type: "item"
+			}]
+			x: 13.25d
+			y: 13.0d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:soul_compass"
+			}
+			id: "0AC3CAE1C0C5C081"
+			rewards: [{
+				id: "259903C55A68B4CE"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "6A5B3E2441F6095D"
+				item: { count: 1, id: "enigmaticlegacyplus:soul_compass" }
+				type: "item"
+			}]
+			x: 8.75d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:dimensional_anchor"
+			}
+			id: "6295D659603D427E"
+			rewards: [{
+				id: "22E9DA3312B06640"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "6FE47204EF8D28BD"
+				item: { count: 1, id: "enigmaticlegacyplus:dimensional_anchor" }
+				type: "item"
+			}]
+			x: 10.25d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:antique_bag"
+			}
+			id: "65EE2D52D1187449"
+			rewards: [{
+				id: "6528A023BD2F1567"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "67C9EA3DD656A745"
+				item: { count: 1, id: "enigmaticlegacyplus:antique_bag" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 14.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:majestic_elytra"
+			}
+			id: "1FB0554E51A66CF6"
+			rewards: [{
+				id: "569D0B5FD81FFD3C"
+				type: "xp"
+				xp: 55
+			}]
+			tasks: [{
+				id: "507F5BC024E82ED5"
+				item: { count: 1, id: "enigmaticlegacyplus:majestic_elytra" }
+				type: "item"
+			}]
+			x: 13.25d
+			y: 14.5d
+		}
+	]
+}

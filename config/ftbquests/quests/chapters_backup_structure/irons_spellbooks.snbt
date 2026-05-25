@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "2B9C4E5D6F7A1234"
+	icon: { id: "irons_spellbooks:arcane_anvil" }
+	id: "4A0B4BD8B3E4B53E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "irons_spellbooks:arcane_anvil" }
+			id: "18B30AD5ADA5B082"
+			rewards: [{
+				id: "5899E42527DBDC41"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "692747F6C537D53F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18B30AD5ADA5B082"]
+			id: "34DC5CB199731B22"
+			rewards: [{
+				count: 4
+				id: "5C1BA79B5164C38F"
+				item: {
+					count: 1
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0E1458478EE348B3"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34DC5CB199731B22"]
+			id: "5A025AA2B3D5232F"
+			rewards: [{
+				id: "6991D7F1A20F4A7B"
+				item: { count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FC4D9B6589253D5"
+				item: { count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["34DC5CB199731B22"]
+			id: "145AE1F7013B0DA8"
+			rewards: [{
+				id: "275D563112367638"
+				item: {
+					count: 1
+					id: "irons_spellbooks:scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B5FF25B0C6E4FC6"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5A025AA2B3D5232F"]
+			id: "7E50C03DFF08A604"
+			rewards: [{
+				id: "2B5AA97AD8B582D2"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BEA63E7469FF952"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E50C03DFF08A604"]
+			id: "1ACD64F4AF9D5642"
+			rewards: [
+				{
+					id: "0062F39B32CEF8E0"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:dragonskin_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "3828F0C20EC4229E"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "71DF4F90E19B096B"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:dragonskin_spell_book" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,39 @@
+["Crushing Wheel Settings"]
+	#Configure output and processing time for Crushing Wheels
+	#Output multiplier for crushing raw ores (default: 2 = double output)
+	# Default: 2
+	# Range: 1 ~ 10
+	crushingMultiplier = 2
+	#Processing time in ticks for crushing (default: 250, 20 ticks = 1 second)
+	# Default: 250
+	# Range: 1 ~ 1200
+	crushingProcessingTime = 250
+
+["Millstone Settings"]
+	#Configure output and processing time for Millstones
+	#Output multiplier for milling raw ores (default: 2 = double output)
+	# Default: 2
+	# Range: 1 ~ 10
+	millingMultiplier = 2
+	#Processing time in ticks for milling (default: 200, 20 ticks = 1 second)
+	# Default: 200
+	# Range: 1 ~ 1200
+	millingProcessingTime = 200
+
+["Bonus Rewards"]
+	#Configure bonus chance rewards (only applies to crushing)
+	#Multiplier for bonus item chances (default: 1.0, set to 0 to disable bonuses)
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	bonusChanceMultiplier = 1.0
+
+["Ancient Debris Settings"]
+	#Configure Ancient Debris processing for Netherite Scrap
+	#Output multiplier for Ancient Debris (default: 2 = 2 Netherite Scraps)
+	# Default: 2
+	# Range: 1 ~ 10
+	ancientDebrisMultiplier = 2
+	#Processing time in ticks for Ancient Debris (default: 500, longer due to value)
+	# Default: 500
+	# Range: 1 ~ 1200
+	ancientDebrisProcessingTime = 500

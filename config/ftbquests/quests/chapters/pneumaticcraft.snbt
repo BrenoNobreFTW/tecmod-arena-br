@@ -1,0 +1,2875 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "pneumaticcraft:air_compressor"
+	}
+	id: "14B0A31D0398D94E"
+	images: [
+		{
+			height: 1.0d
+			image: "tecmod:textures/quest_labels/pnc_title.png"
+			rotation: 0.0d
+			width: 5.5d
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_materiais.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_compressores.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: -7.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_pressao.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_drones.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -7.5d
+			y: -0.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_assembly.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: -0.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_armadura.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 7.5d
+			y: -0.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_maquinas.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_logistica.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/pnc_util.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 7.5d
+			y: 6.7d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "pneumaticcraft:air_compressor"
+			}
+			id: "043F35648E4FE2C0"
+			rewards: [
+				{
+					id: "0363717080E4A37F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "6925C3B234A4D855"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "296DEFBBD197B0BB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "1FCC2B6D108C25FA"
+			rewards: [
+				{
+					id: "5F21A4B79E22990A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "42D3310DA979E4D1"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61898F527B23054C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C0B2256BA3BFD44"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -6.9d
+		}
+		{
+			dependencies: ["1FCC2B6D108C25FA"]
+			id: "05EBCB5306867A3D"
+			rewards: [
+				{
+					id: "034E0C10F98E47F6"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "54927E3722D7A745"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "567DC74D85C1B91C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "079CA7C7D58305B7"
+				item: { count: 1, id: "pneumaticcraft:compressed_iron_gear" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -6.9d
+		}
+		{
+			id: "6FF05024B650C29B"
+			rewards: [
+				{
+					id: "185C88D16A87A74F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "246513D40BF7BC83"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B4B7FADC0690EF2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "143B47495D70889D"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -6.9d
+		}
+		{
+			dependencies: ["6FF05024B650C29B"]
+			id: "4C46D03CFFCD4579"
+			rewards: [
+				{
+					id: "04DCFEAE94A6992F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "1CCD0E368F6D7F1C"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F5F2BB32F2D267B"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "021F0CAB65E42496"
+				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: -6.9d
+		}
+		{
+			id: "446E179999489966"
+			rewards: [
+				{
+					id: "7EE0400FA13928E2"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "19CDFE75C3F296F5"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "08E381C364C657C2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "638E2104BDE44EEB"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -5.5d
+		}
+		{
+			dependencies: ["446E179999489966"]
+			id: "0393E7E997D402A6"
+			rewards: [
+				{
+					id: "1D8AC1A7053A04F5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "13B8EFDC6A9E7A05"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "46B4DA3EC044C688"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71875DE705B04DBF"
+				item: { count: 1, id: "pneumaticcraft:transistor" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -5.5d
+		}
+		{
+			id: "4D092935BAB38E77"
+			rewards: [
+				{
+					id: "6C2F2420BBC57B3B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "78B51D14ED9E0A37"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "762026D541F5EB6C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71DE1A2F252EC7A8"
+				item: { count: 1, id: "pneumaticcraft:capacitor" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D092935BAB38E77"]
+			id: "26DDF85CBF8422D8"
+			rewards: [
+				{
+					id: "2D65ABA401EC0F1D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "4C6F4B8A3EB003CF"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "217FD1D703AB9006"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A72765A96125715"
+				item: { count: 1, id: "pneumaticcraft:turbine_blade" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: -5.5d
+		}
+		{
+			id: "759F609FE13A4CC4"
+			rewards: [
+				{
+					id: "66CEE02FBE3CD0F0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6F274378C66D5BA9"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "181F9EA99D4E7B9A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B63BC2ED5927B45"
+				item: { count: 1, id: "pneumaticcraft:reinforced_bricks" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -4.1d
+		}
+		{
+			dependencies: ["759F609FE13A4CC4"]
+			id: "4A5739977D01161B"
+			rewards: [
+				{
+					id: "5355EB3EE865DB55"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6ABAEBA886B100E3"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B59C9A532B042C8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "718E87AF520D608D"
+				item: { count: 1, id: "pneumaticcraft:reinforced_stone" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -4.1d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "7E67EDDB9936EA53"
+			rewards: [
+				{
+					id: "0CC82AF8A3D88944"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6C39DF72E705E822"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FDA96C7B93B5F90"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C4AA1E81B3E123A"
+				item: { count: 1, id: "pneumaticcraft:air_compressor" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -6.2d
+		}
+		{
+			dependencies: ["7E67EDDB9936EA53"]
+			id: "7CADD78DE22F33E4"
+			rewards: [
+				{
+					id: "303DDDE41C617FC5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "63A80C095E7E7342"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E9A1E4851B882AC"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05E8604F0166F1EE"
+				item: { count: 1, id: "pneumaticcraft:advanced_air_compressor" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -6.2d
+		}
+		{
+			dependencies: ["7CADD78DE22F33E4"]
+			id: "2F2C74167637D7B0"
+			rewards: [
+				{
+					id: "016AD3AC941C248E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "4BDC03A20663DBEC"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "43E396D0FA7C324B"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EFA222A9B0AFA9C"
+				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -6.2d
+		}
+		{
+			id: "78FF14522BE23C92"
+			rewards: [
+				{
+					id: "3921C66767F04C16"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2B737A08CEAED273"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12FC403D52ECF1DA"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FC8FB9DDE2A76DA"
+				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -6.2d
+		}
+		{
+			dependencies: ["78FF14522BE23C92"]
+			id: "4909076BE03D3C89"
+			rewards: [
+				{
+					id: "72A2A2D7781A0218"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "7F4ED5F71DF2ED03"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D3A6D5E20FCE536"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D512A17DB2FDCDE"
+				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -4.8d
+		}
+		{
+			dependencies: ["4909076BE03D3C89"]
+			id: "31614001649B19C4"
+			rewards: [
+				{
+					id: "6B8FA4937797E54F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "435DD8F1C0243880"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B884ECB0D89A998"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E426A3192112871"
+				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -4.8d
+		}
+		{
+			dependencies: ["31614001649B19C4"]
+			id: "4A1C75FC1E3BAC70"
+			rewards: [
+				{
+					id: "0A9D8BC8576063AA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "4DE0BEBD5D4D6966"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C328FF67D29119D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F4DAEE7CD589BB1"
+				item: { count: 1, id: "pneumaticcraft:manual_compressor" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -4.8d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "2E2C8D28E59555EF"
+			rewards: [
+				{
+					id: "5D1AC94423F6B924"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2AA77A79B2BCC7E8"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3754442809A20C20"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21D4F841F055EF3F"
+				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: -6.9d
+		}
+		{
+			dependencies: ["2E2C8D28E59555EF"]
+			id: "13A9EFBE91D4914E"
+			rewards: [
+				{
+					id: "6A6E31014E042CB1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5A17A225F2696028"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BA24958525B5526"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "793800B423A193EB"
+				item: { count: 1, id: "pneumaticcraft:advanced_pressure_tube" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: -6.9d
+		}
+		{
+			dependencies: ["13A9EFBE91D4914E"]
+			id: "499DF3870E97DDE9"
+			rewards: [
+				{
+					id: "39809670ADABFF88"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "67CA29384033D07B"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "339910BE7704305C"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47E32ED32ABE2EF4"
+				item: { count: 1, id: "pneumaticcraft:reinforced_pressure_tube" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: -6.9d
+		}
+		{
+			id: "2FEE584E62A199A1"
+			rewards: [
+				{
+					id: "3613F52F5C75CF13"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "11D32F953663DB45"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F9C0659D839958E"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B8A90D52D38AE1F"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -6.9d
+		}
+		{
+			dependencies: ["2FEE584E62A199A1"]
+			id: "4AA3AFDADD035704"
+			rewards: [
+				{
+					id: "3F13E415C6E5C0A5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "09F7F4420C56BAE7"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E8F74EEC53C9788"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68D5C9A00687E4C3"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_glass" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4AA3AFDADD035704"]
+			id: "67D74A8796C05825"
+			rewards: [
+				{
+					id: "23F8E718345A5E80"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5B519229B650940F"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0DCBD16240D3C7CA"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "348D31FF7BDCC8EA"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: -5.5d
+		}
+		{
+			id: "48275EEDE305EB93"
+			rewards: [
+				{
+					id: "0E7E0452DACFA318"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "4F91CDED66AE66ED"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4086ED2CAA162A1A"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "163E467204DDCCB0"
+				item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48275EEDE305EB93"]
+			id: "01AFED98275AE0DA"
+			rewards: [
+				{
+					id: "051F4670691F3075"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "51C8C5BB3421B354"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "209DDC2C8E3701F2"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63B81805D55FC776"
+				item: { count: 1, id: "pneumaticcraft:reinforced_pressure_chamber_valve" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -5.5d
+		}
+		{
+			dependencies: ["01AFED98275AE0DA"]
+			id: "688264F88E785804"
+			rewards: [
+				{
+					id: "7FFB6BF91B71D4D7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "137471967FE67C3C"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1743BBB460D29296"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CFFE563D88623D1"
+				item: { count: 1, id: "pneumaticcraft:pressure_gauge" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: -4.1d
+		}
+		{
+			id: "6495484453CFBD6E"
+			rewards: [
+				{
+					id: "3072BBE657144ACC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3DEBCAD18C463255"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "538EFD75757A7351"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C10BC63DFDA9416"
+				item: { count: 1, id: "pneumaticcraft:regulator_tube_module" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: -4.1d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "0ABA02670D74339A"
+			rewards: [
+				{
+					id: "4DBB4B69E57FFB2C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "107ACD66FBE66198"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C9804525B64514B"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28812A97E88C43E6"
+				item: { count: 1, id: "pneumaticcraft:drone" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 0.8d
+		}
+		{
+			dependencies: ["0ABA02670D74339A"]
+			id: "6D4534F9B1BC9496"
+			rewards: [
+				{
+					id: "75DFDBA07B7DCA8C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "3A55522ACF141DF5"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "33520E21ABC6A521"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EECBA78302F102F"
+				item: { count: 1, id: "pneumaticcraft:logistics_drone" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 0.8d
+		}
+		{
+			dependencies: ["6D4534F9B1BC9496"]
+			id: "14F8506DF31566CC"
+			rewards: [
+				{
+					id: "7B3135CFD539BAAD"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "1985EE23850B259A"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35040F1293BA9728"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24B016A95709E11B"
+				item: { count: 1, id: "pneumaticcraft:collector_drone" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: 0.8d
+		}
+		{
+			dependencies: ["14F8506DF31566CC"]
+			id: "522B2F61ACDC8603"
+			rewards: [
+				{
+					id: "6609766F6AC560A5"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "507A6804265BC255"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "57145C5498557631"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4295B5B0335718E0"
+				item: { count: 1, id: "pneumaticcraft:guard_drone" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: 0.8d
+		}
+		{
+			dependencies: ["522B2F61ACDC8603"]
+			id: "55A9F1AAA30D1695"
+			rewards: [
+				{
+					id: "381934020FA8E538"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "74023CAC439C42F6"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "72D9B150290F916C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "389375A9593EEDC1"
+				item: { count: 1, id: "pneumaticcraft:harvesting_drone" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 2.2d
+		}
+		{
+			dependencies: ["55A9F1AAA30D1695"]
+			id: "62ABABE6684AB75D"
+			rewards: [
+				{
+					id: "677614FDE9E64029"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "698F76722826D062"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19C77000ADFB025E"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A152D11317BA2B1"
+				item: { count: 1, id: "pneumaticcraft:drone_interface" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 2.2d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "2DB351E4F39DD585"
+			rewards: [
+				{
+					id: "69EABB76DF3C042D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "17840FB98FC83846"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51D57035C70BC3E0"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47A43A0987CD79CD"
+				item: { count: 1, id: "pneumaticcraft:assembly_controller" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 0.8d
+		}
+		{
+			dependencies: ["2DB351E4F39DD585"]
+			id: "18ABD99CDFC0136B"
+			rewards: [
+				{
+					id: "2821334506F26B93"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "058BDC91AD836089"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "138383A97F6AD382"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51F48B99A02C6830"
+				item: { count: 1, id: "pneumaticcraft:assembly_drill" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 0.8d
+		}
+		{
+			dependencies: ["18ABD99CDFC0136B"]
+			id: "71131097CB9D474A"
+			rewards: [
+				{
+					id: "0F3510D893A035D7"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "3E9ECA798C0C02B2"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7AF21AFDE40327B5"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17408CA267241CF9"
+				item: { count: 1, id: "pneumaticcraft:assembly_laser" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 0.8d
+		}
+		{
+			id: "4264BF66395566E1"
+			rewards: [
+				{
+					id: "6188345F4E26A4E4"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "49A7834FDCC13B30"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7566E0B1D3FCA846"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "480FD26819402ECF"
+				item: { count: 1, id: "pneumaticcraft:assembly_platform" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 0.8d
+		}
+		{
+			id: "0F6CF6E7B385A330"
+			rewards: [
+				{
+					id: "5637A4017346EE48"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "5732D989EEA417C2"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "403135F499CC07E2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "373B4685BCF9BCFC"
+				item: { count: 1, id: "pneumaticcraft:assembly_io_unit_import" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 2.2d
+		}
+		{
+			dependencies: ["0F6CF6E7B385A330"]
+			id: "357CEEE40005DEA7"
+			rewards: [
+				{
+					id: "1AD8F09B03BD1AA1"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "5AEFC3E10D35AB73"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D91D5397C3FFC28"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01DDDBA5860EF931"
+				item: { count: 1, id: "pneumaticcraft:assembly_io_unit_export" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 2.2d
+		}
+		{
+			dependencies: ["357CEEE40005DEA7"]
+			id: "5E4CA98C3FB51750"
+			rewards: [
+				{
+					id: "20AE42935BA2F796"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "2793189C9E92FE19"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61983E844D91C16D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CBE163B15D33C76"
+				item: { count: 1, id: "pneumaticcraft:assembly_program_drill" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 2.2d
+		}
+		{
+			dependencies: ["5E4CA98C3FB51750"]
+			id: "1C3E370B27966EED"
+			rewards: [
+				{
+					id: "2C271CF29C4F9B23"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "5E619AD1E4F53F22"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0045F50FBCDFA2BF"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B9F9AD09289549E"
+				item: { count: 1, id: "pneumaticcraft:assembly_program_laser" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 2.2d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "5058A4EDF91569D0"
+			rewards: [
+				{
+					id: "2FCF40001AE82045"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3DFDB2089DE62BFF"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DC795709F8F2B4F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "559830CF3BF92414"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_helmet" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 0.8d
+		}
+		{
+			dependencies: ["5058A4EDF91569D0"]
+			id: "0839070E7BB7817B"
+			rewards: [
+				{
+					id: "5C2E6190CF9D1F3A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "307081D54A65E8E0"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B95ED047E49232E"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "445BD132AC812583"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_chestplate" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 0.8d
+		}
+		{
+			id: "6CA9E8C61A52FBA4"
+			rewards: [
+				{
+					id: "4F48410901246368"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "57CE08B2FC9D8D54"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FB9D27FC17A1988"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F46351F3D18D73A"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_leggings" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: 0.8d
+		}
+		{
+			dependencies: ["6CA9E8C61A52FBA4"]
+			id: "322376B2DB98306C"
+			rewards: [
+				{
+					id: "10AA246DE5354399"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7A56D70CA3C722C1"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "593014D291BC4A97"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21CBF50EAFF1CA4E"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_boots" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.8d
+		}
+		{
+			dependencies: ["322376B2DB98306C"]
+			id: "6C5E321B1DCDE24F"
+			rewards: [
+				{
+					id: "6FB3A5A87F1B519B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "058DF022BA1DA95D"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05F6B31ED86FEA84"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C53978782813496"
+				item: { count: 1, id: "pneumaticcraft:reinforced_air_canister" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 2.2d
+		}
+		{
+			id: "72EBB01963989B7A"
+			rewards: [
+				{
+					id: "6509AAAAE7C03A19"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "46E62A8C0645E424"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0BFB39AA46B9FC3A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11F4CE0FCB498B67"
+				item: { count: 1, id: "pneumaticcraft:reinforced_air_canister_array" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 2.2d
+		}
+		{
+			dependencies: ["72EBB01963989B7A"]
+			id: "52590FD7FDC914CC"
+			rewards: [
+				{
+					id: "68939826CEE8CAE2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "65CDC87469E2FF7B"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4CDB377D6A4A76D1"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15F827979A53184B"
+				item: { count: 1, id: "pneumaticcraft:jet_boots_upgrade_1" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: 2.2d
+		}
+		{
+			dependencies: ["52590FD7FDC914CC"]
+			id: "65D709934A54DBA5"
+			rewards: [
+				{
+					id: "21161E1951B325A3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7DB77EC5A27BA163"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "77C47067AF7D8744"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58D3D38EDEB8670F"
+				item: { count: 1, id: "pneumaticcraft:jet_boots_upgrade_5" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 2.2d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "5A42277636551058"
+			rewards: [
+				{
+					id: "51968DAD2B8A69A5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "51B499F60461E9F6"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4FC09C07C699C665"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23E4AFE5C2698381"
+				item: { count: 1, id: "pneumaticcraft:refinery" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 7.1d
+		}
+		{
+			dependencies: ["5A42277636551058"]
+			id: "7903EEA32CDB1A7E"
+			rewards: [
+				{
+					id: "39F6C948DC37F912"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "1B41C4A9A40410CA"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52426A7FB840501D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51DCD23C2184945A"
+				item: { count: 1, id: "pneumaticcraft:etching_tank" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 7.1d
+		}
+		{
+			id: "6E97627E0110A335"
+			rewards: [
+				{
+					id: "76E5A36368817934"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5E2A40209B6760DE"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42D714E9E530F1AE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14CEC35D4060CFE0"
+				item: { count: 1, id: "pneumaticcraft:fluid_mixer" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: 7.1d
+		}
+		{
+			dependencies: ["6E97627E0110A335"]
+			id: "4EF95CA1EE525B92"
+			rewards: [
+				{
+					id: "08B702077C83051F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "21BF99A16F88829E"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10FB71E53D59F624"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "574812D9F911F812"
+				item: { count: 1, id: "pneumaticcraft:kerosene_lamp" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: 7.1d
+		}
+		{
+			dependencies: ["4EF95CA1EE525B92"]
+			id: "7A27296B88D7BDAB"
+			rewards: [
+				{
+					id: "437B261A7A8BD4C8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6C3221614CD0A2E4"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "71C1DB993650EF50"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "415A712CF1F472F4"
+				item: { count: 1, id: "pneumaticcraft:heat_pipe" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 8.5d
+		}
+		{
+			id: "6B117CD9E45AA699"
+			rewards: [
+				{
+					id: "76BE40F69136299E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5D43A9B9CF9B596D"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63E6BB8B7B2A89B8"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B1BF3440972B951"
+				item: { count: 1, id: "pneumaticcraft:heat_sink" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B117CD9E45AA699"]
+			id: "315BAC48EFDF88E0"
+			rewards: [
+				{
+					id: "039C509D373F9D8A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2D5BE08E12D957AB"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45C434DE7A83B6E4"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "345A459C5E027452"
+				item: { count: 1, id: "pneumaticcraft:heat_frame" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: 8.5d
+		}
+		{
+			dependencies: ["315BAC48EFDF88E0"]
+			id: "2F75C5B99FEA35D5"
+			rewards: [
+				{
+					id: "5FE0F10C83FDAC33"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6E6BAA7CE8A6967F"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FEE86580442B7DE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5018A65CAFC73F1A"
+				item: { count: 1, id: "pneumaticcraft:charging_station" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: 8.5d
+		}
+		{
+			id: "412B83BF31C9D402"
+			rewards: [
+				{
+					id: "207B0A375C70ABAA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "4A1E9EA941B9674B"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49D85F4DE5999A09"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D5D52FBB678B3AE"
+				item: { count: 1, id: "pneumaticcraft:elevator_base" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 9.9d
+		}
+		{
+			dependencies: ["412B83BF31C9D402"]
+			id: "1654A5A88DFAD5EF"
+			rewards: [
+				{
+					id: "18A6FCF26B1EF06D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2E9EBB2A091D53E4"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "595A12B80211C388"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BC91E6E9C9BAD44"
+				item: { count: 1, id: "pneumaticcraft:elevator_caller" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 9.9d
+		}
+		{
+			dependencies: ["1654A5A88DFAD5EF"]
+			id: "2A7362FB6602AEBF"
+			rewards: [
+				{
+					id: "291994FD927647A0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5200301AF7F9D091"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3FF5623B49B5698B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E5ECDEA8E88E142"
+				item: { count: 1, id: "pneumaticcraft:aerial_interface" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: 9.9d
+		}
+		{
+			dependencies: ["2A7362FB6602AEBF"]
+			id: "0318A3F16298832D"
+			rewards: [
+				{
+					id: "5EE41C05E905EF99"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "655351844C6FDEC1"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2E58A20D9EC20DA8"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70B0E705C4BCC873"
+				item: { count: 1, id: "pneumaticcraft:minigun" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: 9.9d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "5AAFB0FB20AA3683"
+			rewards: [
+				{
+					id: "19BE02BA53535E66"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "538BE91E623FB94D"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4777E003068B2953"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7414BA732E7728A6"
+				item: { count: 1, id: "pneumaticcraft:logistics_core" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 7.1d
+		}
+		{
+			dependencies: ["5AAFB0FB20AA3683"]
+			id: "61679F2C1D61FCFF"
+			rewards: [
+				{
+					id: "2EB2352816B7F6BB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "48EC9BAEAEBE323C"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A39C226DC3ED6FF"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61EBEDF13BFB6373"
+				item: { count: 1, id: "pneumaticcraft:logistics_module" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 7.1d
+		}
+		{
+			dependencies: ["61679F2C1D61FCFF"]
+			id: "3BCA341B73C66014"
+			rewards: [
+				{
+					id: "023CA0D68CA1604E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "21EF0446AFD95167"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "262AB1B6B3E5D471"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2670F83079BDD413"
+				item: { count: 1, id: "pneumaticcraft:logistics_configurator" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 7.1d
+		}
+		{
+			dependencies: ["3BCA341B73C66014"]
+			id: "1BABEE5239AD1BEA"
+			rewards: [
+				{
+					id: "5E13E8796B1114E8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "1500B78502B03FBE"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D2EC3132109DB11"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63DD16B8E3CF64B6"
+				item: { count: 1, id: "pneumaticcraft:logistics_frame_requester" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 7.1d
+		}
+		{
+			id: "0F74C6998FE8108D"
+			rewards: [
+				{
+					id: "2E73567C5708DE97"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3C813524797D47A1"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "75D53B285825A872"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "581FF56DE353E314"
+				item: { count: 1, id: "pneumaticcraft:logistics_frame_storage" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 8.5d
+		}
+		{
+			id: "558CE2111182FF3A"
+			rewards: [
+				{
+					id: "4C92F4990C69BD76"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "42F1D3F041A632CC"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1BB4FC1A177F8374"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50638BD498D2ADF6"
+				item: { count: 1, id: "pneumaticcraft:logistics_frame_active_provider" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 8.5d
+		}
+		{
+			dependencies: ["558CE2111182FF3A"]
+			id: "5556659824C8FEAD"
+			rewards: [
+				{
+					id: "10A3D2D7179510A9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "38C4C82BAD0C6F7A"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1CC32559B42D2A93"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C2FCFB7063001D7"
+				item: { count: 1, id: "pneumaticcraft:logistics_frame_passive_provider" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 8.5d
+		}
+		{
+			id: "7A88CD3B55AAC1FE"
+			rewards: [
+				{
+					id: "3FB9E77646207200"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5A44B58B6E689DF3"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2A26DDD85024DBB4"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "357DFB8ECC7BB6AB"
+				item: { count: 1, id: "pneumaticcraft:omnidirectional_hopper" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 8.5d
+		}
+		{
+			id: "2AAB354CDD07912C"
+			rewards: [
+				{
+					id: "1F87937ADDE9C6C6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3E6C11EF545154EB"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "303A7ED3F0CF2147"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F25D513ED1B5153"
+				item: { count: 1, id: "pneumaticcraft:liquid_hopper" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 9.9d
+		}
+		{
+			dependencies: ["043F35648E4FE2C0"]
+			id: "16597954A7C2009F"
+			rewards: [
+				{
+					id: "7AFE1847B76D91C5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "59CB203B7C2D2B75"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E0E2AF06A653E4D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "192F189B170BCF2D"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_door" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 7.8d
+		}
+		{
+			id: "59A81F42AA747983"
+			rewards: [
+				{
+					id: "1D28CFDCA312355A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "0CDC5AE9FB30CB81"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70BCE5215C923AFC"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "285FF40C22C70317"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_door_base" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 7.8d
+		}
+		{
+			id: "639E53FF6EED09F4"
+			rewards: [
+				{
+					id: "57E31940BDDBD3E5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "5C31309775CC71C0"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "47C0995A79C2C379"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09AF0FEE769A8A10"
+				item: { count: 1, id: "pneumaticcraft:reinforced_chest" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: 7.8d
+		}
+		{
+			id: "092463E734EEEE26"
+			rewards: [
+				{
+					id: "5E0E9D7FE0930900"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "29FC2FB884942D33"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C4912BFC510843B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21365CDA16DE5A1D"
+				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 7.8d
+		}
+		{
+			dependencies: ["092463E734EEEE26"]
+			id: "048FA046BDF6B67D"
+			rewards: [
+				{
+					id: "42CEF4AA1ADFF902"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "42BC8D845410E0EC"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F3EB1D6ED41708F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47B3E3CB258F25D8"
+				item: { count: 1, id: "pneumaticcraft:gps_tool" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 9.2d
+		}
+		{
+			id: "5BD78284E64939B4"
+			rewards: [
+				{
+					id: "495E38216A24A76D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "73F43A625D13BF34"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "584C3A9C3CB027A3"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A7020E8B94AEF6C"
+				item: { count: 1, id: "pneumaticcraft:gps_area_tool" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 9.2d
+		}
+		{
+			dependencies: ["5BD78284E64939B4"]
+			id: "11455AF771650CCC"
+			rewards: [
+				{
+					id: "1B668E6B65432E4C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "00CC421AC60D00A7"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A45C9AAC62277C8"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5606922090455FB4"
+				item: { count: 1, id: "pneumaticcraft:air_cannon" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: 9.2d
+		}
+	]
+}

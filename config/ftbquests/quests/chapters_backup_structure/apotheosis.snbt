@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "3C7D5F4E6A8B9C12"
+	icon: {
+		id: "apotheosis:gem"
+	}
+	id: "3BDF179BF43E14F1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "apotheosis:gem"
+			}
+			id: "3AE65B398BDACBC2"
+			rewards: [{
+				id: "2DA25D7C5AFC8DAA"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "3625D275A18A7D6D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AE65B398BDACBC2"]
+			id: "32C3A40FA1AB7920"
+			rewards: [{
+				count: 4
+				id: "5F450CD0FAEBD04E"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0A7EC9BC1BB85C47"
+				item: { count: 1, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3AE65B398BDACBC2"]
+			id: "0E04BD05EF54D6E3"
+			rewards: [{
+				count: 4
+				id: "08C06511C51B858B"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_enhancement"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "166D79A6A9ABE58B"
+				item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AE65B398BDACBC2"]
+			id: "3277161EEA10D8A8"
+			rewards: [{
+				id: "4DE7595F67B47E8A"
+				item: {
+					count: 1
+					id: "apotheosis:gem_cutting_table"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "561BC63B50ACD67E"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E04BD05EF54D6E3"]
+			id: "46A3DB16F8C79306"
+			rewards: [{
+				count: 2
+				id: "5C462BC1C2BFF05C"
+				item: {
+					count: 1
+					id: "apotheosis:rare_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ECFDC31FC56D290"
+				item: { count: 1, id: "apotheosis:rare_material" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46A3DB16F8C79306"]
+			id: "53221734F704A4C7"
+			rewards: [{
+				id: "40681F369E01D71F"
+				item: {
+					count: 1
+					id: "apotheosis:epic_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40E3ED0BFEBDE9C8"
+				item: { count: 1, id: "apotheosis:epic_material" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53221734F704A4C7"]
+			id: "0877526A8695326D"
+			rewards: [{
+				id: "344107EBF1B7D90F"
+				item: {
+					count: 1
+					id: "apotheosis:mythic_material"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DFD9F67682625E5"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0877526A8695326D"]
+			id: "710E15DEDC7F71FA"
+			rewards: [{
+				id: "2FEDC50810D59909"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F1ADD0DE42DCCE9"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["710E15DEDC7F71FA"]
+			id: "1ACEF249674871C9"
+			rewards: [
+				{
+					count: 4
+					id: "030B6F6AE3598CE9"
+					item: { count: 1, id: "apotheosis:mythic_material" }
+					type: "item"
+				}
+				{
+					id: "31ADE4307B725F07"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4DDCC1EB07C63A9E"
+				item: { count: 1, id: "apotheosis:mythic_material" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

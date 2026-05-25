@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "big_cannons"
+	group: "6F1A8C7B9D2E5432"
+	icon: {
+		id: "createbigcannons:cast_iron_cannon_barrel"
+	}
+	id: "19A34046DA8376ED"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "createbigcannons:cast_iron_cannon_barrel"
+			}
+			id: "7BBEAFCE05EE1CC8"
+			rewards: [{
+				id: "43A6DBCEE4EEC783"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2A86FDC31F0E60F4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BBEAFCE05EE1CC8"]
+			id: "35E1062F609CF083"
+			rewards: [
+				{
+					id: "73F6F9336471596C"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "77E86EBA6A9FA305"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14C62FD589E736A1"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "4161CFFE8F14FB1E"
+				item: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35E1062F609CF083"]
+			id: "0ED2F8BC431EC8B3"
+			rewards: [
+				{
+					id: "0FDD7A83ADF9EC24"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "48ED37420FE29BCA"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "675797202DA95CED"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E81F436B875DEFF"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35E1062F609CF083"]
+			id: "00776E2B5130F261"
+			rewards: [
+				{
+					id: "670E3C894AAF43D7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "4329B7D6CC54FFAB"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53ECD3B853107A24"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51A56E4870F8D515"
+				item: { count: 1, id: "createbigcannons:solid_shot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35E1062F609CF083"]
+			id: "2D0E6E99F7D3F5B3"
+			rewards: [
+				{
+					id: "59397A2BD480B0FF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "094DCCEAA1750516"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2AD3E587A0632FD2"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "768978CFE8A00227"
+				item: { count: 1, id: "createbigcannons:cast_iron_autocannon_barrel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D0E6E99F7D3F5B3"]
+			id: "3B8D93AD0CC7439F"
+			optional: true
+			rewards: [
+				{
+					id: "778A3654684EEDE8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "0C179FC0743EBF8A"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "751D80C1EC1945A0"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "79787FF30D5A8326"
+				item: { count: 1, id: "createbigcannons:cannon_loader" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B8D93AD0CC7439F"]
+			id: "4E692008E69B01F0"
+			rewards: [
+				{
+					count: 16
+					id: "253A0045DC40A457"
+					item: {
+						count: 1
+						id: "createbigcannons:solid_shot"
+					}
+					type: "item"
+				}
+				{
+					id: "3E4B44165428D0D6"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "05B5690342139382"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,113 @@
+{
+  "comment": "Use the in-game commands to edit this file",
+  "entries": [
+    {
+      "id": "minecraft:iron_ingot",
+      "emc": 256
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "emc": 2048
+    },
+    {
+      "id": "minecraft:diamond",
+      "emc": 8192
+    },
+    {
+      "id": "minecraft:emerald",
+      "emc": 16384
+    },
+    {
+      "id": "minecraft:copper_ingot",
+      "emc": 128
+    },
+    {
+      "id": "immersiveengineering:ingot_nickel",
+      "emc": 1024
+    },
+    {
+      "id": "immersiveengineering:ingot_silver",
+      "emc": 512
+    },
+    {
+      "id": "immersiveengineering:ingot_lead",
+      "emc": 512
+    },
+    {
+      "id": "immersiveengineering:ingot_aluminum",
+      "emc": 128
+    },
+    {
+      "id": "immersiveengineering:ingot_uranium",
+      "emc": 4096
+    },
+    {
+      "id": "mekanism:ingot_tin",
+      "emc": 256
+    },
+    {
+      "id": "mekanism:ingot_bronze",
+      "emc": 160
+    },
+    {
+      "id": "mekanism:ingot_osmium",
+      "emc": 512
+    },
+    {
+      "id": "oritech:platinum_ingot",
+      "emc": 4096
+    },
+    {
+      "id": "minecraft:gunpowder",
+      "emc": 192
+    },
+    {
+      "id": "minecraft:slime_ball",
+      "emc": 32
+    },
+    {
+      "id": "minecraft:clay_ball",
+      "emc": 16
+    },
+    {
+      "id": "minecraft:string",
+      "emc": 12
+    },
+    {
+      "id": "minecraft:gravel",
+      "emc": 4
+    },
+    {
+      "id": "silentgear:nether_star_fragment",
+      "emc": 0
+    },
+    {
+      "id": "datanessence:quartz_flake",
+      "emc": 0
+    },
+    {
+      "id": "securitycraft:reinforced_andesite",
+      "emc": 0
+    },
+    {
+      "id": "minecraft:tube_coral_block",
+      "emc": 64
+    },
+    {
+      "id": "minecraft:brain_coral_block",
+      "emc": 64
+    },
+    {
+      "id": "minecraft:bubble_coral_block",
+      "emc": 64
+    },
+    {
+      "id": "minecraft:fire_coral_block",
+      "emc": 64
+    },
+    {
+      "id": "minecraft:horn_coral_block",
+      "emc": 64
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+# ============================================================
+# .gitignore - Tecmod Arena BR (modpack dev assets only)
+# ============================================================
+
+# ===== Binarios pesados (baixados via manifest do CF) =====
+mods/
+libraries/
+*.jar
+
+# ===== Mundos / saves / logs / crashes =====
+saves/
+backups/
+ftbbackups3/
+ftbbackups2/
+logs/
+crash-reports/
+spark/
+
+# ===== Cache / dados runtime =====
+local/
+moddata/
+downloads/
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+moonlight-global-datapacks/
+patchouli_books/
+patchouli_data.json
+schematics/
+emotes/
+controllable_natives/
+config/almostunified/
+config/ars_nouveau/search_index/
+
+# ===== Metadados locais do CurseForge App =====
+minecraftinstance.json
+.curseforge/
+
+# ===== Arquivos de instance especificos =====
+servers.dat
+servers.dat_old
+command_history.txt
+TrashSlotSaveState.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+usercache.json
+usernamecache.json
+emi.json
+eula.txt
+
+# ===== Backups / temporarios de quest =====
+*.bak
+*.backup
+*.preFIX*
+*.preEXP
+*.preDEP
+*.preATM*
+*.tmp
+*.swp
+*~
+
+# ===== Resource packs grandes (zips binarios) =====
+# Sobe so a pasta tecmod_quest_labels que e custom; os outros zips ficam no CF
+resourcepacks/*.zip
+resourcepacks/*.zip.disabled
+!resourcepacks/tecmod_quest_labels/
+
+# ===== Datapacks grandes (zips) =====
+# Sobe so o conteudo extraido; os zips ficam no CF
+# (se quiser versionar os zips, comente as duas linhas abaixo)
+# datapacks/*.zip
+
+# ===== Scripts dev temporarios =====
+_*.py
+*.py.bak
+add_*.py
+check_*.py
+fix_*.py
+generate_*.py
+hub_*.py
+layout_*.py
+parse_*.py
+restore_*.py
+spark_*.py
+structure_*.py
+sync_*.py
+transform_*.py
+
+# ===== Outros gerados =====
+*.log
+*.log.gz
+.fabric/
+.mixin.out/
+.curseclient
+.qmenu_opened.marker
+.sable/
+shaderpacks/cache/
+defaultconfigs/biolith/
+XaeroWaypoints_BACKUP*/
+xaero/
+screenshots/
+shaderpacks/
+imgui.ini
+ponders_watched.json
+spark*.bin
+user-prefs.json
+win_event*.txt
+modlist.html
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini

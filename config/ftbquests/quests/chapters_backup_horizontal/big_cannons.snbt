@@ -1,0 +1,153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "big_cannons"
+	group: "6F1A8C7B9D2E5432"
+	icon: {
+		id: "createbigcannons:cast_iron_cannon_barrel"
+	}
+	id: "19A34046DA8376ED"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "createbigcannons:cast_iron_cannon_barrel"
+			}
+			id: "7BBEAFCE05EE1CC8"
+			rewards: [{
+				id: "43A6DBCEE4EEC783"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2A86FDC31F0E60F4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "35E1062F609CF083"
+			rewards: [{
+				count: 4
+				id: "334D4206B168B4DA"
+				item: {
+					count: 1
+					id: "createbigcannons:cast_iron_cannon_barrel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4161CFFE8F14FB1E"
+				item: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "0ED2F8BC431EC8B3"
+			rewards: [{
+				id: "6016E5C2645E0AEB"
+				item: {
+					count: 1
+					id: "createbigcannons:cannon_mount"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E81F436B875DEFF"
+				item: { count: 1, id: "createbigcannons:cannon_mount" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "00776E2B5130F261"
+			rewards: [
+				{
+					count: 4
+					id: "06F747E32DF1753D"
+					item: { count: 1, id: "createbigcannons:solid_shot" }
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0EC7882BF93F2427"
+					item: { count: 1, id: "createbigcannons:nitropowder" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51A56E4870F8D515"
+				item: { count: 1, id: "createbigcannons:solid_shot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "2D0E6E99F7D3F5B3"
+			rewards: [{
+				id: "1852DD5E680DC9EC"
+				item: { count: 1, id: "createbigcannons:cast_iron_autocannon_barrel" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "768978CFE8A00227"
+				item: { count: 1, id: "createbigcannons:cast_iron_autocannon_barrel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "3B8D93AD0CC7439F"
+			optional: true
+			rewards: [{
+				id: "197DEE298E840C33"
+				item: {
+					count: 1
+					id: "createbigcannons:cannon_loader"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79787FF30D5A8326"
+				item: { count: 1, id: "createbigcannons:cannon_loader" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "4E692008E69B01F0"
+			rewards: [
+				{
+					count: 16
+					id: "253A0045DC40A457"
+					item: { count: 1, id: "createbigcannons:solid_shot" }
+					type: "item"
+				}
+				{
+					id: "3E4B44165428D0D6"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "05B5690342139382"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+}

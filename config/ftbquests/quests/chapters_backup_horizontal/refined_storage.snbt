@@ -1,0 +1,345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "5E9F7B6A8C1D4321"
+	icon: {
+		id: "refinedstorage:controller"
+	}
+	id: "7C1C3F05C94D5C98"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "refinedstorage:controller"
+			}
+			id: "3738F893D1D748A7"
+			rewards: [{
+				id: "552655D42B18BFFB"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2383BB029F4221D4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "77CFC60C7505BBC9"
+			rewards: [{
+				count: 4
+				id: "4F05F4486665FE8D"
+				item: {
+					count: 1
+					id: "refinedstorage:quartz_enriched_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6E5C5BA2481C6DDB"
+				item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "2CD8C78DD826C596"
+			rewards: [{
+				count: 8
+				id: "1A0CA89CAC0F63AD"
+				item: {
+					count: 1
+					id: "refinedstorage:processor_binding"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "26822B3936650544"
+				item: { count: 1, id: "refinedstorage:processor_binding" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "168C02B34D82AB84"
+			rewards: [
+				{
+					count: 4
+					id: "0409DD1A1C48DA40"
+					item: {
+						count: 1
+						id: "refinedstorage:basic_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26414E8EB7460936"
+					item: {
+						count: 1
+						id: "refinedstorage:improved_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "032736C0DA7FEBFE"
+					item: {
+						count: 1
+						id: "refinedstorage:advanced_processor"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74EFC10125EFDD72"
+				item: { count: 1, id: "refinedstorage:advanced_processor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "1CE7B69DE6BFC5A4"
+			rewards: [{
+				id: "5EE59A5A3CAC48B4"
+				item: {
+					count: 1
+					id: "refinedstorage:controller"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17BB3D25120CF966"
+				item: { count: 1, id: "refinedstorage:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "0F77E2146DD31D74"
+			rewards: [{
+				count: 16
+				id: "73F1365D941CDF03"
+				item: {
+					count: 1
+					id: "refinedstorage:cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "02CD8C8BF3C500F2"
+				item: { count: 1, id: "refinedstorage:cable" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "294E69DF1FF67A3B"
+			rewards: [{
+				id: "1F934B7D26012E29"
+				item: {
+					count: 1
+					id: "refinedstorage:disk_drive"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63CD59D37CA7D175"
+				item: { count: 1, id: "refinedstorage:disk_drive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			id: "34A46D14BE540CD8"
+			rewards: [
+				{
+					count: 4
+					id: "1EC33175F2BE39A4"
+					item: {
+						count: 1
+						id: "refinedstorage:1k_storage_disk"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B22232894773239"
+					item: {
+						count: 1
+						id: "refinedstorage:4k_storage_disk"
+					}
+					type: "item"
+				}
+				{
+					id: "181649C089D51BD8"
+					item: {
+						count: 1
+						id: "refinedstorage:16k_storage_disk"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2290E0A34F2E74F9"
+				item: { count: 1, id: "refinedstorage:16k_storage_disk" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			id: "1220E483A0FE72EF"
+			rewards: [{
+				id: "65C9BD5F95FC80E9"
+				item: {
+					count: 1
+					id: "refinedstorage:64k_storage_disk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "398D66C9C59C4AB2"
+				item: { count: 1, id: "refinedstorage:64k_storage_disk" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "0A097520B65D2566"
+			rewards: [{
+				id: "41C721D76BB2484A"
+				item: {
+					count: 1
+					id: "refinedstorage:crafting_grid"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "787F0F333AF30D21"
+				item: { count: 1, id: "refinedstorage:crafting_grid" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "2104B081E07F547F"
+			rewards: [{
+				count: 2
+				id: "6D231E95D8F5C2EF"
+				item: {
+					count: 1
+					id: "refinedstorage:pattern_grid"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AB55C90B2518104"
+				item: { count: 1, id: "refinedstorage:pattern_grid" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			id: "46DFA1BF679293DC"
+			rewards: [{
+				count: 4
+				id: "1E7B3CE03C33CE65"
+				item: {
+					count: 1
+					id: "refinedstorage:autocrafter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "00758F349D5F1835"
+				item: { count: 1, id: "refinedstorage:autocrafter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			id: "078BA854AD66829C"
+			optional: true
+			rewards: [{
+				id: "00E90F91A10A1D1A"
+				item: {
+					count: 1
+					id: "refinedstorage:wireless_grid"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D8C0356D3557AB7"
+				item: { count: 1, id: "refinedstorage:wireless_grid" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			id: "5C20779BAA2FA0AC"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "1311AB75FE0EEBA7"
+				item: {
+					count: 1
+					id: "refinedstorage:external_storage"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DF7D3D6295DE38"
+				item: { count: 1, id: "refinedstorage:external_storage" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "4C8FD63F492742C5"
+			rewards: [
+				{
+					count: 4
+					id: "3B9A784BFEAE88C4"
+					item: { count: 1, id: "refinedstorage:64k_storage_disk" }
+					type: "item"
+				}
+				{
+					id: "346389FB56A3C1E6"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "0593E8A79819D8C2"
+				item: { count: 1, id: "refinedstorage:autocrafter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+	]
+}

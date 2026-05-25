@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "4D8E6A5F7B9C3210"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "57A1012552AB1FC5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "3CD941FBDA91B84C"
+			rewards: [{
+				id: "01FDB786EC26BA13"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0C7B3425350FE069"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CD941FBDA91B84C"]
+			id: "74B3909C401D391D"
+			rewards: [{
+				id: "4ABD82F16C176AA4"
+				item: {
+					count: 1
+					id: "farmersdelight:flint_knife"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EC69A340CD494BA"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CD941FBDA91B84C"]
+			id: "6CE9663D936C515A"
+			rewards: [{
+				id: "449CDA58AFDF5C00"
+				item: {
+					count: 1
+					id: "farmersdelight:cooking_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F0784D25173E5BE"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CD941FBDA91B84C"]
+			id: "174135ED67DB2A7E"
+			rewards: [{
+				id: "343697345FEF9863"
+				item: {
+					count: 1
+					id: "farmersdelight:cutting_board"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28086598A1726655"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CE9663D936C515A"]
+			id: "7E9268CECE8DB3DC"
+			rewards: [{
+				count: 4
+				id: "52FA8120F5EA6AC8"
+				item: {
+					count: 1
+					id: "farmersdelight:hamburger"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24883D163D1E9D50"
+				item: { count: 1, id: "farmersdelight:hamburger" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E9268CECE8DB3DC"]
+			id: "78429D955B4153B3"
+			rewards: [
+				{
+					count: 4
+					id: "0CFAE53EB977072E"
+					item: { count: 1, id: "farmersdelight:dumplings" }
+					type: "item"
+				}
+				{
+					id: "45C605759A038C76"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2BD250F9E90EB4AA"
+				item: { count: 1, id: "farmersdelight:dumplings" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+}

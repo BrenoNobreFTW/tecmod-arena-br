@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trains"
+	group: "6F1A8C7B9D2E5432"
+	icon: {
+		id: "create:track"
+	}
+	id: "7474747474747401"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:track"
+			}
+			id: "7400000000000001"
+			rewards: [{
+				id: "7500000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7600000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7400000000000001"]
+			id: "7400000000000002"
+			rewards: [{
+				count: 16
+				id: "7500000000000002"
+				item: {
+					count: 1
+					id: "create:track"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7600000000000002"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7400000000000002"]
+			id: "7400000000000003"
+			rewards: [{
+				id: "7500000000000003"
+				item: {
+					count: 1
+					id: "create:railway_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7600000000000003"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000004"
+			rewards: [{
+				id: "7500000000000004"
+				item: {
+					count: 1
+					id: "create:track_station"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7600000000000004"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000005"
+			rewards: [{
+				id: "7500000000000005"
+				item: {
+					count: 1
+					id: "create:track_signal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7600000000000005"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000006"
+			rewards: [{
+				id: "7500000000000006"
+				item: {
+					count: 1
+					id: "create:track_observer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7600000000000006"
+				item: { count: 1, id: "create:track_observer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7400000000000004"]
+			id: "7400000000000007"
+			rewards: [{
+				id: "7500000000000007"
+				item: {
+					count: 1
+					id: "create:schedule"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7600000000000007"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["7400000000000004"]
+			id: "7400000000000008"
+			rewards: [
+				{
+					id: "7500000000000008"
+					item: {
+						count: 1
+						id: "create:train_trapdoor"
+					}
+					type: "item"
+				}
+				{
+					id: "7500000000000009"
+					item: {
+						count: 1
+						id: "create:train_door"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7600000000000008"
+				item: { count: 1, id: "create:train_trapdoor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["7400000000000003"]
+			id: "7400000000000009"
+			optional: true
+			rewards: [{
+				id: "750000000000000A"
+				item: { count: 1, id: "railways:track_create_andesite_wide" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "7600000000000009"
+				item: { count: 1, id: "railways:track_create_andesite_wide" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"7400000000000007"
+				"7400000000000008"
+			]
+			id: "740000000000FFFF"
+			rewards: [
+				{
+					count: 32
+					id: "750000000000FFFF"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "750000000000FF01"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "760000000000FFFF"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

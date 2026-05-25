@@ -1,0 +1,526 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "5E9F7B6A8C1D4321"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "63DA7A93458F14E5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "641F3E023D95DF84"
+			rewards: [{
+				id: "3F496ADD73037BF2"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1B14F9B699EA7E93"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1BE7EDCB9289FBA3"
+			rewards: [{
+				count: 8
+				id: "6C812DA32D67AB54"
+				item: {
+					count: 1
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "36A85FBDD43A30B4"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "1133B67DAB089801"
+			rewards: [{
+				id: "296BE04E5134245D"
+				item: { count: 1, id: "ae2:grindstone" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "306340D84BA6AD35"
+				item: { count: 1, id: "ae2:grindstone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "4DCDA0631552788D"
+			rewards: [{
+				id: "327A66154D0744F7"
+				item: {
+					count: 1
+					id: "ae2:charger"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11D0BC7FC5CA9FA7"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "48FABA44E2E46BC9"
+			rewards: [{
+				count: 4
+				id: "1EDE7416D719405E"
+				item: {
+					count: 1
+					id: "ae2:charged_certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "30F076D216FB13D8"
+				item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "4CC5B944C6914F30"
+			rewards: [{
+				count: 4
+				id: "0D5A69D46D0E5F9B"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7D5C23043EC04271"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "6668E5668026E79F"
+			rewards: [{
+				id: "12412DF6D064AFC6"
+				item: {
+					count: 1
+					id: "ae2:inscriber"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65FFF281FB1EE178"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "743E9A73D95106C2"
+			rewards: [{
+				count: 4
+				id: "12D4057F1F7A1AA1"
+				item: {
+					count: 1
+					id: "ae2:logic_processor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5FC23B3102F0F886"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "7E5DBC8DF5DD7AD3"
+			rewards: [{
+				count: 4
+				id: "6C093CA538692132"
+				item: {
+					count: 1
+					id: "ae2:calculation_processor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7793FE01CD44D925"
+				item: { count: 1, id: "ae2:calculation_processor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "0924E2E175977EE0"
+			rewards: [{
+				count: 4
+				id: "3C1290C91B3207E5"
+				item: {
+					count: 1
+					id: "ae2:engineering_processor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "69A00B433FC8F5ED"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "7DDEE9922772D9FB"
+			rewards: [{
+				count: 16
+				id: "51C25DA0203F0EE2"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "38E37F71D8EC17A3"
+				item: { count: 1, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			id: "44E9467176A27D12"
+			rewards: [{
+				id: "48DA41CF401A2E4B"
+				item: {
+					count: 1
+					id: "ae2:drive"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "18BCB7E4AE55DFEF"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "4A3C9C57C5EC0E42"
+			rewards: [
+				{
+					count: 4
+					id: "68E5A7B21CB0DBA8"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_1k"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7171A6459F028F88"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_4k"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22C262E86C627985"
+				item: { count: 1, id: "ae2:item_storage_cell_4k" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			id: "7B22BAD746F0AEC7"
+			rewards: [
+				{
+					count: 2
+					id: "7F9D10A8AED46AD6"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_16k"
+					}
+					type: "item"
+				}
+				{
+					id: "123D0C23F4226054"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_64k"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E179E5E691DA770"
+				item: { count: 1, id: "ae2:item_storage_cell_64k" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			id: "006F15254558CF88"
+			rewards: [{
+				id: "40DACB1AAFED797B"
+				item: {
+					count: 1
+					id: "ae2:crafting_terminal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "606B9D96C0F6C980"
+				item: { count: 1, id: "ae2:crafting_terminal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			id: "7557248DBF779A48"
+			rewards: [{
+				id: "38B65321840F7266"
+				item: {
+					count: 1
+					id: "ae2:pattern_provider"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A7CAFA4D6298A4B"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			id: "71A7FC46115C33CA"
+			rewards: [{
+				id: "38AF7CA736A6B8BF"
+				item: {
+					count: 1
+					id: "ae2:molecular_assembler"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08B46074E22C7A46"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			id: "1779AC7F2F843F52"
+			rewards: [
+				{
+					count: 4
+					id: "284468D0F94FCC62"
+					item: {
+						count: 1
+						id: "ae2:crafting_unit"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AAF0AA5AEB56175"
+					item: { count: 1, id: "ae2:item_storage_cell_64k" }
+					type: "item"
+				}
+				{
+					id: "2AEAF2B50F93B58B"
+					item: {
+						count: 1
+						id: "ae2:crafting_accelerator"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E2EA70C1FD07CCC"
+				item: { count: 1, id: "ae2:item_storage_cell_64k" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			id: "33CDC38D778D8B25"
+			rewards: [{
+				id: "5A5B419DFCCE164F"
+				item: {
+					count: 1
+					id: "ae2:energy_acceptor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38A1192677814814"
+				item: { count: 1, id: "ae2:energy_acceptor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			id: "058EDD16A14C8D7F"
+			rewards: [
+				{
+					count: 4
+					id: "09A9328E6EFE3C9A"
+					item: {
+						count: 1
+						id: "ae2:controller"
+					}
+					type: "item"
+				}
+				{
+					id: "31B74243810B852B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "40D9BC251F255027"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			id: "3100E33C0E227C25"
+			optional: true
+			rewards: [{
+				id: "473E84D6449E2230"
+				item: { count: 1, id: "ae2:crafting_terminal" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "43929B0E8F2182CC"
+				item: { count: 1, id: "ae2:crafting_terminal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			id: "192057704C88C1DB"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "7F160AB82DB4E4A6"
+				item: {
+					count: 1
+					id: "ae2:quantum_link"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "104FCD1897A711CD"
+				item: { count: 1, id: "ae2:quantum_link" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			id: "75385DF32C07BFFA"
+			optional: true
+			rewards: [{
+				id: "65F86A8BAD0C9411"
+				item: {
+					count: 1
+					id: "ae2:spatial_storage_cell_2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06ED7E718919868F"
+				item: { count: 1, id: "ae2:spatial_storage_cell_2" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			id: "728B7BBFA83DC144"
+			rewards: [
+				{
+					count: 8
+					id: "20F5768E2E075E7F"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_256k"
+					}
+					type: "item"
+				}
+				{
+					id: "586805830A3DDAC0"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5C4E486AE3616C8E"
+					item: {
+						count: 1
+						id: "minecraft:netherite_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "2FBB9CFB21D4E93E"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.0d
+		}
+	]
+}

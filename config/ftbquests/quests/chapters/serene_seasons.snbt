@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "serene_seasons"
+	group: "7A2B8D9C1E3F4567"
+	icon: {
+		id: "sereneseasons:calendar"
+	}
+	id: "7B8C9D0E1F2A3B4C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "sereneseasons:calendar"
+			}
+			id: "7B8C9D0E1F2A0001"
+			rewards: [{
+				id: "7B8C9D0E1F2A0101"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7B8C9D0E1F2A0201"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7B8C9D0E1F2A0001"]
+			icon: {
+				id: "sereneseasons:calendar"
+			}
+			id: "7B8C9D0E1F2A0002"
+			rewards: [{
+				id: "7B8C9D0E1F2A0102"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7B8C9D0E1F2A0202"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B8C9D0E1F2A0001"]
+			icon: {
+				id: "sereneseasons:season_sensor"
+			}
+			id: "7B8C9D0E1F2A0003"
+			rewards: [{
+				id: "7B8C9D0E1F2A0103"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7B8C9D0E1F2A0203"
+				item: { count: 1, id: "sereneseasons:season_sensor" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B8C9D0E1F2A0002"]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "7B8C9D0E1F2A0004"
+			rewards: [{
+				id: "7B8C9D0E1F2A0104"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7B8C9D0E1F2A0204"
+				item: { count: 1, id: "minecraft:oak_sapling" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B8C9D0E1F2A0002"]
+			icon: {
+				id: "minecraft:melon_slice"
+			}
+			id: "7B8C9D0E1F2A0005"
+			rewards: [{
+				id: "7B8C9D0E1F2A0105"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7B8C9D0E1F2A0205"
+				item: { count: 1, id: "minecraft:melon_slice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B8C9D0E1F2A0003"]
+			icon: {
+				id: "minecraft:pumpkin"
+			}
+			id: "7B8C9D0E1F2A0006"
+			rewards: [{
+				id: "7B8C9D0E1F2A0106"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7B8C9D0E1F2A0206"
+				item: { count: 1, id: "minecraft:pumpkin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B8C9D0E1F2A0003"]
+			icon: {
+				id: "minecraft:snowball"
+			}
+			id: "7B8C9D0E1F2A0007"
+			rewards: [{
+				id: "7B8C9D0E1F2A0107"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7B8C9D0E1F2A0207"
+				item: { count: 1, id: "minecraft:snowball" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7B8C9D0E1F2A0004"
+				"7B8C9D0E1F2A0005"
+				"7B8C9D0E1F2A0006"
+				"7B8C9D0E1F2A0007"
+			]
+			icon: {
+				id: "cold_sweat:thermometer"
+			}
+			id: "7B8C9D0E1F2A0008"
+			rewards: [{
+				id: "7B8C9D0E1F2A0108"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7B8C9D0E1F2A0208"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+}

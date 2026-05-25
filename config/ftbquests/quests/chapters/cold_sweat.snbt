@@ -1,0 +1,637 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "cold_sweat"
+	group: "7A2B8D9C1E3F4567"
+	icon: {
+		id: "cold_sweat:thermometer"
+	}
+	id: "6088A78ADE945BF6"
+	images: [
+		{
+			height: 1.0d
+			image: "tecmod:textures/quest_labels/cs_title.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/cs_medicao.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -10.0d
+			y: -5.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/cs_agua.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: -5.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/cs_isolamento.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 10.5d
+			y: -5.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/cs_armaduras.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -10.0d
+			y: 3.9d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/cs_clima.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 3.9d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/cs_alma.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 10.2d
+			y: 3.9d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cold_sweat:thermometer"
+			}
+			id: "3ECB507A9F6564D0"
+			rewards: [{
+				id: "35CE842F17072030"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "11146FA8A53D3D7E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.2d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:thermometer"
+			}
+			id: "6E55B136D02DAE3A"
+			rewards: [{
+				id: "527C9C6831BFF32D"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "78FDD2A23F626DF5"
+				item: { count: 1, id: "cold_sweat:thermometer" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.6d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:waterskin"
+			}
+			id: "2143D768178AF5DE"
+			rewards: [{
+				id: "301D33F9294CE956"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4F89375A0CC7FE11"
+				item: { count: 1, id: "cold_sweat:waterskin" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -3.6d
+		}
+		{
+			dependencies: ["2143D768178AF5DE"]
+			icon: {
+				id: "cold_sweat:filled_waterskin"
+			}
+			id: "0C8F7BE6C77228E2"
+			rewards: [{
+				id: "6CBE27754703B87F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0479A43CB72674C7"
+				item: { count: 1, id: "cold_sweat:filled_waterskin" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -3.6d
+		}
+		{
+			dependencies: ["2143D768178AF5DE"]
+			icon: {
+				id: "cold_sweat:slush_bucket"
+			}
+			id: "5C31AD12587A311A"
+			rewards: [{
+				id: "5AED9F7A625EDC9D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "604B840D8D52A207"
+				item: { count: 1, id: "cold_sweat:slush_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.3d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:goat_fur"
+			}
+			id: "2D38528574070139"
+			rewards: [{
+				id: "1FFFD9ACA11E6AA5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "744F6292F4275D92"
+				item: { count: 1, id: "cold_sweat:goat_fur" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.6d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:hoglin_hide"
+			}
+			id: "09CBA4A8A7967932"
+			rewards: [{
+				id: "6A75B745A0668D1A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "22187293BFB74767"
+				item: { count: 1, id: "cold_sweat:hoglin_hide" }
+				type: "item"
+			}]
+			x: 10.2d
+			y: -3.6d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:chameleon_molt"
+			}
+			id: "4707DA05FCE5E25D"
+			rewards: [{
+				id: "204F941FD2D2B1AF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "685B1A4F155A448E"
+				item: { count: 1, id: "cold_sweat:chameleon_molt" }
+				type: "item"
+			}]
+			x: 11.4d
+			y: -3.6d
+		}
+		{
+			icon: {
+				id: "cold_sweat:sewing_table"
+			}
+			id: "45670B6E5221B71A"
+			rewards: [{
+				id: "14E8ACA9A2A6CDE7"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "05851D47E6B07C82"
+				item: { count: 1, id: "cold_sweat:sewing_table" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -2.3d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:minecart_insulation"
+			}
+			id: "354D594BDAFA0079"
+			rewards: [{
+				id: "6B26C345763C28DC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "771CF0E1A0D6AEF1"
+				item: { count: 1, id: "cold_sweat:minecart_insulation" }
+				type: "item"
+			}]
+			x: 10.8d
+			y: -2.3d
+		}
+		{
+			dependencies: ["354D594BDAFA0079"]
+			icon: {
+				id: "cold_sweat:insulated_minecart"
+			}
+			id: "79107EBB6A227490"
+			rewards: [{
+				id: "207660761E12B05D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "13CC55C96413189A"
+				item: { count: 1, id: "cold_sweat:insulated_minecart" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.3d
+		}
+		{
+			icon: {
+				id: "cold_sweat:goat_fur_helmet"
+			}
+			id: "5297784E5013E68C"
+			rewards: [{
+				id: "00AFFCAA0C98E882"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "71E64321EFC5B17E"
+				item: { count: 1, id: "cold_sweat:goat_fur_helmet" }
+				type: "item"
+			}]
+			x: -11.8d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "cold_sweat:goat_fur_chestplate"
+			}
+			id: "21879F1DBDD86C09"
+			rewards: [{
+				id: "36D6B5D8D8BB4EBB"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3F4A349F44A353D2"
+				item: { count: 1, id: "cold_sweat:goat_fur_chestplate" }
+				type: "item"
+			}]
+			x: -10.600000000000001d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "cold_sweat:goat_fur_leggings"
+			}
+			id: "758E25F33FB894D0"
+			rewards: [{
+				id: "5BAFA4A29F59D440"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "08BB1AAD1C3DA4BD"
+				item: { count: 1, id: "cold_sweat:goat_fur_leggings" }
+				type: "item"
+			}]
+			x: -9.4d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "cold_sweat:goat_fur_boots"
+			}
+			id: "1AF4728AEB7062CB"
+			rewards: [{
+				id: "7863B0FD4335C0BE"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "66BD151B5BBCFE49"
+				item: { count: 1, id: "cold_sweat:goat_fur_boots" }
+				type: "item"
+			}]
+			x: -8.200000000000001d
+			y: 5.4d
+		}
+		{
+			icon: {
+				id: "cold_sweat:hoglin_helmet"
+			}
+			id: "774689323DA82DDC"
+			rewards: [{
+				id: "70FA69C4F05094B0"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "670ECC710154C964"
+				item: { count: 1, id: "cold_sweat:hoglin_helmet" }
+				type: "item"
+			}]
+			x: -11.8d
+			y: 6.6000000000000005d
+		}
+		{
+			icon: {
+				id: "cold_sweat:hoglin_chestplate"
+			}
+			id: "04DB50CB359886C2"
+			rewards: [{
+				id: "030519B64196E31F"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "72332F5498541F84"
+				item: { count: 1, id: "cold_sweat:hoglin_chestplate" }
+				type: "item"
+			}]
+			x: -10.600000000000001d
+			y: 6.6000000000000005d
+		}
+		{
+			icon: {
+				id: "cold_sweat:hoglin_leggings"
+			}
+			id: "40F925604FDB57ED"
+			rewards: [{
+				id: "310839080DE7EF82"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1D91A3B9643D29A1"
+				item: { count: 1, id: "cold_sweat:hoglin_leggings" }
+				type: "item"
+			}]
+			x: -9.4d
+			y: 6.6000000000000005d
+		}
+		{
+			icon: {
+				id: "cold_sweat:hoglin_boots"
+			}
+			id: "52856244E1F4297E"
+			rewards: [{
+				id: "16350A7782018F2E"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "380421FAC950DFE8"
+				item: { count: 1, id: "cold_sweat:hoglin_boots" }
+				type: "item"
+			}]
+			x: -8.200000000000001d
+			y: 6.6000000000000005d
+		}
+		{
+			icon: {
+				id: "cold_sweat:chameleon_helmet"
+			}
+			id: "2B7118DB5D0A0CBE"
+			rewards: [{
+				id: "6227A2310239A496"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "64BC18E0BD3E8EF0"
+				item: { count: 1, id: "cold_sweat:chameleon_helmet" }
+				type: "item"
+			}]
+			x: -11.8d
+			y: 7.800000000000001d
+		}
+		{
+			icon: {
+				id: "cold_sweat:chameleon_chestplate"
+			}
+			id: "5D6E005004503C8C"
+			rewards: [{
+				id: "5A2A68921E79FD69"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7B2C5D706D3B1C38"
+				item: { count: 1, id: "cold_sweat:chameleon_chestplate" }
+				type: "item"
+			}]
+			x: -10.600000000000001d
+			y: 7.800000000000001d
+		}
+		{
+			icon: {
+				id: "cold_sweat:chameleon_leggings"
+			}
+			id: "58935646211E198B"
+			rewards: [{
+				id: "3686AD8E3664A679"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "082FB5D1AB947D24"
+				item: { count: 1, id: "cold_sweat:chameleon_leggings" }
+				type: "item"
+			}]
+			x: -9.4d
+			y: 7.800000000000001d
+		}
+		{
+			icon: {
+				id: "cold_sweat:chameleon_boots"
+			}
+			id: "01F0243C1C61C0EE"
+			rewards: [{
+				id: "43991116DCE40BB6"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "4A992B11DDDAF332"
+				item: { count: 1, id: "cold_sweat:chameleon_boots" }
+				type: "item"
+			}]
+			x: -8.200000000000001d
+			y: 7.800000000000001d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:boiler"
+			}
+			id: "0EADFFD805E92FC9"
+			rewards: [{
+				id: "2F59A99C4A262A97"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6FDEF06AE7E04850"
+				item: { count: 1, id: "cold_sweat:boiler" }
+				type: "item"
+			}]
+			x: -0.9d
+			y: 5.4d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:hearth"
+			}
+			id: "6F2B7CACAF020167"
+			rewards: [{
+				id: "2FB00E45AEF91BC5"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5023122818E18DEC"
+				item: { count: 1, id: "cold_sweat:hearth" }
+				type: "item"
+			}]
+			x: 0.4d
+			y: 5.4d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:icebox"
+			}
+			id: "4FE046896E783444"
+			rewards: [{
+				id: "6B35DB0969C383DA"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2BFF905D16538D1D"
+				item: { count: 1, id: "cold_sweat:icebox" }
+				type: "item"
+			}]
+			x: -0.9d
+			y: 6.6d
+		}
+		{
+			dependencies: ["0EADFFD805E92FC9"]
+			icon: {
+				id: "cold_sweat:smokestack"
+			}
+			id: "500E0DC1E56F294E"
+			rewards: [{
+				id: "777239EBBA700D09"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0587F7AC5949A465"
+				item: { count: 1, id: "cold_sweat:smokestack" }
+				type: "item"
+			}]
+			x: 0.4d
+			y: 6.6d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:thermolith"
+			}
+			id: "3F1352D88FEE0B08"
+			rewards: [{
+				id: "0D4F6F50AB296192"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5A2D97178826851D"
+				item: { count: 1, id: "cold_sweat:thermolith" }
+				type: "item"
+			}]
+			x: -0.25d
+			y: 7.8d
+		}
+		{
+			dependencies: ["3ECB507A9F6564D0"]
+			icon: {
+				id: "cold_sweat:soul_sprout"
+			}
+			id: "3C9E0242F9684539"
+			rewards: [{
+				id: "37335B52F5B37116"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A1A18A4FAC80341"
+				item: { count: 1, id: "cold_sweat:soul_sprout" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.4d
+		}
+		{
+			dependencies: ["3C9E0242F9684539"]
+			icon: {
+				id: "cold_sweat:soulspring_lamp"
+			}
+			id: "43C09BCB7DD5FAAF"
+			rewards: [{
+				id: "11F4D5DF7EE62416"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7CEE28E0F8C581B9"
+				item: { count: 1, id: "cold_sweat:soulspring_lamp" }
+				type: "item"
+			}]
+			x: 10.8d
+			y: 5.4d
+		}
+	]
+}

@@ -1,0 +1,1692 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "aquaculture"
+	group: "4D8E6A5F7B9C3210"
+	icon: {
+		id: "aquaculture:neptunium_fishing_rod"
+	}
+	id: "11D7639CB5CC379D"
+	images: [
+		{
+			height: 1.0d
+			image: "tecmod:textures/quest_labels/aq_title.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_varas.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -10.0d
+			y: -7.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_anzois.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: -8.7d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_facas.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 10.0d
+			y: -7.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_neptunium.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -10.0d
+			y: 0.4d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_agua_doce.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 1.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_agua_salgada.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 10.0d
+			y: 1.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_exoticos.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: -10.0d
+			y: 10.1d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_comida.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 0.0d
+			y: 10.8d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/aq_tesouros.png"
+			rotation: 0.0d
+			width: 3.6d
+			x: 10.0d
+			y: 10.8d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aquaculture:neptunium_fishing_rod"
+			}
+			id: "7D7FEBC147C7499B"
+			rewards: [{
+				id: "45E531BD4054EE83"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4250379DCFAB0350"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:iron_fishing_rod"
+			}
+			id: "5394D5FCF91546FB"
+			rewards: [{
+				id: "4580CA7228BBFEF8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "209A00B3B6760776"
+				item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["5394D5FCF91546FB"]
+			icon: {
+				id: "aquaculture:gold_fishing_rod"
+			}
+			id: "2999C5A870095D76"
+			rewards: [{
+				id: "78A8DE53C32E6C04"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "24B1DA02796BB6A5"
+				item: { count: 1, id: "aquaculture:gold_fishing_rod" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2999C5A870095D76"]
+			icon: {
+				id: "aquaculture:diamond_fishing_rod"
+			}
+			id: "79A54CBA50C25EF4"
+			rewards: [{
+				id: "0ADBCF5CBEAD2364"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "59D6BD48A47C44FB"
+				item: { count: 1, id: "aquaculture:diamond_fishing_rod" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["79A54CBA50C25EF4"]
+			icon: {
+				id: "aquaculture:neptunium_fishing_rod"
+			}
+			id: "549D5C666B032325"
+			rewards: [{
+				id: "17CD08A1BA03B689"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "099D974D74774F7C"
+				item: { count: 1, id: "aquaculture:neptunium_fishing_rod" }
+				type: "item"
+			}]
+			x: -7.75d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:bobber"
+			}
+			id: "024EBF8EE97D5DB4"
+			rewards: [{
+				id: "48BFE18CF18DA6F0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1D611FBD717CC771"
+				item: { count: 1, id: "aquaculture:bobber" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:fishing_line"
+			}
+			id: "2E98E52CBD8DB89D"
+			rewards: [{
+				id: "4ECEED3901F139E5"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "071800951A0C90B3"
+				item: { count: 1, id: "aquaculture:fishing_line" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:worm"
+			}
+			id: "1306F5AFBB56537E"
+			rewards: [{
+				id: "1DC5AD2D9492008A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6221A92869CA96E6"
+				item: { count: 1, id: "aquaculture:worm" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["1306F5AFBB56537E"]
+			icon: {
+				id: "aquaculture:worm_farm"
+			}
+			id: "3C950FBBA51C5FF1"
+			rewards: [{
+				id: "7D5C29E83AF8D0FD"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "69E617EF345233F3"
+				item: { count: 1, id: "aquaculture:worm_farm" }
+				type: "item"
+			}]
+			x: -7.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:iron_hook"
+			}
+			id: "2B0122689FE4C31B"
+			rewards: [{
+				id: "7D1479CD1703075C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6FF2C4E5C969442A"
+				item: { count: 1, id: "aquaculture:iron_hook" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -7.25d
+		}
+		{
+			dependencies: ["2B0122689FE4C31B"]
+			icon: {
+				id: "aquaculture:gold_hook"
+			}
+			id: "1B3463DB2A628F08"
+			rewards: [{
+				id: "0653F4DD557CF018"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "30CE8BB41DAFAE7D"
+				item: { count: 1, id: "aquaculture:gold_hook" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -7.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:diamond_hook"
+			}
+			id: "2370BF80E85A1B89"
+			rewards: [{
+				id: "348C514BAE611000"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "79222C0D765BDB76"
+				item: { count: 1, id: "aquaculture:diamond_hook" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -7.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:double_hook"
+			}
+			id: "7DD5738521EA6379"
+			rewards: [{
+				id: "00D28E238C9770F3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "425C55913445A145"
+				item: { count: 1, id: "aquaculture:double_hook" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["7DD5738521EA6379"]
+			icon: {
+				id: "aquaculture:heavy_hook"
+			}
+			id: "0D142E9AC89B3CB6"
+			rewards: [{
+				id: "3E4976DAAD1B54BE"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "064768AB071CD73A"
+				item: { count: 1, id: "aquaculture:heavy_hook" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["0D142E9AC89B3CB6"]
+			icon: {
+				id: "aquaculture:light_hook"
+			}
+			id: "32C3959F3159B29B"
+			rewards: [{
+				id: "051136FD1E859F2C"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "37915DF7615D0EA8"
+				item: { count: 1, id: "aquaculture:light_hook" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["32C3959F3159B29B"]
+			icon: {
+				id: "aquaculture:redstone_hook"
+			}
+			id: "062526DD3852C432"
+			rewards: [{
+				id: "69CC30D8873B03DF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "33248ECE25C79E6A"
+				item: { count: 1, id: "aquaculture:redstone_hook" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -4.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:nether_star_hook"
+			}
+			id: "7FE7DAD9D57C43A9"
+			rewards: [{
+				id: "5669862D0EB0A0FB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "231D1E2ACA4F0E92"
+				item: { count: 1, id: "aquaculture:nether_star_hook" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["7FE7DAD9D57C43A9"]
+			icon: {
+				id: "aquaculture:note_hook"
+			}
+			id: "7240C49172036454"
+			rewards: [{
+				id: "3816FE3EFFE51BB7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "487E54A3C0FE7FDC"
+				item: { count: 1, id: "aquaculture:note_hook" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:wooden_fillet_knife"
+			}
+			id: "362C582DBFE3AF15"
+			rewards: [{
+				id: "36F309E0C8A9044C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "237BC84B012A0864"
+				item: { count: 1, id: "aquaculture:wooden_fillet_knife" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:stone_fillet_knife"
+			}
+			id: "771C058FF2FD1FC1"
+			rewards: [{
+				id: "3C1CDAA39771EB27"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "14A4390473D643F0"
+				item: { count: 1, id: "aquaculture:stone_fillet_knife" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:iron_fillet_knife"
+			}
+			id: "68AE265771A74D5D"
+			rewards: [{
+				id: "041571FED3F5C22E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7ED7BE7C0EA886C1"
+				item: { count: 1, id: "aquaculture:iron_fillet_knife" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: -5.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:gold_fillet_knife"
+			}
+			id: "301D21AD07327C51"
+			rewards: [{
+				id: "25FD310F49DAEB3E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5D9F57DE19155203"
+				item: { count: 1, id: "aquaculture:gold_fillet_knife" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["301D21AD07327C51"]
+			icon: {
+				id: "aquaculture:diamond_fillet_knife"
+			}
+			id: "62BCE16A59C635CA"
+			rewards: [{
+				id: "76055B11FE7DFF3C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "764E374F8041A025"
+				item: { count: 1, id: "aquaculture:diamond_fillet_knife" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["62BCE16A59C635CA"]
+			icon: {
+				id: "aquaculture:neptunium_fillet_knife"
+			}
+			id: "7E8F90CF29548C58"
+			rewards: [{
+				id: "6DC909AA045B11C4"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "227C3A0CEE60AA20"
+				item: { count: 1, id: "aquaculture:neptunium_fillet_knife" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:neptunes_bounty"
+			}
+			id: "066781BF541EEBDC"
+			rewards: [{
+				id: "290ADA727A9155B5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3C08153C786CCA5B"
+				item: { count: 1, id: "aquaculture:neptunes_bounty" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 1.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_ingot"
+			}
+			id: "5B14594267D8030A"
+			rewards: [{
+				id: "5C0F6A7E828369B5"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "621DD6E83914FA48"
+				item: { count: 1, id: "aquaculture:neptunium_ingot" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5B14594267D8030A"]
+			icon: {
+				id: "aquaculture:neptunium_block"
+			}
+			id: "077678085553B8E4"
+			rewards: [{
+				id: "724CB2597F85527A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "030C5A4F74AF5B1E"
+				item: { count: 1, id: "aquaculture:neptunium_block" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["077678085553B8E4"]
+			icon: {
+				id: "aquaculture:neptunium_nugget"
+			}
+			id: "63364AAF8510DE74"
+			rewards: [{
+				id: "0563CF74CD6FE5B4"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "56E829C167E6DF47"
+				item: { count: 1, id: "aquaculture:neptunium_nugget" }
+				type: "item"
+			}]
+			x: -7.75d
+			y: 1.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_sword"
+			}
+			id: "5EB8FBA3712E1E29"
+			rewards: [{
+				id: "7EE900ECB026922F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3222D07516D1A331"
+				item: { count: 1, id: "aquaculture:neptunium_sword" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 3.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_pickaxe"
+			}
+			id: "342BC7BC357A24BE"
+			rewards: [{
+				id: "3ECB6CA130D9965F"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "3B02FB2B250D873B"
+				item: { count: 1, id: "aquaculture:neptunium_pickaxe" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["342BC7BC357A24BE"]
+			icon: {
+				id: "aquaculture:neptunium_axe"
+			}
+			id: "069A2D3804A3D53A"
+			rewards: [{
+				id: "42D02350F52CE449"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "454FA9BF43A8BA36"
+				item: { count: 1, id: "aquaculture:neptunium_axe" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: 3.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_shovel"
+			}
+			id: "3068D1FB40C8975F"
+			rewards: [{
+				id: "7B962AEE27E310F5"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "1C833EFE0920D5E6"
+				item: { count: 1, id: "aquaculture:neptunium_shovel" }
+				type: "item"
+			}]
+			x: -7.75d
+			y: 3.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_hoe"
+			}
+			id: "604EAFA116DCBE66"
+			rewards: [{
+				id: "6A9011DD517F7E3B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "64AD650638EB9A59"
+				item: { count: 1, id: "aquaculture:neptunium_hoe" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 4.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_bow"
+			}
+			id: "296AC09DAB8B5286"
+			rewards: [{
+				id: "5C4515AC45D196A0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "083B4742635E7705"
+				item: { count: 1, id: "aquaculture:neptunium_bow" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 4.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:neptunium_helmet"
+			}
+			id: "38ED00FCC7BDDB93"
+			rewards: [{
+				id: "0789CCB4AC16570D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "69297D3D322C0FA8"
+				item: { count: 1, id: "aquaculture:neptunium_helmet" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["38ED00FCC7BDDB93"]
+			icon: {
+				id: "aquaculture:neptunium_chestplate"
+			}
+			id: "41BD636FD4CA786B"
+			rewards: [{
+				id: "207EBD212EA22DE9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6886AC6841EBED4D"
+				item: { count: 1, id: "aquaculture:neptunium_chestplate" }
+				type: "item"
+			}]
+			x: -7.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["41BD636FD4CA786B"]
+			icon: {
+				id: "aquaculture:neptunium_leggings"
+			}
+			id: "1FE4F96F239114CA"
+			rewards: [{
+				id: "052C12B4642EAED4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4C96DF832D84067C"
+				item: { count: 1, id: "aquaculture:neptunium_leggings" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["1FE4F96F239114CA"]
+			icon: {
+				id: "aquaculture:neptunium_boots"
+			}
+			id: "2461B365E559040A"
+			rewards: [{
+				id: "3860723B4CF64F7E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "467F6305C3447897"
+				item: { count: 1, id: "aquaculture:neptunium_boots" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:minnow"
+			}
+			id: "5C2B2FD06923A814"
+			rewards: [{
+				id: "78BD69EB2F49B66D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5B6ABBD959CD898B"
+				item: { count: 1, id: "aquaculture:minnow" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C2B2FD06923A814"]
+			icon: {
+				id: "aquaculture:bluegill"
+			}
+			id: "2C75DC14BF9E13BD"
+			rewards: [{
+				id: "5AB621B06BD4F469"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2FB689FE0886B6D4"
+				item: { count: 1, id: "aquaculture:bluegill" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C75DC14BF9E13BD"]
+			icon: {
+				id: "aquaculture:perch"
+			}
+			id: "7826B600C7A271AE"
+			rewards: [{
+				id: "26F8C6C8BE25703B"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0385E12A30BD5C65"
+				item: { count: 1, id: "aquaculture:perch" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:carp"
+			}
+			id: "5C6C28110B2DBF6E"
+			rewards: [{
+				id: "6A76D8E6CA8E9320"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "21F98EBE1FF160B5"
+				item: { count: 1, id: "aquaculture:carp" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C6C28110B2DBF6E"]
+			icon: {
+				id: "aquaculture:catfish"
+			}
+			id: "00ABB4B63B8F8F82"
+			rewards: [{
+				id: "2076777B90F3746C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "43BE06BA781CF560"
+				item: { count: 1, id: "aquaculture:catfish" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00ABB4B63B8F8F82"]
+			icon: {
+				id: "aquaculture:gar"
+			}
+			id: "5F7A72388A9EC94C"
+			rewards: [{
+				id: "5C6C1E590A8664FF"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "4547BDF0690B02B2"
+				item: { count: 1, id: "aquaculture:gar" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "aquaculture:muskellunge"
+			}
+			id: "4B002852385F8410"
+			rewards: [{
+				id: "2CFB6FFD16CC3219"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "5B3A970EFDA3AB32"
+				item: { count: 1, id: "aquaculture:muskellunge" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "aquaculture:smallmouth_bass"
+			}
+			id: "0DA16385C45B32E8"
+			rewards: [{
+				id: "5809C6CBF45F612E"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "538C92494DB540A6"
+				item: { count: 1, id: "aquaculture:smallmouth_bass" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "aquaculture:brown_trout"
+			}
+			id: "26F2957A69DBB58B"
+			rewards: [{
+				id: "1A7CB2709B7FAB10"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2BE1B4C0AE952644"
+				item: { count: 1, id: "aquaculture:brown_trout" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["26F2957A69DBB58B"]
+			icon: {
+				id: "aquaculture:rainbow_trout"
+			}
+			id: "54C5CD2D29826A47"
+			rewards: [{
+				id: "46C6148E2E4724FA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5B1D5DCE3450806F"
+				item: { count: 1, id: "aquaculture:rainbow_trout" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:piranha"
+			}
+			id: "5979291FA886C41C"
+			rewards: [{
+				id: "3A0BCDFF1A930F2A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5AFD9DA38E970959"
+				item: { count: 1, id: "aquaculture:piranha" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:goldfish"
+			}
+			id: "0F2F3AA429A7CFC9"
+			rewards: [{
+				id: "225B7059AEEE7F46"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "344F3324459364DB"
+				item: { count: 1, id: "aquaculture:goldfish" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:atlantic_cod"
+			}
+			id: "2DFD36F144128BB8"
+			rewards: [{
+				id: "0133262732D650BF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6F7AAFA3A8619F34"
+				item: { count: 1, id: "aquaculture:atlantic_cod" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:atlantic_halibut"
+			}
+			id: "7EF800FD10BCF91A"
+			rewards: [{
+				id: "0D30D0856B2C498B"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6C5AEE2D4B8415C3"
+				item: { count: 1, id: "aquaculture:atlantic_halibut" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:pacific_halibut"
+			}
+			id: "1B7DC70F5B94A111"
+			rewards: [{
+				id: "7C6A658D29FD051F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2F35E93550F49BEB"
+				item: { count: 1, id: "aquaculture:pacific_halibut" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:atlantic_herring"
+			}
+			id: "3702940F57F158B8"
+			rewards: [{
+				id: "0DEAC0777C1010B1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "32B6C15F10180412"
+				item: { count: 1, id: "aquaculture:atlantic_herring" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3702940F57F158B8"]
+			icon: {
+				id: "aquaculture:pink_salmon"
+			}
+			id: "6FCF6A7BC55658AA"
+			rewards: [{
+				id: "4EAEEC24FCC1D4C1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6688FF6C14A947AB"
+				item: { count: 1, id: "aquaculture:pink_salmon" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6FCF6A7BC55658AA"]
+			icon: {
+				id: "aquaculture:pollock"
+			}
+			id: "13C489E3F4801790"
+			rewards: [{
+				id: "61EEE90E61B7C3E8"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "09BECE2860163D7E"
+				item: { count: 1, id: "aquaculture:pollock" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["13C489E3F4801790"]
+			icon: {
+				id: "aquaculture:tuna"
+			}
+			id: "4891BE8E768D75A1"
+			rewards: [{
+				id: "7C2610566B66507B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6FD48B1BA0ED586B"
+				item: { count: 1, id: "aquaculture:tuna" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "aquaculture:red_grouper"
+			}
+			id: "301D6C5B313B3E77"
+			rewards: [{
+				id: "534A66F66EBBC1CD"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "244AC29D0F01B380"
+				item: { count: 1, id: "aquaculture:red_grouper" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["301D6C5B313B3E77"]
+			icon: {
+				id: "aquaculture:blackfish"
+			}
+			id: "1ADBC3D7222805E8"
+			rewards: [{
+				id: "4A9880782A85FEA5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0E3BA670FB32FFB8"
+				item: { count: 1, id: "aquaculture:blackfish" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:jellyfish"
+			}
+			id: "6BE0CCD5BFBBECD6"
+			rewards: [{
+				id: "4E305EEA966D8BBB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "59E9A4C10DC6C3F0"
+				item: { count: 1, id: "aquaculture:jellyfish" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:capitaine"
+			}
+			id: "3134BEE0DEDCBD21"
+			rewards: [{
+				id: "7194562221324F08"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1413941F83EDDBD2"
+				item: { count: 1, id: "aquaculture:capitaine" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3134BEE0DEDCBD21"]
+			icon: {
+				id: "aquaculture:boulti"
+			}
+			id: "5F431AD849C54F14"
+			rewards: [{
+				id: "575B6888F596E71D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7973A61B25E2C9CF"
+				item: { count: 1, id: "aquaculture:boulti" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:arapaima"
+			}
+			id: "31E1591A4D9C26BB"
+			rewards: [{
+				id: "1409F3BC02C3810A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "51C49780D0BDC252"
+				item: { count: 1, id: "aquaculture:arapaima" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["31E1591A4D9C26BB"]
+			icon: {
+				id: "aquaculture:tambaqui"
+			}
+			id: "35720AC818D8F351"
+			rewards: [{
+				id: "33F9DDB453EF10E9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "557801D25F9E3E8C"
+				item: { count: 1, id: "aquaculture:tambaqui" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 11.5d
+		}
+		{
+			icon: {
+				id: "aquaculture:bayad"
+			}
+			id: "7028575C3F9B0989"
+			rewards: [{
+				id: "01009839B3B6B68D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5619F2FE24F6BE45"
+				item: { count: 1, id: "aquaculture:bayad" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7028575C3F9B0989"]
+			icon: {
+				id: "aquaculture:synodontis"
+			}
+			id: "0C36015F5B3A166A"
+			rewards: [{
+				id: "6A59C08C53F533F2"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3CC757F275D1D388"
+				item: { count: 1, id: "aquaculture:synodontis" }
+				type: "item"
+			}]
+			x: -7.75d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0C36015F5B3A166A"]
+			icon: {
+				id: "aquaculture:arrau_turtle"
+			}
+			id: "16F359472481BAE5"
+			rewards: [{
+				id: "56A76F0DB8D97BA0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "58E62F27054465FA"
+				item: { count: 1, id: "aquaculture:arrau_turtle" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 13.0d
+		}
+		{
+			icon: {
+				id: "aquaculture:box_turtle"
+			}
+			id: "6B26749FA98CA7BC"
+			rewards: [{
+				id: "12F89485DDBCB8A0"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "077393865FAC4CCE"
+				item: { count: 1, id: "aquaculture:box_turtle" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6B26749FA98CA7BC"]
+			icon: {
+				id: "aquaculture:starshell_turtle"
+			}
+			id: "6BEC5E5C6F40BC52"
+			rewards: [{
+				id: "5FA4110524184210"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "1C70DD0168D31359"
+				item: { count: 1, id: "aquaculture:starshell_turtle" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6BEC5E5C6F40BC52"]
+			icon: {
+				id: "aquaculture:brown_shrooma"
+			}
+			id: "021BF05EA1056460"
+			rewards: [{
+				id: "7AF5D7A165A5A601"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "5476B5820D231115"
+				item: { count: 1, id: "aquaculture:brown_shrooma" }
+				type: "item"
+			}]
+			x: -7.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["021BF05EA1056460"]
+			icon: {
+				id: "aquaculture:red_shrooma"
+			}
+			id: "7897F77E2D8A194A"
+			rewards: [{
+				id: "59C3A7A95FCAFCB6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "441B2AB7389AD307"
+				item: { count: 1, id: "aquaculture:red_shrooma" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7897F77E2D8A194A"]
+			icon: {
+				id: "aquaculture:leech"
+			}
+			id: "4C27E683C14E08CF"
+			rewards: [{
+				id: "7737E3603011B64F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2A24A0DEF37ECC2A"
+				item: { count: 1, id: "aquaculture:leech" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:fish_fillet_raw"
+			}
+			id: "66D08B4DFD6D1857"
+			rewards: [{
+				id: "700F01798BECC642"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "715530C8B1B1E2CA"
+				item: { count: 1, id: "aquaculture:fish_fillet_raw" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 12.25d
+		}
+		{
+			dependencies: ["66D08B4DFD6D1857"]
+			icon: {
+				id: "aquaculture:fish_fillet_cooked"
+			}
+			id: "25688CD5857EBC5C"
+			rewards: [{
+				id: "743668E7CDF0C460"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "0AA9DA5B5ADA14B2"
+				item: { count: 1, id: "aquaculture:fish_fillet_cooked" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 12.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:sushi"
+			}
+			id: "49FC62F19A378ED5"
+			rewards: [{
+				id: "27364E97F4DF0181"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "523A410F5C2C6CA3"
+				item: { count: 1, id: "aquaculture:sushi" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["49FC62F19A378ED5"]
+			icon: {
+				id: "aquaculture:turtle_soup"
+			}
+			id: "6356C3621B55112D"
+			rewards: [{
+				id: "787EDBCC7270F10D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3731E0F712D28187"
+				item: { count: 1, id: "aquaculture:turtle_soup" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 12.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:fish_bones"
+			}
+			id: "18E4BF7FA8BA5DE1"
+			rewards: [{
+				id: "111AF446C4582667"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "43AD1C71F091526F"
+				item: { count: 1, id: "aquaculture:fish_bones" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 13.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:algae"
+			}
+			id: "4AB4F027234B60C6"
+			rewards: [{
+				id: "134F1045F09AB1DD"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "4E345307CB46AAF6"
+				item: { count: 1, id: "aquaculture:algae" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 13.75d
+		}
+		{
+			dependencies: ["7D7FEBC147C7499B"]
+			icon: {
+				id: "aquaculture:treasure_chest"
+			}
+			id: "34ADD3B0BC73FB2B"
+			rewards: [{
+				id: "0B737D6936C95AF2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "58404FBDC9D0CE23"
+				item: { count: 1, id: "aquaculture:treasure_chest" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: 12.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:lockbox"
+			}
+			id: "7158FA5D3F1E0DA5"
+			rewards: [{
+				id: "4F8016B760511EA3"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "00D0E1A49A46339F"
+				item: { count: 1, id: "aquaculture:lockbox" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 12.25d
+		}
+		{
+			icon: {
+				id: "aquaculture:message_in_a_bottle"
+			}
+			id: "367A6433B3154E10"
+			rewards: [{
+				id: "25FF6509686D9914"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "11852CB727A0FAFD"
+				item: { count: 1, id: "aquaculture:message_in_a_bottle" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 12.25d
+		}
+		{
+			dependencies: ["367A6433B3154E10"]
+			icon: {
+				id: "aquaculture:tin_can"
+			}
+			id: "4DC6C615B83FB7B6"
+			rewards: [{
+				id: "5CAB9559C8C80CC3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3A76CE36480F4EFC"
+				item: { count: 1, id: "aquaculture:tin_can" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 12.25d
+		}
+		{
+			dependencies: ["4DC6C615B83FB7B6"]
+			icon: {
+				id: "aquaculture:driftwood"
+			}
+			id: "49D7E73CCBDF333B"
+			rewards: [{
+				id: "42DA156DB9558041"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2855F23BBED2BD2E"
+				item: { count: 1, id: "aquaculture:driftwood" }
+				type: "item"
+			}]
+			x: 7.75d
+			y: 13.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:oak_fish_mount"
+			}
+			id: "7CBC2896EA132255"
+			rewards: [{
+				id: "0198F50BD63D1707"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "754C6CD5FA46DC9A"
+				item: { count: 1, id: "aquaculture:oak_fish_mount" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 13.75d
+		}
+		{
+			icon: {
+				id: "aquaculture:tackle_box"
+			}
+			id: "2A7844639FFF5A77"
+			rewards: [{
+				id: "68B2107F66194793"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "7F6C16067FA5FDC1"
+				item: { count: 1, id: "aquaculture:tackle_box" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 13.75d
+		}
+	]
+}

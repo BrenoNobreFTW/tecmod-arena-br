@@ -1,0 +1,1197 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armaduras"
+	group: "3C7D5F4E6A8B9C12"
+	icon: {
+		id: "mekanism:mekasuit_bodyarmor"
+	}
+	id: "5162F275EEB8624D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mekanism:mekasuit_bodyarmor"
+			}
+			id: "2D1DDEE41EB72CC9"
+			rewards: [{
+				id: "012B8A390FA1C303"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "35240EF494F51F7B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D1DDEE41EB72CC9"]
+			id: "480C6C23A56BD3BF"
+			rewards: [
+				{
+					id: "2C7D923BC164C651"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "1CDA61BC06BDD24E"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C6E3A5F7F2AC408"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3326560975EB933D"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D1DDEE41EB72CC9"]
+			id: "73F61B5E582716D4"
+			rewards: [
+				{
+					id: "0CDE9244D94A1E2F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2AC913B244667362"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "16268A41071CFE38"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0927ADC71AF08B6E"
+				item: { count: 1, id: "create:cardboard_chestplate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D1DDEE41EB72CC9"]
+			id: "5A89F38512506FD9"
+			rewards: [
+				{
+					id: "16D228D1D06DF68E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "45AFB0F37BEBA545"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "29FDD9E4527F61C7"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E1D6862FD9C3904"
+				item: { count: 1, id: "mekanismtools:bronze_chestplate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["480C6C23A56BD3BF"]
+			id: "6D2B99CD8DD99BFD"
+			rewards: [
+				{
+					id: "7E36F9A325778A66"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "664AE9CC4BC2C195"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E09BD67D602D310"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08F1980828C6FD00"
+				item: { count: 1, id: "create_sa:copper_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73F61B5E582716D4"]
+			id: "4C2E30D8AD81896D"
+			rewards: [
+				{
+					id: "1161EEBA55302662"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3B85C4678C403B6B"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E730176261DD0F6"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "198EB95EACDB3AF8"
+				item: { count: 1, id: "create_sa:brass_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A89F38512506FD9"]
+			id: "395AA12D52AABB08"
+			rewards: [
+				{
+					id: "1F05F656442F38CF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "2E84E84920C6885C"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "423C6984E3305A09"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "773441CB415B1393"
+				item: { count: 1, id: "mekanismtools:steel_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["395AA12D52AABB08"]
+			id: "34BFED6BA6DC988A"
+			rewards: [
+				{
+					id: "59F72FAF95ABFCBF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 6
+					id: "6C50C37BF43C6AD4"
+					item: {
+						count: 1
+						id: "immersiveengineering:hemp_fiber"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "68169D5DBEA59528"
+					item: {
+						count: 1
+						id: "immersiveengineering:wire_steel"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4976E2A6DAA18A1C"
+				item: { count: 1, id: "immersiveengineering:armor_steel_chestplate" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["395AA12D52AABB08"]
+			id: "2A84725AE8153E95"
+			rewards: [
+				{
+					id: "74A047DC7472327A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "0E881604B39B6CC6"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0779C97B95393E47"
+					item: {
+						count: 1
+						id: "pneumaticcraft:plastic"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3A11497503337281"
+				item: { count: 1, id: "pneumaticcraft:compressed_iron_chestplate" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6D2B99CD8DD99BFD"]
+			id: "60B55CD76D59B58A"
+			rewards: [
+				{
+					id: "7A65000B911B36FC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "297C932E34119CC8"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58D96E67FB89B7D2"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "27F94C549749E5A8"
+				item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["34BFED6BA6DC988A"]
+			id: "588CA3B27860D19B"
+			rewards: [
+				{
+					id: "6B69545DC983B327"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "6B1D1DC784620C4C"
+					item: {
+						count: 1
+						id: "immersiveengineering:wire_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "086A8B8C977CCAA9"
+					item: {
+						count: 1
+						id: "immersiveengineering:hemp_fiber"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ABD914321D6ED3E"
+				item: { count: 1, id: "immersiveengineering:armor_faraday_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4C2E30D8AD81896D"]
+			id: "1974EE6E9C4F429E"
+			optional: true
+			rewards: [
+				{
+					id: "3B556C396F6BC3D3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7B641943BB94DAF3"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "30B36E6CE16237F2"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "4383A5302A4E0DC3"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["588CA3B27860D19B"]
+			id: "273032FD6D8DE6C1"
+			rewards: [
+				{
+					id: "19E1D6A2E9A43966"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "4962B63269CCCA44"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B1982C06763F796"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "182A42CDB80016CB"
+				item: { count: 1, id: "create_jetpack:jetpack" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60B55CD76D59B58A"]
+			id: "5C676EE57A5A83D4"
+			rewards: [
+				{
+					id: "6C470B1D9DE8A216"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7E2B068DE61CE50A"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CE1863605B0105E"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0237F92972501206"
+				item: { count: 1, id: "mekanismtools:refined_glowstone_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5C676EE57A5A83D4"]
+			id: "4CEBE1F56E0608D9"
+			rewards: [
+				{
+					id: "7376764AAB56FACC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "47E9E9ABD10EF518"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69CADA6B81C721D1"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70D491C384232458"
+				item: { count: 1, id: "mekanismtools:refined_obsidian_chestplate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["273032FD6D8DE6C1"]
+			id: "39816DF12C4F1E95"
+			rewards: [
+				{
+					id: "1DE673894E94F081"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "4CF628C3263E1CA8"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DB7C552FB567884"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "092973750E822E62"
+				item: { count: 1, id: "create_jetpack:netherite_jetpack" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["588CA3B27860D19B"]
+			id: "7BC53717C6B5FC5C"
+			optional: true
+			rewards: [
+				{
+					id: "66A362BFE75711ED"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 3
+					id: "50CECDEC6C1BB17D"
+					item: {
+						count: 1
+						id: "mekanism:enriched_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45FA744FED176D87"
+					item: {
+						count: 1
+						id: "mekanism:hdpe_pellet"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "1463095532FFD958"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CEBE1F56E0608D9"]
+			id: "64B99CB88B854266"
+			rewards: [
+				{
+					id: "40647F6DF3C9771B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "607ED7077CFB0ACC"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2722E90FE65D6320"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "12E923514D0E7970"
+				item: { count: 1, id: "mysticalagriculture:inferium_chestplate" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["64B99CB88B854266"]
+			id: "1E18728503AF7662"
+			rewards: [
+				{
+					id: "4E85316651F98E25"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "72396A129F1B109D"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73070B50AA925B89"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "044EBD5664D9AB97"
+				item: { count: 1, id: "mysticalagriculture:supremium_chestplate" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1E18728503AF7662"]
+			id: "39E7990E2D10BE17"
+			rewards: [
+				{
+					id: "361B9FABDBEF5604"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "79278DC1B105AAF5"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18E5FDAAD64F194B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "448AA9D8A9B15FB3"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_chestplate" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39816DF12C4F1E95"]
+			id: "5652FFDD797B1CD5"
+			rewards: [
+				{
+					id: "0BCAB020A28B2163"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "23836019464F0D9F"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "66DFC3C4EA2DC08E"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C91B61108B071FE"
+				item: { count: 1, id: "ars_nouveau:sorcerer_robes" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5652FFDD797B1CD5"]
+			id: "58DA40659BAD8461"
+			rewards: [
+				{
+					id: "485C42BDC0625ACB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7050C795350BC701"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "4008B2C3E28CFD5A"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62082FCF265A2B33"
+				item: { count: 1, id: "ars_nouveau:battlemage_robes" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5652FFDD797B1CD5"]
+			id: "628F64ABF5DDD61C"
+			rewards: [
+				{
+					id: "51D6F4BDE3A12A54"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "6DA01C75480B8932"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "428505C55AFA01C0"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A6349E68E54259E"
+				item: { count: 1, id: "ars_nouveau:arcanist_robes" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58DA40659BAD8461"]
+			id: "3E8905E8A4A92E59"
+			optional: true
+			rewards: [{
+				id: "4FDFEBB3A3A0D01D"
+				item: {
+					components: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+					count: 1
+					id: "irons_spellbooks:wizard_chestplate"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "32887447556EDECA"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39E7990E2D10BE17"]
+			id: "14486C3DE43E84A3"
+			rewards: [
+				{
+					id: "7C68E661695DA498"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2D9295995FEF544D"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "48D91641D842A922"
+					item: {
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "39E4FFD436F64560"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39E7990E2D10BE17"]
+			id: "2A17A80FAC42E2C5"
+			rewards: [
+				{
+					id: "3D302C1AA41B9A94"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3008E03CDC5A0428"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "18647FFD8C5E24D3"
+					item: {
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "788DBECA2ECFFEBE"
+				item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A17A80FAC42E2C5"]
+			id: "2229FF51C1E1A3B4"
+			rewards: [
+				{
+					id: "465CE94CABA4687F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0C700FF45AF269CD"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "34EFA9AB3EFE4D55"
+					item: {
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DE804A0F15E6A2F"
+				item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["39E7990E2D10BE17"]
+			id: "1485707287A687E2"
+			rewards: [
+				{
+					id: "1251D2441543C485"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "65B8CBDA09B77BD4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2E235F77B21A5DA9"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7F3030DF849B1128"
+				item: { count: 1, id: "enigmaticlegacyplus:etherium_chestplate" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["628F64ABF5DDD61C"]
+			id: "1448C329A1C9F3AA"
+			rewards: [
+				{
+					id: "3994EF5AABD302CE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "7454BD939FA5ADE9"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2C27AE3F99B9FBB8"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:arcane_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "55CCB27657731793"
+				item: { count: 1, id: "forbidden_arcanus:draco_arcanus_chestplate" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1448C329A1C9F3AA"]
+			id: "67F871D9D114AC55"
+			rewards: [
+				{
+					id: "53B3A5F8D42C6521"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "5BA1F3A3595F85F0"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "304A9763EB37168C"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:arcane_crystal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "020ACE0FD9626090"
+				item: { count: 1, id: "forbidden_arcanus:tyr_chestplate" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2229FF51C1E1A3B4"]
+			id: "646A3BA1BEF2FB8A"
+			rewards: [
+				{
+					id: "55CBBA9B0882832F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "19EE982BE07A2244"
+					item: {
+						count: 1
+						id: "oritech:iron_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B960E5FEC09774F"
+					item: {
+						count: 1
+						id: "oritech:iron_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66D01D9F0EF8A813"
+				item: { count: 1, id: "oritech:exo_chestplate" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["67F871D9D114AC55"]
+			id: "017FC87665E31786"
+			rewards: [
+				{
+					id: "580174A2378A4967"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4EB91EC3021B53E3"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "125BE2C981F90A90"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B0261A8606561A9"
+				item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"646A3BA1BEF2FB8A"
+				"017FC87665E31786"
+			]
+			id: "21ECA1FAF7CB90C9"
+			rewards: [
+				{
+					id: "16E8BB7DBB9C867F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0E152C53C4DAF3AC"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C0FFBBBD56C68AD"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "643B15A78958DF34"
+				item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

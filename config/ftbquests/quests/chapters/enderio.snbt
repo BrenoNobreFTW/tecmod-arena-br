@@ -1,0 +1,2009 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderio"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "enderio:dark_steel_ingot"
+	}
+	id: "4F4F4F4F4F4F4F01"
+	images: [
+		{
+			height: 1.0d
+			image: "tecmod:textures/quest_labels/eio_title.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/eio_materiais.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/eio_maquinas.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/eio_capacitores.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 7.5d
+			y: -7.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/eio_condutes.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -7.5d
+			y: -0.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/eio_almas.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: -0.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/eio_obeliscos.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 7.5d
+			y: 0.4d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/eio_ferramentas.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: 6.7d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "enderio:dark_steel_ingot"
+			}
+			id: "6000000000000000"
+			rewards: [
+				{
+					id: "187C10ABF07EA791"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "013F41497F84C416"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "690891E101D029EC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6000000000000000"]
+			id: "006A1B000000000A"
+			rewards: [
+				{
+					id: "5D5129384C35A9E0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "0CD0C256616B4EAD"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CCE80A97CEF91FE"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3825F41611F5525B"
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -6.9d
+		}
+		{
+			dependencies: ["006A1B000000000A"]
+			id: "006A1A000000000A"
+			rewards: [
+				{
+					id: "1B22D01FB10CF20D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "32E264830C5B0C04"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A09B472B802DCC2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39742325576E560A"
+				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -6.9d
+		}
+		{
+			dependencies: ["006A1A000000000A"]
+			id: "006A18000000000A"
+			rewards: [
+				{
+					id: "0C44757D086BD732"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "267074D975CB267F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "79E0B2DFD8E5D0D7"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6220E6D5C7E23112"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -6.9d
+		}
+		{
+			dependencies: ["006A18000000000A"]
+			id: "006A19000000000A"
+			rewards: [
+				{
+					id: "23965354442F7042"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "46243F719EC65189"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A5EF9069035F229"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "126BA964CE489A00"
+				item: { count: 1, id: "enderio:pulsating_alloy_ingot" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: -6.9d
+		}
+		{
+			dependencies: ["006A19000000000A"]
+			id: "006A17000000000A"
+			rewards: [
+				{
+					id: "20F16F2914257544"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "0F6949714E574F1B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2A6C3AFBEEF196C7"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "458D645E6B3CB74B"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -5.5d
+		}
+		{
+			dependencies: ["006A17000000000A"]
+			id: "006A14000000000A"
+			rewards: [
+				{
+					id: "08F0F2315B267594"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "62F28315377E4795"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "77B56B53EC024920"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F8D018CDB2C2A38"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -5.5d
+		}
+		{
+			dependencies: ["006A14000000000A"]
+			id: "006A16000000000A"
+			rewards: [
+				{
+					id: "2640203989007FA7"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "3139C00F0F5D5AC4"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "570F1A494B2F078E"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29E92DE8A159CEB0"
+				item: { count: 1, id: "enderio:end_steel_ingot" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -5.5d
+		}
+		{
+			dependencies: ["006A16000000000A"]
+			id: "006A15000000000A"
+			rewards: [
+				{
+					id: "020F338E22EFAC95"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "1A6FF8DF49B9C456"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12CA7489F8068283"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21FB60E272E0B9C4"
+				item: { count: 1, id: "enderio:soularium_ingot" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: -5.5d
+		}
+		{
+			dependencies: ["006A15000000000A"]
+			id: "4D34EBF541807C4B"
+			rewards: [
+				{
+					id: "32C3E5FEA07DE524"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "52B11F80020451FB"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C0291E6DDB81D0D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "564D19C17EE1A14F"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -4.1d
+		}
+		{
+			id: "4AFC691244AF6718"
+			rewards: [
+				{
+					id: "1D1E9609BB7B55D5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "08B1CE77EBA0224D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5703F72FD4598075"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B7B0649D7C5123D"
+				item: { count: 1, id: "enderio:soul_powder" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -4.1d
+		}
+		{
+			dependencies: ["4AFC691244AF6718"]
+			id: "5444B531235272B1"
+			rewards: [
+				{
+					id: "5AE9466174B4C072"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "78E2CDEFC4D840A7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "558E3F4E900C997F"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4481188A1DEFAA86"
+				item: { count: 1, id: "enderio:silicon" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -4.1d
+		}
+		{
+			dependencies: ["5444B531235272B1"]
+			id: "394265040918EAB9"
+			rewards: [
+				{
+					id: "127F5B10BD22DE57"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "422A4F5916A69C43"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "402B00B92C06DAE2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6576B6A6FC2E689A"
+				item: { count: 1, id: "enderio:conduit_binder" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: -4.1d
+		}
+		{
+			dependencies: ["6000000000000000"]
+			id: "006B14000000000B"
+			rewards: [
+				{
+					id: "5A5F0EE99757D83A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "6721963FF67A20C9"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0601B4A32C497E98"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0541F5D7BF0AC54E"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -6.9d
+		}
+		{
+			dependencies: ["006B14000000000B"]
+			id: "006B15000000000B"
+			rewards: [
+				{
+					id: "10D52D441649DD2E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "1CDC436D7A667402"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4AB7D637BDF89534"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "707C99B3CCB89914"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -6.9d
+		}
+		{
+			dependencies: ["006B15000000000B"]
+			id: "5AA9CF7B15724F61"
+			rewards: [
+				{
+					id: "193C79DC707A2F71"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "101C239D84809AEA"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C0B15FC0D7F1513"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12680CC8F949A270"
+				item: { count: 1, id: "enderio:vat" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -6.9d
+		}
+		{
+			id: "006B18000000000B"
+			rewards: [
+				{
+					id: "297C0115DF687049"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "0C1932687D795B30"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "44BB0DC33194F436"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3647E3C51E1632FD"
+				item: { count: 1, id: "enderio:slice_and_splice" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -6.9d
+		}
+		{
+			dependencies: ["006B18000000000B"]
+			id: "6FFFFFFFFFFFFFFF"
+			rewards: [
+				{
+					id: "49C5C02A824E1D43"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "316CCD0CDCCB8334"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B6EF39E36570392"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07CD9C5DFDED98EA"
+				item: { count: 1, id: "enderio:soul_binder" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6FFFFFFFFFFFFFFF"]
+			id: "006B16000000000B"
+			rewards: [
+				{
+					id: "786E9C6AD0422267"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "5502BB7EBAECC072"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "78F2F5FF3D28B084"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D6BD4F0A8FFED5F"
+				item: { count: 1, id: "enderio:enchanter" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -5.5d
+		}
+		{
+			dependencies: ["006B16000000000B"]
+			id: "006B19000000000B"
+			rewards: [
+				{
+					id: "03CBC3FDEB58E1B6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2C6640D5384C2F79"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B2FF35F5F09A770"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BFF9913E4DF411D"
+				item: { count: 1, id: "enderio:painting_machine" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -5.5d
+		}
+		{
+			dependencies: ["006B19000000000B"]
+			id: "60F02B969DD85C6E"
+			rewards: [
+				{
+					id: "5A91AD06007C7E51"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2AF1881671FAC494"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C0737EE71DE103C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42ABE764991121BF"
+				item: { count: 1, id: "enderio:crafter" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -5.5d
+		}
+		{
+			dependencies: ["60F02B969DD85C6E"]
+			id: "1DBBBD31D2D65C80"
+			rewards: [
+				{
+					id: "0C50A7EBB178ECEE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "427F0AD28E004419"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "57582F3F35B6B50A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "103778E5B22729A2"
+				item: { count: 1, id: "enderio:powered_spawner" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -4.1d
+		}
+		{
+			id: "4928B04D5E5F8CF2"
+			rewards: [
+				{
+					id: "113306FC30F6AD35"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "30085B17408C6AE8"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C54AAB3ABDB70AD"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B5398DE78464F13"
+				item: { count: 1, id: "enderio:farming_station" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -4.1d
+		}
+		{
+			dependencies: ["4928B04D5E5F8CF2"]
+			id: "1380B5442D75AD1C"
+			rewards: [
+				{
+					id: "18A1F2C314890E35"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "5093881250FC88AF"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1366CCBBBBFBAE7A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "443C11EBC220F095"
+				item: { count: 1, id: "enderio:drain" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -4.1d
+		}
+		{
+			dependencies: ["1380B5442D75AD1C"]
+			id: "5925E8E5A1DA3786"
+			rewards: [
+				{
+					id: "014D539171785E93"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "33E901D844A6A9F7"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E5F2DFC3324EE6A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BD63AE2C74DEBCA"
+				item: { count: 1, id: "enderio:impulse_hopper" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -4.1d
+		}
+		{
+			dependencies: ["6000000000000000"]
+			id: "006C14000000000C"
+			rewards: [
+				{
+					id: "7BD40FFB46B18F3E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "13AEDED7E3D73701"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DE3A6C93EC42B9F"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "776C5E2D9CABD305"
+				item: { count: 1, id: "enderio:basic_capacitor" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: -6.2d
+		}
+		{
+			dependencies: ["006C14000000000C"]
+			id: "006C15000000000C"
+			rewards: [
+				{
+					id: "67FB4A89D357883D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "57D21B30F5FA5888"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DB24D8DAD888221"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A3410EBBF4CD2B8"
+				item: { count: 1, id: "enderio:double_layer_capacitor" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: -6.2d
+		}
+		{
+			dependencies: ["006C15000000000C"]
+			id: "006C16000000000C"
+			rewards: [
+				{
+					id: "2B464B6F556D3804"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "0A7DD37AF0C3AA1C"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4CE4CE1920005EDF"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "482DA7C91D3F6CD4"
+				item: { count: 1, id: "enderio:octadic_capacitor" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: -6.2d
+		}
+		{
+			dependencies: ["006C16000000000C"]
+			id: "006C17000000000C"
+			rewards: [
+				{
+					id: "2B770EF94C9C9110"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "226491B9C0A890C9"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39502AA7F33B2BF1"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "243F3FB2E51CCD5F"
+				item: { count: 1, id: "enderio:loot_capacitor" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -6.2d
+		}
+		{
+			dependencies: ["006C17000000000C"]
+			id: "006C18000000000C"
+			rewards: [
+				{
+					id: "49CADFB75E634DB1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "5BA65DE6223F383D"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "459009EF4B0D8A62"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "433AFB41A4BC28ED"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: -4.8d
+		}
+		{
+			dependencies: ["006C18000000000C"]
+			id: "006C19000000000C"
+			rewards: [
+				{
+					id: "31CE4C185DD40F09"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "732421C6AEE9AC3E"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DEAF6BBED8E48BD"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D7F32D19528C8CA"
+				item: { count: 1, id: "enderio:advanced_capacitor_bank" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: -4.8d
+		}
+		{
+			dependencies: ["006C19000000000C"]
+			id: "006C1A000000000C"
+			rewards: [
+				{
+					id: "58860DE276BAB95B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "6FF1E21F79A50701"
+					item: {
+						count: 1
+						id: "enderio:energetic_alloy_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7FA273C5B6EFDFC9"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "425898C1D43FC71B"
+				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: -4.8d
+		}
+		{
+			dependencies: ["6000000000000000"]
+			id: "762B0E77321716BE"
+			rewards: [
+				{
+					id: "674B7010E40E54B8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "544273DCC8307BB2"
+					item: {
+						count: 1
+						id: "enderio:conduit_binder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E99D687DCF65AEA"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2734833F221C44E8"
+				item: { count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 0.8d
+		}
+		{
+			id: "4B64D38956BFB29E"
+			rewards: [
+				{
+					id: "1EDB7E6261A0CA35"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "10D2B8F6A280DCBB"
+					item: {
+						count: 1
+						id: "enderio:conduit_binder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7999D93B925595D3"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EC69E025302BF94"
+				item: { count: 1, id: "enderio:conduit_facade" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4B64D38956BFB29E"]
+			id: "5428F6C8E92F3DAC"
+			rewards: [
+				{
+					id: "6C9B5BEA9C3E877F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "2DC8F478872873E3"
+					item: {
+						count: 1
+						id: "enderio:conduit_binder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65BD97A87AFD418D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1325B5DC46685826"
+				item: { count: 1, id: "enderio:hardened_conduit_facade" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: 0.8d
+		}
+		{
+			dependencies: ["5428F6C8E92F3DAC"]
+			id: "3C10519ECDD58FCC"
+			rewards: [
+				{
+					id: "162338C98220467D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "4DE8E8F7F4B358D1"
+					item: {
+						count: 1
+						id: "enderio:conduit_binder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2803DB6DFB70785D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CEE55EBFF406157"
+				item: { count: 1, id: "enderio:transparent_conduit_facade" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: 0.8d
+		}
+		{
+			dependencies: ["3C10519ECDD58FCC"]
+			id: "502F2219B75FD854"
+			rewards: [
+				{
+					id: "7A5E4962820E9BBC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "14137900E18CDC6C"
+					item: {
+						count: 1
+						id: "enderio:conduit_binder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F5A24491BB5CE41"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EC35A3C99F9AF54"
+				item: { count: 1, id: "enderio:conduit_probe" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 2.2d
+		}
+		{
+			dependencies: ["502F2219B75FD854"]
+			id: "006D16000000000D"
+			rewards: [
+				{
+					id: "34DC36DEF4BB8697"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "21DD424900F6FC02"
+					item: {
+						count: 1
+						id: "enderio:conduit_binder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4CFB3C1B505870FA"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EFA49E90F9A7A42"
+				item: { count: 1, id: "enderio:photovoltaic_plate" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 2.2d
+		}
+		{
+			dependencies: ["6000000000000000"]
+			id: "4F2C02B643D2097A"
+			rewards: [
+				{
+					id: "3384D38C1B599942"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "76755914A557164C"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10543D202DF09055"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2843D7EB34172B24"
+				item: { count: 1, id: "enderio:soul_vial" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4F2C02B643D2097A"]
+			id: "7D918895A638333D"
+			rewards: [
+				{
+					id: "69CB3D7E7499920D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "6AECC1F1CE7F0707"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "78BE3524FB938E2F"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EA4CF425EF1C93D"
+				item: { count: 1, id: "enderio:soul_chain" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 0.8d
+		}
+		{
+			id: "217BD1E0B3B2B6F1"
+			rewards: [
+				{
+					id: "0AF4776C0E1C1EE1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "02B26E1896BD739D"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "672A3EF18EDA05B2"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "476EE17349B01598"
+				item: { count: 1, id: "enderio:soul_engine" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 0.8d
+		}
+		{
+			id: "6D4BB2D216C7336F"
+			rewards: [
+				{
+					id: "0738DB1EB777E517"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7CFFD58F45655F1D"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C3779784C4DC429"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E9787BC961003AC"
+				item: { count: 1, id: "enderio:ensouled_chassis" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 0.8d
+		}
+		{
+			id: "5D18532412FA9C8F"
+			rewards: [
+				{
+					id: "05AC9C561B251222"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "6B8B0D1EC6DC86D1"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2024EDC486EBF7C5"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BE016795B7459D6"
+				item: { count: 1, id: "enderio:soularium_grinding_ball" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 2.2d
+		}
+		{
+			id: "238743B6EC2719C6"
+			rewards: [
+				{
+					id: "40DEDF5F30E3272B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "4CA85947E99213A1"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0AD9721B6BAEEBE8"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A3615D7DF6EBAAD"
+				item: { count: 1, id: "enderio:basic_soul_filter" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 2.2d
+		}
+		{
+			dependencies: ["6000000000000000"]
+			id: "05718699F1982F15"
+			rewards: [
+				{
+					id: "599B436C1F947C75"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "74C8849BB0360E59"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A2EE81E10E8CD3B"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A76DA50CF7BEC7B"
+				item: { count: 1, id: "enderio:attractor_obelisk" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05718699F1982F15"]
+			id: "4227D3068B637A49"
+			rewards: [
+				{
+					id: "00EBBA267ED749D5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "425444B5C41F78B8"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3AA2A556CA9C897B"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D7B4AC58B1B0F27"
+				item: { count: 1, id: "enderio:aversion_obelisk" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4227D3068B637A49"]
+			id: "2C8964DB3E453C5A"
+			rewards: [
+				{
+					id: "3B25E6B7EFF5FE10"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "13756863041BEF17"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2804570DF3CABBAC"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47BCD4B7AD673066"
+				item: { count: 1, id: "enderio:inhibitor_obelisk" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: 1.5d
+		}
+		{
+			id: "37A695B2451AC715"
+			rewards: [
+				{
+					id: "682ED8D254CEAB47"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "625B3936A54C30EB"
+					item: {
+						count: 1
+						id: "enderio:soularium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F3359312C6C2064"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07A3D465957F6F0D"
+				item: { count: 1, id: "enderio:relocator_obelisk" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6000000000000000"]
+			id: "006D17000000000D"
+			rewards: [
+				{
+					id: "6130799CFF533AFB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2A6DCF7913155CD5"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39C3190C234C9945"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16C76DA9F1C029E9"
+				item: { count: 1, id: "enderio:dark_steel_sword" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 7.8d
+		}
+		{
+			dependencies: ["006D17000000000D"]
+			id: "4BBAC6348D5DD75B"
+			rewards: [
+				{
+					id: "3D8C452C945C5BE7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2DCDDAFB9EA6EAF1"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54CA76303B4C3DC4"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C080ACDB3F372F3"
+				item: { count: 1, id: "enderio:staff_of_travelling" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 7.8d
+		}
+		{
+			dependencies: ["4BBAC6348D5DD75B"]
+			id: "201C11D67348347D"
+			rewards: [
+				{
+					id: "5E58DF36BC8ABB1D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "125CC64CA35731DC"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7EB7653E94A1FDB0"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "214C4F87C6DD0C26"
+				item: { count: 1, id: "enderio:staff_of_levity" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 7.8d
+		}
+		{
+			dependencies: ["201C11D67348347D"]
+			id: "0DC7F2AAC7D30B97"
+			rewards: [
+				{
+					id: "621B232A914649DC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3F9E6FD8D0052A45"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "266908D5D8D082FB"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0B63D7823170BE"
+				item: { count: 1, id: "enderio:infinity_rod" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 7.8d
+		}
+		{
+			dependencies: ["0DC7F2AAC7D30B97"]
+			id: "006D14000000000D"
+			rewards: [
+				{
+					id: "258236D2C3DD30EA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7A4AB6334568D173"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F753D0659BFB08C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57120B7640A86FC3"
+				item: { count: 1, id: "enderio:travel_anchor" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 9.2d
+		}
+		{
+			dependencies: ["006D14000000000D"]
+			id: "006D15000000000D"
+			rewards: [
+				{
+					id: "1EB79C579D4EAD20"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "1094457E1E86D773"
+					item: {
+						count: 1
+						id: "enderio:dark_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01BB50DE7A7441A1"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FDB976C063011AD"
+				item: { count: 1, id: "enderio:vacuum_chest" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 9.2d
+		}
+	]
+}

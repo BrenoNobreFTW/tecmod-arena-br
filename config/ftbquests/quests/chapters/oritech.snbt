@@ -1,0 +1,2098 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "oritech:adamant_ingot"
+	}
+	id: "0202020202020201"
+	images: [
+		{
+			height: 1.0d
+			image: "tecmod:textures/quest_labels/ori_title.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/ori_materiais.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/ori_maquinas.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: -8.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/ori_geradores.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 7.5d
+			y: -6.8d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/ori_nucleos.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -7.5d
+			y: 0.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/ori_addons.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/ori_ferramentas.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 7.5d
+			y: 0.2d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "oritech:adamant_ingot"
+			}
+			id: "0200000000000001"
+			rewards: [
+				{
+					id: "7FADF862C5A82C20"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "2CCD543E93E6A9A6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "282DFDB3D20697CB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0200000000000001"]
+			id: "3DD7F72D4165E411"
+			rewards: [
+				{
+					id: "026999E1DE89DA21"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "3B6A2434492D23B9"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58437FE556999FEC"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E0F49D2405EF9A4"
+				item: { count: 1, id: "oritech:iron_gem" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -6.4d
+		}
+		{
+			dependencies: ["3DD7F72D4165E411"]
+			id: "7B0DE37B95E85649"
+			rewards: [
+				{
+					id: "02A9442F0EF2D4BA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "103D9983388C4992"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D393F7EB060F7F4"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C577202E08C518D"
+				item: { count: 1, id: "oritech:copper_gem" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -6.4d
+		}
+		{
+			dependencies: ["7B0DE37B95E85649"]
+			id: "14103CCE47184128"
+			rewards: [
+				{
+					id: "4552664DE9E76BCF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "36ACDEF19CB87A3B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4EA488870A91F83D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40B677EA0346A41E"
+				item: { count: 1, id: "oritech:gold_gem" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -6.4d
+		}
+		{
+			id: "37DDAC3480B1BF06"
+			rewards: [
+				{
+					id: "3A07C30F3C0C7ACB"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "1BE080F76F4519B4"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "75EFFF5482D08C64"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "567582CFC0A0C6F0"
+				item: { count: 1, id: "oritech:biosteel_ingot" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: -6.4d
+		}
+		{
+			id: "491CFCB07F9DEEE2"
+			rewards: [
+				{
+					id: "3A862751403AC675"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6637121FDEC0227F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53AFAE8274CAA260"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "217B82DC6EB6F7C0"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -5.0d
+		}
+		{
+			dependencies: ["491CFCB07F9DEEE2"]
+			id: "626CB15F5E8056B2"
+			rewards: [
+				{
+					id: "716A1DCB73FFCC48"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "709DFE322041A18F"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E7D4E29E14C95CF"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BE1063EFF2B8E14"
+				item: { count: 1, id: "oritech:duratium_ingot" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -5.0d
+		}
+		{
+			dependencies: ["626CB15F5E8056B2"]
+			id: "6B8E7EEAAB79E6D1"
+			rewards: [
+				{
+					id: "78C4AB3BC165BB71"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "66A3BADF81666B29"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "78E21D1BD52B58AF"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CE727D54276A3C8"
+				item: { count: 1, id: "oritech:energite_ingot" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -5.0d
+		}
+		{
+			id: "26BF8FD1FDEA1513"
+			rewards: [
+				{
+					id: "25291D12B5C66859"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "1B0DE8B35D0868E4"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "561FD5AFB70D6AF8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DB1C79F62E33D47"
+				item: { count: 1, id: "oritech:electrum_ingot" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26BF8FD1FDEA1513"]
+			id: "3B561934B272FB84"
+			rewards: [
+				{
+					id: "645DB755C849990B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "649A613F86E75249"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "277632A9A3362C83"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "371AFFCB5118E358"
+				item: { count: 1, id: "oritech:fluxite" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: -3.6d
+		}
+		{
+			dependencies: ["3B561934B272FB84"]
+			id: "6BC20BC54B67996F"
+			rewards: [
+				{
+					id: "302FE746E5F2C12B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "49C65D911AD550BC"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C7613A95104FACC"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14CC0CC1D843EA04"
+				item: { count: 1, id: "oritech:biomass" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: -3.6d
+		}
+		{
+			id: "0CFA7984556E9264"
+			rewards: [
+				{
+					id: "0AC3F4122848CE93"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "73ECC0C5BA3FC4A7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E93945364D72393"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50FFA170E2FCDAD6"
+				item: { count: 1, id: "oritech:machine_frame_block" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: -3.6d
+		}
+		{
+			dependencies: ["0200000000000001"]
+			id: "0200000000000003"
+			rewards: [
+				{
+					id: "5C23D28BA46F9E31"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "18B38E7776523B54"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2101F29723F60DE0"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0400000000000003"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -7.1d
+		}
+		{
+			dependencies: ["0200000000000003"]
+			id: "0200000000000005"
+			rewards: [
+				{
+					id: "3DD746FEE77D3418"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3B7C22C43D0A47B7"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "16E9382C74A16E3E"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0400000000000005"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -7.1d
+		}
+		{
+			dependencies: ["0200000000000005"]
+			id: "21BFCFDDD7C867A2"
+			rewards: [
+				{
+					id: "55F381BB58ED0027"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "54444EBEA46E10B9"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "50E1321729E9E065"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35B68A35971E9C6F"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -7.1d
+		}
+		{
+			id: "0200000000000004"
+			rewards: [
+				{
+					id: "5B160E00579474F6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "187B8397AEC04C92"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "26A88AD14334FEB7"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0400000000000004"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -7.1d
+		}
+		{
+			dependencies: ["0200000000000004"]
+			id: "254F473AFDD2C632"
+			rewards: [
+				{
+					id: "37DF4588B26BDF76"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "61EC92241BA9CA45"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51A4BCD6ED75B710"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ADCA055561D494C"
+				item: { count: 1, id: "oritech:powered_furnace_block" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -5.7d
+		}
+		{
+			dependencies: ["254F473AFDD2C632"]
+			id: "020000000000FFFF"
+			rewards: [
+				{
+					id: "36A9469C5C78A590"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "16F3D218F5BD8CDE"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "194F3C1E02FDB752"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "040000000000FFFF"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -5.7d
+		}
+		{
+			dependencies: ["020000000000FFFF"]
+			id: "0200000000000008"
+			rewards: [
+				{
+					id: "0278B629FE4F83BD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "209312966AC2BCD5"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4922F79FFB7B691D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0400000000000008"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -5.7d
+		}
+		{
+			dependencies: ["0200000000000008"]
+			id: "42893F14DBE57F86"
+			rewards: [
+				{
+					id: "4F98C9C7A815C6AB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "12EF0D675F9A3C31"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "611932ABC4ACB1BF"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33AEBCA2A7D4463B"
+				item: { count: 1, id: "oritech:deep_drill_block" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -5.7d
+		}
+		{
+			id: "020000000000000A"
+			rewards: [
+				{
+					id: "356D51C3DA443E8A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "35D0371ECB50FF32"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C47782F385272B6"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "040000000000000A"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -4.3d
+		}
+		{
+			dependencies: ["020000000000000A"]
+			id: "117EACCEC6702EA1"
+			rewards: [
+				{
+					id: "219B502D8B3A27CE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3711C501B81A23C6"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01E58F0F48C6A275"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35939AAD6F1CCD67"
+				item: { count: 1, id: "oritech:fertilizer_block" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -4.3d
+		}
+		{
+			dependencies: ["117EACCEC6702EA1"]
+			id: "76049DB6AB8A0A4F"
+			rewards: [
+				{
+					id: "5874280272DF68EB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3C4C05A5C636090A"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "139C42EDDA7FDE19"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "190256AE5FAAA066"
+				item: { count: 1, id: "oritech:enchanter_block" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -4.3d
+		}
+		{
+			id: "351D41AF128D010C"
+			rewards: [
+				{
+					id: "5E1BCB83F1B6F4D8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "411F4360D5E9A1F6"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B18D0C5A87F4671"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "507BE614E3E4D637"
+				item: { count: 1, id: "oritech:placer_block" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -4.3d
+		}
+		{
+			id: "586AB5926CEFE852"
+			rewards: [
+				{
+					id: "3F7B1623E8718543"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "76B3840D5B2D92CF"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C57C8C2F0DC8C2A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13778146F723019A"
+				item: { count: 1, id: "oritech:destroyer_block" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -2.9d
+		}
+		{
+			id: "21BAB70258D8C2AD"
+			rewards: [
+				{
+					id: "024A4A3F9A898AE3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "0D789A75918A6513"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "09AF41B231DEF882"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7772B56E19148B87"
+				item: { count: 1, id: "oritech:item_filter_block" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -2.9d
+		}
+		{
+			dependencies: ["0200000000000001"]
+			id: "0200000000000007"
+			rewards: [
+				{
+					id: "2FC9BD648BE829D0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2776FE4235B2B518"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "64CA441682C62FF1"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0400000000000007"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: -5.7d
+		}
+		{
+			dependencies: ["0200000000000007"]
+			id: "700F7F176A657D83"
+			rewards: [
+				{
+					id: "3C448D5B4151798B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "09ED97E1D7778F19"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4DFB0DAA76BCDD47"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19DC5D9FDC4D05D4"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: -5.7d
+		}
+		{
+			dependencies: ["700F7F176A657D83"]
+			id: "47203D878A639769"
+			rewards: [
+				{
+					id: "7DE36060A2BE73F4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "191C0F1DD45BBD01"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1459ABFCD528F4F4"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64F0B244A8CFD1CA"
+				item: { count: 1, id: "oritech:lava_generator_block" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: -5.7d
+		}
+		{
+			dependencies: ["47203D878A639769"]
+			id: "0A64906705BDEA09"
+			rewards: [
+				{
+					id: "690E175EE1AEB1F1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "02001FA922B4A018"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "42F09223846911EE"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0575C45BF339C692"
+				item: { count: 1, id: "oritech:steam_engine_block" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -5.7d
+		}
+		{
+			id: "26BD8E1FBB1B64F8"
+			rewards: [
+				{
+					id: "218F81799B2CD76E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2A99D92BAF868EDB"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0756DE2403916F0C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "056B4D2831971B33"
+				item: { count: 1, id: "oritech:reactor_controller" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: -4.3d
+		}
+		{
+			id: "5570CF32C9D210F5"
+			rewards: [
+				{
+					id: "77105DA9C0DE56BC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "79B27F87AFC55A98"
+					item: {
+						count: 1
+						id: "oritech:biosteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0DC576C0D37A1C2B"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "631630FE56C67D85"
+				item: { count: 1, id: "oritech:energy_pipe" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: -4.3d
+		}
+		{
+			dependencies: ["0200000000000001"]
+			id: "389505E93031722D"
+			rewards: [
+				{
+					id: "5C3F24EB3CF284E2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "06F5D5221726FF84"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "23441E3D7B6948A0"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46B3F36765FB599B"
+				item: { count: 1, id: "oritech:machine_core_1" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 1.3d
+		}
+		{
+			dependencies: ["389505E93031722D"]
+			id: "35277CDE363D0890"
+			rewards: [
+				{
+					id: "6F7289E836DB45C0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7524A1B0A1CE164D"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E42F06A7811B6AE"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C7AF808CC0C53AE"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 1.3d
+		}
+		{
+			dependencies: ["35277CDE363D0890"]
+			id: "196D2BAC4F853CA7"
+			rewards: [
+				{
+					id: "3DA870F32668C465"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "68A2EA06BCDC79E3"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BB7BC2549A9782B"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "399D1E91A1DDEAFB"
+				item: { count: 1, id: "oritech:machine_core_3" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: 1.3d
+		}
+		{
+			dependencies: ["196D2BAC4F853CA7"]
+			id: "6753DF4B70628E1D"
+			rewards: [
+				{
+					id: "3CC4AE3F645A6801"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "2FA929DE2C64657C"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "450C4B0E4F742F51"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E6AEBBE326B6FDC"
+				item: { count: 1, id: "oritech:machine_core_4" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: 1.3d
+		}
+		{
+			dependencies: ["6753DF4B70628E1D"]
+			id: "5BAEB99136841575"
+			rewards: [
+				{
+					id: "1879AC43972BC3EA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "79CB550E4D801EF8"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1376C4E776CF3BCB"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78338765378924D0"
+				item: { count: 1, id: "oritech:machine_core_5" }
+				type: "item"
+			}]
+			x: -9.6d
+			y: 2.7d
+		}
+		{
+			dependencies: ["5BAEB99136841575"]
+			id: "7D66CBBCD933D544"
+			rewards: [
+				{
+					id: "1892A18E6F54F72A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "4B51EC7957D604AC"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3FBCC324A082F9D5"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D71F9898A03CE03"
+				item: { count: 1, id: "oritech:machine_core_6" }
+				type: "item"
+			}]
+			x: -8.2d
+			y: 2.7d
+		}
+		{
+			dependencies: ["7D66CBBCD933D544"]
+			id: "0200000000000002"
+			rewards: [
+				{
+					id: "6264934ADDF7EED2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "27D559CDD79E58A7"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31FEA5DB458BD38B"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0400000000000002"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: -6.8d
+			y: 2.7d
+		}
+		{
+			dependencies: ["0200000000000002"]
+			id: "62D61715C345C83E"
+			rewards: [
+				{
+					id: "0233A17EC9E2FC37"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "585125716FD38338"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2504C89DCD1E0A35"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "630EDAF923AB06E1"
+				item: { count: 1, id: "oritech:machine_extender" }
+				type: "item"
+			}]
+			x: -5.4d
+			y: 2.7d
+		}
+		{
+			dependencies: ["0200000000000001"]
+			id: "04C41ECB09BDB4C5"
+			rewards: [
+				{
+					id: "62AEC8A1D1D6856B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "12702E463CE57FDA"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D78052315C52E70"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D3ACB5AD35EC0FE"
+				item: { count: 1, id: "oritech:machine_speed_addon" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 0.6d
+		}
+		{
+			dependencies: ["04C41ECB09BDB4C5"]
+			id: "503B859A352F2888"
+			rewards: [
+				{
+					id: "49EF5B9E16EDC5FC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "355A65F5724BCBFC"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5471DC1BB66B0836"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16D49F215651D48F"
+				item: { count: 1, id: "oritech:machine_efficiency_addon" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 0.6d
+		}
+		{
+			id: "3AF11D655FCC006E"
+			rewards: [
+				{
+					id: "3F4FD7F4A64835DB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "4F70820C90163CFF"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E55E7C5A955DC7D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7325D966CCA8729F"
+				item: { count: 1, id: "oritech:machine_yield_addon" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 0.6d
+		}
+		{
+			dependencies: ["3AF11D655FCC006E"]
+			id: "178D5DFCB4F5B14C"
+			rewards: [
+				{
+					id: "05B696638D928F8C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "563DCAF2782F65EE"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34F51D7CE20F9D01"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A15366013BF9F7D"
+				item: { count: 1, id: "oritech:machine_processing_addon" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 0.6d
+		}
+		{
+			id: "64E2BF3FB37F1FC6"
+			rewards: [
+				{
+					id: "63B75C3EA938E01E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7B128573F99493C4"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "474C0351663C7FD1"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DA4955743E69B5C"
+				item: { count: 1, id: "oritech:machine_capacitor_addon" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64E2BF3FB37F1FC6"]
+			id: "07A9BF7472E45FEF"
+			rewards: [
+				{
+					id: "03B0EBC38A28F27A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "127A8FE19AFFD933"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1E948AF6FDE0611C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "007BF365CCE5E5F3"
+				item: { count: 1, id: "oritech:machine_acceptor_addon" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 2.0d
+		}
+		{
+			id: "32DE9004C8B53094"
+			rewards: [
+				{
+					id: "343175DC79CDB005"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "24C8C35F1298F443"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B37ED5B811F9723"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22D3A91DEDAA34AA"
+				item: { count: 1, id: "oritech:machine_redstone_addon" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 2.0d
+		}
+		{
+			id: "65B355232B05DDB7"
+			rewards: [
+				{
+					id: "3A318F9414B1FB79"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "11D672E4F8CDD119"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7ECF736D35AD7564"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56F50316CB390C9B"
+				item: { count: 1, id: "oritech:machine_silk_touch_addon" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65B355232B05DDB7"]
+			id: "14AE4378FF747D98"
+			rewards: [
+				{
+					id: "7980AC70DAF5293B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "21DCCE780F45C9C9"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1DF02E2581416503"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48C54F1C1728ACD9"
+				item: { count: 1, id: "oritech:machine_hunter_addon" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 3.4d
+		}
+		{
+			id: "1492D04AC81698C0"
+			rewards: [
+				{
+					id: "2B4D095996420582"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "3C8051CD5B834D7F"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11A812112C95F51C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3123B71F33CF1A19"
+				item: { count: 1, id: "oritech:machine_fluid_addon" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 3.4d
+		}
+		{
+			id: "329586962F3932D0"
+			rewards: [
+				{
+					id: "66182BA400F213F1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "235B68FB146754F6"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "037C376F1D87E3F5"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "238A1CAD9FE1ED9A"
+				item: { count: 1, id: "oritech:quarry_addon" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 3.4d
+		}
+		{
+			dependencies: ["329586962F3932D0"]
+			id: "020DFFFE6B5A51D1"
+			rewards: [
+				{
+					id: "1879260F5403E372"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "0A727A94925677A0"
+					item: {
+						count: 1
+						id: "oritech:energite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3EE01229859C1669"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "522B1DED4D64C71D"
+				item: { count: 1, id: "oritech:crop_filter_addon" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 3.4d
+		}
+		{
+			dependencies: ["0200000000000001"]
+			id: "2620FF9C22CC4517"
+			rewards: [
+				{
+					id: "4BE34CADED4C1AC8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "44ED232363BF111A"
+					item: {
+						count: 1
+						id: "oritech:duratium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F5598FE7F83CAAD"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76FB27FA16A84DAB"
+				item: { count: 1, id: "oritech:hand_drill" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 1.3d
+		}
+		{
+			id: "50AAA03D05C1BF56"
+			rewards: [
+				{
+					id: "4484C5B8BD19F667"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6E3F07B782FF270F"
+					item: {
+						count: 1
+						id: "oritech:duratium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CA5CD70C8E9566E"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72CB83FE79E43A59"
+				item: { count: 1, id: "oritech:portable_laser" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 1.3d
+		}
+		{
+			dependencies: ["50AAA03D05C1BF56"]
+			id: "24D0DBFA02EB3CE9"
+			rewards: [
+				{
+					id: "3D033B3D64BAB0A5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "61F28CC72DF040C9"
+					item: {
+						count: 1
+						id: "oritech:duratium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3994728AB6127964"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DAD603976CC36F6"
+				item: { count: 1, id: "oritech:exo_chestplate" }
+				type: "item"
+			}]
+			x: 8.2d
+			y: 1.3d
+		}
+		{
+			id: "4F312649457293F5"
+			rewards: [
+				{
+					id: "0F4EA2226413711C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6FFE2D579A618910"
+					item: {
+						count: 1
+						id: "oritech:duratium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "464EE3616572EA97"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12417777DB8A6838"
+				item: { count: 1, id: "oritech:basic_battery" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 1.3d
+		}
+		{
+			id: "72711E8FEF207428"
+			rewards: [
+				{
+					id: "5567455EC7A77633"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "09B9ED3051CE94A7"
+					item: {
+						count: 1
+						id: "oritech:duratium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D24C6FB9556FB35"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4128B20F675C5C4F"
+				item: { count: 1, id: "oritech:advanced_battery" }
+				type: "item"
+			}]
+			x: 5.4d
+			y: 2.7d
+		}
+	]
+}
