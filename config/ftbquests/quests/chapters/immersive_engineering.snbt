@@ -1,0 +1,2653 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "immersiveengineering:hammer"
+	}
+	id: "1E1E1E1E1E1E1E01"
+	images: [
+		{
+			height: 0.9d
+			image: "tecmod:textures/quest_labels/ie_title.png"
+			rotation: 0.0d
+			width: 5.2d
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_fornos.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: -12.0d
+			y: -11.61d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_materiais.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 0.0d
+			y: -13.03d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_fiacao.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 12.0d
+			y: -13.03d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_logistica.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: -13.0d
+			y: -2.82d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_base.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 0.0d
+			y: 5.8d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_maquinas.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 13.0d
+			y: -3.53d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_ferramentas.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: -11.0d
+			y: 6.26d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_armas.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 1.5d
+			y: 7.97d
+		}
+		{
+			height: 0.55d
+			image: "tecmod:textures/quest_labels/ie_energia.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 13.0d
+			y: 7.18d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
+			id: "4000000000000000"
+			rewards: [{
+				id: "6ABA1445410E0A95"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				id: "03259107BF0E6E75"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4000000000000000"]
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
+			id: "004A14000000000A"
+			rewards: [{
+				id: "2675DB3847208600"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "4BC5FB4C468BDDF6"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: -1.4d
+			y: 0.4d
+		}
+		{
+			dependencies: ["004A14000000000A"]
+			icon: {
+				id: "immersiveengineering:coal_coke"
+			}
+			id: "7492957754D97D31"
+			rewards: [{
+				id: "48897ABD66F94A53"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2ABBF51C6C6ED617"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: -0.8d
+			y: -0.7d
+		}
+		{
+			dependencies: ["7492957754D97D31"]
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "004B15000000000B"
+			rewards: [{
+				id: "0E44E7823D120652"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "7AA7DB471493FC6E"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -1.7d
+		}
+		{
+			dependencies: ["004A14000000000A"]
+			icon: {
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
+			id: "5EE088CAA3FF5EBD"
+			rewards: [{
+				id: "5CFA4109BCD62287"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "2420F12E6AA3C772"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: -2.6d
+			y: -1.9d
+		}
+		{
+			dependencies: ["004B15000000000B"]
+			icon: {
+				id: "immersiveengineering:light_engineering"
+			}
+			id: "5BFB665871808028"
+			rewards: [{
+				id: "255FC03230DC094F"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "085121CF59D90960"
+				item: { count: 1, id: "immersiveengineering:light_engineering" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.6d
+		}
+		{
+			dependencies: ["5BFB665871808028"]
+			icon: {
+				id: "immersiveengineering:heavy_engineering"
+			}
+			id: "61A60994E418AC43"
+			rewards: [{
+				id: "1E8D6A6BEC6E5C96"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "44AF5C8C05001FE8"
+				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+				type: "item"
+			}]
+			x: 2.7d
+			y: 0.8d
+		}
+		{
+			dependencies: ["5BFB665871808028"]
+			icon: {
+				id: "immersiveengineering:rs_engineering"
+			}
+			id: "72A8722824A9AC51"
+			rewards: [{
+				id: "4489C4801561F455"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "2DD11F313DDCE712"
+				item: { count: 1, id: "immersiveengineering:rs_engineering" }
+				type: "item"
+			}]
+			x: -2.4d
+			y: 1.9d
+		}
+		{
+			dependencies: ["004A14000000000A"]
+			icon: {
+				id: "immersiveengineering:cokebrick"
+			}
+			id: "2112DFBC7142EA8E"
+			rewards: [{
+				id: "301CD53DC9AC40D6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0185BE32E767E37E"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: -10.21d
+		}
+		{
+			dependencies: ["2112DFBC7142EA8E"]
+			icon: {
+				id: "immersiveengineering:creosote_bucket"
+			}
+			id: "6202AD51CCC14EBF"
+			rewards: [{
+				id: "70AE7DDB9D9C5D55"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "79CC03BD1DF72A7F"
+				item: { count: 1, id: "immersiveengineering:creosote_bucket" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -10.21d
+		}
+		{
+			dependencies: ["1454AE15804E8B84"]
+			icon: {
+				id: "immersiveengineering:blastbrick"
+			}
+			id: "16AF68441EFB13F4"
+			rewards: [{
+				id: "292EE06FDC1438DE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1FDB1A7D07671624"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: -10.21d
+		}
+		{
+			dependencies: ["16AF68441EFB13F4"]
+			icon: {
+				id: "immersiveengineering:blastbrick_reinforced"
+			}
+			id: "2591CA5570A750E6"
+			rewards: [{
+				id: "22EC4629B73D5673"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "76B50643995CBD28"
+				item: { count: 1, id: "immersiveengineering:blastbrick_reinforced" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: -8.79d
+		}
+		{
+			dependencies: ["2591CA5570A750E6"]
+			icon: {
+				id: "immersiveengineering:blastfurnace_preheater"
+			}
+			id: "4E1F56B235FA7F53"
+			rewards: [{
+				id: "6B5BED1F316314D7"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "326FF77758DBAFEE"
+				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
+				type: "item"
+			}]
+			x: -11.25d
+			y: -8.79d
+		}
+		{
+			dependencies: ["2112DFBC7142EA8E"]
+			icon: {
+				id: "immersiveengineering:alloybrick"
+			}
+			id: "1454AE15804E8B84"
+			rewards: [{
+				id: "6AC13EE07B6BC39F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0EA216356CD9FFBF"
+				item: { count: 1, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			x: -12.75d
+			y: -10.21d
+		}
+		{
+			dependencies: ["4DE69AFD0100EC28"]
+			icon: {
+				id: "immersiveengineering:graphite_electrode"
+			}
+			id: "17B026B50A23DAB5"
+			rewards: [{
+				id: "22A0F535EA97940C"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "33D095D05321D71F"
+				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
+				type: "item"
+			}]
+			x: -9.75d
+			y: -8.79d
+		}
+		{
+			dependencies: ["16AF68441EFB13F4"]
+			icon: {
+				id: "immersiveengineering:furnace_heater"
+			}
+			id: "4DE69AFD0100EC28"
+			rewards: [{
+				id: "6BA91637A3B6115B"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2D627278AE192551"
+				item: { count: 1, id: "immersiveengineering:furnace_heater" }
+				type: "item"
+			}]
+			x: -12.75d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004A14000000000A"]
+			icon: {
+				id: "immersiveengineering:plate_iron"
+			}
+			id: "004B18000000000B"
+			rewards: [{
+				id: "00676A0C14C19A75"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0F36AC357621132F"
+				item: { count: 1, id: "immersiveengineering:plate_iron" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -11.63d
+		}
+		{
+			dependencies: ["004B18000000000B"]
+			icon: {
+				id: "immersiveengineering:plate_copper"
+			}
+			id: "004B14000000000B"
+			rewards: [{
+				id: "10931E669B9AC211"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4BC4619810603D81"
+				item: { count: 1, id: "immersiveengineering:plate_copper" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -10.21d
+		}
+		{
+			dependencies: ["004B16000000000B"]
+			icon: {
+				id: "immersiveengineering:plate_steel"
+			}
+			id: "004B19000000000B"
+			rewards: [{
+				id: "304A3007E0CEB097"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "027AE020D77D8AD8"
+				item: { count: 1, id: "immersiveengineering:plate_steel" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004B17000000000B"]
+			icon: {
+				id: "immersiveengineering:ingot_electrum"
+			}
+			id: "004B16000000000B"
+			rewards: [{
+				id: "1890744AF05B47BB"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "0E8DA03816819E17"
+				item: { count: 1, id: "immersiveengineering:ingot_electrum" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -8.79d
+		}
+		{
+			dependencies: ["0C4D16090D11703D"]
+			icon: {
+				id: "immersiveengineering:ingot_constantan"
+			}
+			id: "004B17000000000B"
+			rewards: [{
+				id: "5AD6BB6677FF31A0"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "6B6271EF2C45D4FA"
+				item: { count: 1, id: "immersiveengineering:ingot_constantan" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004B18000000000B"]
+			icon: {
+				id: "immersiveengineering:component_iron"
+			}
+			id: "004B1A000000000B"
+			rewards: [{
+				id: "090986237F18DB2D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "02A4268628EC5929"
+				item: { count: 1, id: "immersiveengineering:component_iron" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -11.63d
+		}
+		{
+			dependencies: ["004B19000000000B"]
+			icon: {
+				id: "immersiveengineering:component_steel"
+			}
+			id: "004B1B000000000B"
+			rewards: [{
+				id: "2B028929D48EA5E7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "244BAFCAEF690E89"
+				item: { count: 1, id: "immersiveengineering:component_steel" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004B18000000000B"]
+			icon: {
+				id: "immersiveengineering:sheetmetal_iron"
+			}
+			id: "36D4C88D07FFEC35"
+			rewards: [{
+				id: "593036530CB15FE0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "21F1E853E8FAEF3B"
+				item: { count: 1, id: "immersiveengineering:sheetmetal_iron" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -10.21d
+		}
+		{
+			dependencies: ["004B19000000000B"]
+			icon: {
+				id: "immersiveengineering:sheetmetal_steel"
+			}
+			id: "529F4B221B3A419B"
+			rewards: [{
+				id: "78255F53BF43DBD0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "119BD39899A3975F"
+				item: { count: 1, id: "immersiveengineering:sheetmetal_steel" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -7.37d
+		}
+		{
+			dependencies: ["36D4C88D07FFEC35"]
+			icon: {
+				id: "immersiveengineering:slab_sheetmetal_iron"
+			}
+			id: "0055BEA37DAF2AEF"
+			rewards: [{
+				id: "00FCDC79C788973C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "7C35755695F08916"
+				item: { count: 1, id: "immersiveengineering:slab_sheetmetal_iron" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -10.21d
+		}
+		{
+			dependencies: ["529F4B221B3A419B"]
+			icon: {
+				id: "immersiveengineering:slab_sheetmetal_steel"
+			}
+			id: "6316FF02D02AAB8F"
+			rewards: [{
+				id: "6686A6CF765A7FD5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "318DBD3072ED1484"
+				item: { count: 1, id: "immersiveengineering:slab_sheetmetal_steel" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -7.37d
+		}
+		{
+			dependencies: ["4000000000000000"]
+			icon: {
+				id: "immersiveengineering:hemp_fiber"
+			}
+			id: "1AB258AEE83C34D9"
+			rewards: [{
+				id: "66D4301F0153F631"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "115269424018A419"
+				item: { count: 1, id: "immersiveengineering:hemp_fiber" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: -11.63d
+		}
+		{
+			dependencies: ["4000000000000000"]
+			icon: {
+				id: "immersiveengineering:seed"
+			}
+			id: "1402A7362A5C103A"
+			rewards: [{
+				id: "62E6212FF24F537F"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "55927CD2518874D1"
+				item: { count: 1, id: "immersiveengineering:seed" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: -11.63d
+		}
+		{
+			dependencies: ["004B14000000000B"]
+			icon: {
+				id: "immersiveengineering:slab_treated_wood_horizontal"
+			}
+			id: "0C4D16090D11703D"
+			rewards: [{
+				id: "711555203F5868A9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "0796226669221E97"
+				item: { count: 1, id: "immersiveengineering:slab_treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: -10.21d
+		}
+		{
+			dependencies: ["004B15000000000B"]
+			icon: {
+				id: "immersiveengineering:wirecoil_copper"
+			}
+			id: "004C1B000000000C"
+			rewards: [{
+				id: "5213B86EAC8D3109"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "171FBF0680267D67"
+				item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -11.63d
+		}
+		{
+			dependencies: ["004B16000000000B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:wirecoil_electrum"
+			}
+			id: "004C1C000000000C"
+			rewards: [{
+				id: "79D9E28971FE7C14"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "63E8EFEFE175F7DD"
+				item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004C1B000000000C"]
+			icon: {
+				id: "immersiveengineering:wirecoil_steel"
+			}
+			id: "004C1D000000000C"
+			rewards: [{
+				id: "2EF479836C9B1706"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "342F636EB8942B94"
+				item: { count: 1, id: "immersiveengineering:wirecoil_steel" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: -11.63d
+		}
+		{
+			dependencies: ["004C1B000000000C"]
+			icon: {
+				id: "immersiveengineering:coil_lv"
+			}
+			id: "36CBEE8928A9EDA4"
+			rewards: [{
+				id: "3B971EEBC74D974B"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "25E10B27DFEAF09E"
+				item: { count: 1, id: "immersiveengineering:coil_lv" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -11.63d
+		}
+		{
+			dependencies: ["004C1D000000000C"]
+			icon: {
+				id: "immersiveengineering:coil_hv"
+			}
+			id: "333FC4EDE665B6AB"
+			rewards: [{
+				id: "6CE9208362000DB7"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "4B8D598765D61CBF"
+				item: { count: 1, id: "immersiveengineering:coil_hv" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -10.21d
+		}
+		{
+			dependencies: ["36CBEE8928A9EDA4"]
+			icon: {
+				id: "immersiveengineering:connector_lv"
+			}
+			id: "6E99E96C407EC762"
+			rewards: [{
+				id: "7FA796788A956827"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "648CB6B38D104BAD"
+				item: { count: 1, id: "immersiveengineering:connector_lv" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -10.21d
+		}
+		{
+			dependencies: ["004C1C000000000C"]
+			icon: {
+				id: "immersiveengineering:connector_mv"
+			}
+			id: "2A191CAAAD377B48"
+			rewards: [{
+				id: "5F5838D05A02F4EF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2D096A9AB6B2C66B"
+				item: { count: 1, id: "immersiveengineering:connector_mv" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -7.37d
+		}
+		{
+			dependencies: ["333FC4EDE665B6AB"]
+			icon: {
+				id: "immersiveengineering:connector_hv"
+			}
+			id: "266DDF09CA1A457E"
+			rewards: [{
+				id: "03A2509B887129A3"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "5BF09CAF9E9B16F1"
+				item: { count: 1, id: "immersiveengineering:connector_hv" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004C1D000000000C"]
+			icon: {
+				id: "immersiveengineering:capacitor_lv"
+			}
+			id: "004C18000000000C"
+			rewards: [{
+				id: "6072D7E98D30A9D7"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6A033349E75116EF"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: -10.21d
+		}
+		{
+			dependencies: ["004C1A000000000C"]
+			icon: {
+				id: "immersiveengineering:capacitor_mv"
+			}
+			id: "004C19000000000C"
+			rewards: [{
+				id: "3A7E7E8A5F0CE584"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "44F5C273B94532EA"
+				item: { count: 1, id: "immersiveengineering:capacitor_mv" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004C18000000000C"]
+			icon: {
+				id: "immersiveengineering:capacitor_hv"
+			}
+			id: "004C1A000000000C"
+			rewards: [{
+				id: "509369FB5E3CF40B"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "142920548CBFEBC3"
+				item: { count: 1, id: "immersiveengineering:capacitor_hv" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: -10.21d
+		}
+		{
+			dependencies: ["266DDF09CA1A457E"]
+			icon: {
+				id: "immersiveengineering:lightning_rod"
+			}
+			id: "004F170000000010"
+			rewards: [{
+				id: "22C4DD02D99DE701"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0173043B2C35A204"
+				item: { count: 1, id: "immersiveengineering:lightning_rod" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -7.37d
+		}
+		{
+			dependencies: ["6E99E96C407EC762"]
+			icon: {
+				id: "immersiveengineering:fluorescent_tube"
+			}
+			id: "004D17000000000D"
+			rewards: [{
+				id: "5553625683757282"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "269538AF0593A75A"
+				item: { count: 1, id: "immersiveengineering:fluorescent_tube" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: -8.79d
+		}
+		{
+			dependencies: ["004C1B000000000C"]
+			icon: {
+				id: "immersiveengineering:electromagnet"
+			}
+			id: "4440684B3FD226DE"
+			rewards: [{
+				id: "3E6E2138EC2CA846"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "3FEE82A0646ABFFD"
+				item: { count: 1, id: "immersiveengineering:electromagnet" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -11.63d
+		}
+		{
+			dependencies: ["61A60994E418AC43"]
+			icon: {
+				id: "immersiveengineering:metal_press"
+			}
+			id: "004E14000000000E"
+			rewards: [{
+				id: "0D495D29D5A4B687"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "0CA4D7865AFDC4CA"
+				item: { count: 1, id: "immersiveengineering:metal_press" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: -2.13d
+		}
+		{
+			dependencies: ["004E1C000000000E"]
+			icon: {
+				id: "immersiveengineering:crusher"
+			}
+			id: "004E15000000000E"
+			rewards: [{
+				id: "0B58498CBEFBEDB4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1D223E241A778D94"
+				item: { count: 1, id: "immersiveengineering:crusher" }
+				type: "item"
+			}]
+			x: 15.25d
+			y: -0.71d
+		}
+		{
+			dependencies: ["004E17000000000E"]
+			icon: {
+				id: "immersiveengineering:mixer"
+			}
+			id: "004E1A000000000E"
+			rewards: [{
+				id: "3F7AD5F49F2478B3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "170B2A0234513A88"
+				item: { count: 1, id: "immersiveengineering:mixer" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 0.71d
+		}
+		{
+			dependencies: ["004F150000000010"]
+			icon: {
+				id: "immersiveengineering:squeezer"
+			}
+			id: "004E16000000000E"
+			rewards: [{
+				id: "1429D75158432DF6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "40C17A10FB392644"
+				item: { count: 1, id: "immersiveengineering:squeezer" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 2.13d
+		}
+		{
+			dependencies: ["4FFFFFFFFFFFFFFF"]
+			icon: {
+				id: "immersiveengineering:fermenter"
+			}
+			id: "004E17000000000E"
+			rewards: [{
+				id: "3853BE7BAD93D9F2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "54E3210401A3F460"
+				item: { count: 1, id: "immersiveengineering:fermenter" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 0.71d
+		}
+		{
+			dependencies: ["004E1A000000000E"]
+			icon: {
+				id: "immersiveengineering:refinery"
+			}
+			id: "004E18000000000E"
+			rewards: [{
+				id: "6109BA28B3CEAA63"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "53313B6CF6BBB6E4"
+				item: { count: 1, id: "immersiveengineering:refinery" }
+				type: "item"
+			}]
+			x: 15.25d
+			y: 0.71d
+		}
+		{
+			dependencies: ["3C0B5C47C1F65166"]
+			icon: {
+				id: "immersiveengineering:bottling_machine"
+			}
+			id: "004E1B000000000E"
+			rewards: [{
+				id: "3D713596AA6424EF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7D84C974A0E63FBF"
+				item: { count: 1, id: "immersiveengineering:bottling_machine" }
+				type: "item"
+			}]
+			x: 15.25d
+			y: -2.13d
+		}
+		{
+			dependencies: ["004E1B000000000E"]
+			icon: {
+				id: "immersiveengineering:arc_furnace"
+			}
+			id: "004E19000000000E"
+			rewards: [{
+				id: "0966E42EB889F27B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6A910B661D5278DF"
+				item: { count: 1, id: "immersiveengineering:arc_furnace" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: -0.71d
+		}
+		{
+			dependencies: ["004E15000000000E"]
+			icon: {
+				id: "immersiveengineering:excavator"
+			}
+			id: "4FFFFFFFFFFFFFFF"
+			rewards: [{
+				id: "196EA344E8B9332C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2C14821939A1E3CE"
+				item: { count: 1, id: "immersiveengineering:excavator" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 0.71d
+		}
+		{
+			dependencies: ["004E18000000000E"]
+			icon: {
+				id: "immersiveengineering:sample_drill"
+			}
+			id: "004F150000000010"
+			rewards: [{
+				id: "4F94CB4C81FF20A5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5150DD7B92E630FB"
+				item: { count: 1, id: "immersiveengineering:sample_drill" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 2.13d
+		}
+		{
+			dependencies: ["004E19000000000E"]
+			icon: {
+				id: "immersiveengineering:assembler"
+			}
+			id: "004F180000000010"
+			rewards: [{
+				id: "5C97947608D23BFA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2E9EC5C2366C4603"
+				item: { count: 1, id: "immersiveengineering:assembler" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: -0.71d
+		}
+		{
+			dependencies: ["004F180000000010"]
+			icon: {
+				id: "immersiveengineering:auto_workbench"
+			}
+			id: "004E1C000000000E"
+			rewards: [{
+				id: "164F40626309DACE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "749BEB935DC3FD51"
+				item: { count: 1, id: "immersiveengineering:auto_workbench" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: -0.71d
+		}
+		{
+			dependencies: ["004E14000000000E"]
+			icon: {
+				id: "immersiveengineering:cloche"
+			}
+			id: "4A64E40B780431B8"
+			rewards: [{
+				id: "63BFB743B24064FB"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "5E268F83D9AAE7CC"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: -2.13d
+		}
+		{
+			dependencies: ["4A64E40B780431B8"]
+			icon: {
+				id: "immersiveengineering:turntable"
+			}
+			id: "3C0B5C47C1F65166"
+			rewards: [{
+				id: "12C05691AA36BCC1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "226FA59C7C1260CA"
+				item: { count: 1, id: "immersiveengineering:turntable" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: -2.13d
+		}
+		{
+			dependencies: ["5BFB665871808028"]
+			icon: {
+				id: "immersiveengineering:dynamo"
+			}
+			id: "004C14000000000C"
+			rewards: [{
+				id: "46B260583359DA8C"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "6337643152EEA1A3"
+				item: { count: 1, id: "immersiveengineering:dynamo" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 8.58d
+		}
+		{
+			dependencies: ["004C14000000000C"]
+			icon: {
+				id: "immersiveengineering:windmill"
+			}
+			id: "004C15000000000C"
+			rewards: [{
+				id: "6E2A64212042B51E"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "2FECC99D8EBC3BEC"
+				item: { count: 1, id: "immersiveengineering:windmill" }
+				type: "item"
+			}]
+			x: 15.25d
+			y: 8.58d
+		}
+		{
+			dependencies: ["004C14000000000C"]
+			icon: {
+				id: "immersiveengineering:watermill"
+			}
+			id: "004C16000000000C"
+			rewards: [{
+				id: "41509B2C63D4330A"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "2E4D8C5132CDDFBB"
+				item: { count: 1, id: "immersiveengineering:watermill" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 8.58d
+		}
+		{
+			dependencies: ["004C15000000000C"]
+			icon: {
+				id: "immersiveengineering:windmill_sail"
+			}
+			id: "7F7145D2F9B59CB6"
+			rewards: [{
+				id: "6B8182B5D476273A"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "4085445EA2C2189C"
+				item: { count: 1, id: "immersiveengineering:windmill_sail" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2896978C06032431"]
+			icon: {
+				id: "immersiveengineering:thermoelectric_generator"
+			}
+			id: "004C17000000000C"
+			rewards: [{
+				id: "102A7333853D4D5F"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "419D9481F4E2B0FC"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["004C17000000000C"]
+			icon: {
+				id: "immersiveengineering:diesel_generator"
+			}
+			id: "004F160000000010"
+			rewards: [{
+				id: "22375952E6D0A29D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "50733487D8A5A7AF"
+				item: { count: 1, id: "immersiveengineering:diesel_generator" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["004F160000000010"]
+			icon: {
+				id: "immersiveengineering:generator"
+			}
+			id: "6E717F791D403327"
+			rewards: [{
+				id: "5170C569227CD1E6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3A775817B55332E5"
+				item: { count: 1, id: "immersiveengineering:generator" }
+				type: "item"
+			}]
+			x: 15.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6E717F791D403327"]
+			icon: {
+				id: "immersiveengineering:radiator"
+			}
+			id: "2CF9893CD70A3CF3"
+			rewards: [{
+				id: "4D70E11186226D41"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2BF91BFD7AC163C7"
+				item: { count: 1, id: "immersiveengineering:radiator" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 11.42d
+		}
+		{
+			dependencies: ["004C14000000000C"]
+			icon: {
+				id: "immersiveengineering:charging_station"
+			}
+			id: "2896978C06032431"
+			rewards: [{
+				id: "49CBE56D3104CBC5"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "3B552728E0BDF57E"
+				item: { count: 1, id: "immersiveengineering:charging_station" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 8.58d
+		}
+		{
+			dependencies: ["2CF9893CD70A3CF3"]
+			icon: {
+				id: "immersiveengineering:tesla_coil"
+			}
+			id: "7C3F2F7C73A5A62E"
+			rewards: [{
+				id: "6CCD6FEE8A7CBA0A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "58B83B94B6EED0F4"
+				item: { count: 1, id: "immersiveengineering:tesla_coil" }
+				type: "item"
+			}]
+			x: 12.25d
+			y: 11.42d
+		}
+		{
+			dependencies: ["72A8722824A9AC51"]
+			icon: {
+				id: "immersiveengineering:conveyor_basic"
+			}
+			id: "004114000000000F"
+			rewards: [{
+				id: "0AF8B7EA06DD0398"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6609F668C031C4E0"
+				item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+				type: "item"
+			}]
+			x: -15.25d
+			y: -1.42d
+		}
+		{
+			dependencies: ["1D7548A075CD2D91"]
+			icon: {
+				id: "immersiveengineering:fluid_pipe"
+			}
+			id: "004115000000000F"
+			rewards: [{
+				id: "0C7793C13A51615A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2AC4A06D4CA93D0B"
+				item: { count: 1, id: "immersiveengineering:fluid_pipe" }
+				type: "item"
+			}]
+			x: -13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["004115000000000F"]
+			icon: {
+				id: "immersiveengineering:pipe_valve"
+			}
+			id: "48A765F05444CD93"
+			rewards: [{
+				id: "5F6C928A66F7EA5D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "69FFA03C011CCBB2"
+				item: { count: 1, id: "immersiveengineering:pipe_valve" }
+				type: "item"
+			}]
+			x: -15.25d
+			y: 1.42d
+		}
+		{
+			dependencies: ["004115000000000F"]
+			icon: {
+				id: "immersiveengineering:fluid_pump"
+			}
+			id: "004116000000000F"
+			rewards: [{
+				id: "0066176187E3F57B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3A142D9C9D987576"
+				item: { count: 1, id: "immersiveengineering:fluid_pump" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["004115000000000F"]
+			icon: {
+				id: "immersiveengineering:fluid_sorter"
+			}
+			id: "004117000000000F"
+			rewards: [{
+				id: "3193C26C85C7FBD8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "24F4646A41CCE850"
+				item: { count: 1, id: "immersiveengineering:fluid_sorter" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["004115000000000F"]
+			icon: {
+				id: "immersiveengineering:fluid_placer"
+			}
+			id: "451FE9BFB8E1AD71"
+			rewards: [{
+				id: "3183C2FAAC630289"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0DA6AE7826855B75"
+				item: { count: 1, id: "immersiveengineering:fluid_placer" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["004114000000000F"]
+			icon: {
+				id: "immersiveengineering:sorter"
+			}
+			id: "380BFECBDB722E5F"
+			rewards: [{
+				id: "5CD8D11EA5C2DFC8"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "15E8DE3753AAA901"
+				item: { count: 1, id: "immersiveengineering:sorter" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: -1.42d
+		}
+		{
+			dependencies: ["004114000000000F"]
+			icon: {
+				id: "immersiveengineering:item_batcher"
+			}
+			id: "004118000000000F"
+			rewards: [{
+				id: "599FD0A32694E864"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "7AE067A6F565DA6F"
+				item: { count: 1, id: "immersiveengineering:item_batcher" }
+				type: "item"
+			}]
+			x: -13.75d
+			y: -1.42d
+		}
+		{
+			dependencies: ["004115000000000F"]
+			icon: {
+				id: "immersiveengineering:metal_barrel"
+			}
+			id: "60FD371CA0120CD8"
+			rewards: [{
+				id: "5FF9F3A93637CD14"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "606AD8A64FD52AC4"
+				item: { count: 1, id: "immersiveengineering:metal_barrel" }
+				type: "item"
+			}]
+			x: -16.75d
+			y: 1.42d
+		}
+		{
+			dependencies: ["67FC08567C7E9BC3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:wooden_barrel"
+			}
+			id: "1D7548A075CD2D91"
+			rewards: [{
+				id: "244F3C22C836920C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "15544AE084046A1A"
+				item: { count: 1, id: "immersiveengineering:wooden_barrel" }
+				type: "item"
+			}]
+			x: -15.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["004B18000000000B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:jerrycan"
+			}
+			id: "6D6B277BC0175B5F"
+			rewards: [{
+				id: "0A967BA3698EFE48"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "55170210893A5C73"
+				item: { count: 1, id: "immersiveengineering:jerrycan" }
+				type: "item"
+			}]
+			x: -16.75d
+			y: -1.42d
+		}
+		{
+			dependencies: ["004114000000000F"]
+			icon: {
+				id: "immersiveengineering:reinforced_crate"
+			}
+			id: "3ACA4C50A98A3784"
+			rewards: [{
+				id: "5C00AF9949249DCB"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "3BD6AB3C95706073"
+				item: { count: 1, id: "immersiveengineering:reinforced_crate" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: -1.42d
+		}
+		{
+			dependencies: ["529F4B221B3A419B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:silo"
+			}
+			id: "004F190000000010"
+			rewards: [{
+				id: "26D9A95566798787"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "43D4719C9FF4D0C7"
+				item: { count: 1, id: "immersiveengineering:silo" }
+				type: "item"
+			}]
+			x: -16.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A0EA755470861C3"]
+			icon: {
+				id: "immersiveengineering:toolbox"
+			}
+			id: "004A19000000000A"
+			rewards: [{
+				id: "49F1C416DD7900C3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0678BCD7A8F171A9"
+				item: { count: 1, id: "immersiveengineering:toolbox" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: 1.42d
+		}
+		{
+			dependencies: ["649D2BF9A26410B3"]
+			icon: {
+				id: "immersiveengineering:steel_scaffolding_standard"
+			}
+			id: "3A0EA755470861C3"
+			rewards: [{
+				id: "077A34B96232F292"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "040CF1F977BFD49A"
+				item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
+				type: "item"
+			}]
+			x: -10.75d
+			y: 1.42d
+		}
+		{
+			dependencies: ["570E6819B50704B8"]
+			icon: {
+				id: "immersiveengineering:steel_post"
+			}
+			id: "649D2BF9A26410B3"
+			rewards: [{
+				id: "144EA42E60D48E57"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "09292789DD07E174"
+				item: { count: 1, id: "immersiveengineering:steel_post" }
+				type: "item"
+			}]
+			x: -12.25d
+			y: 1.42d
+		}
+		{
+			dependencies: ["60FD371CA0120CD8"]
+			icon: {
+				id: "immersiveengineering:steel_fence"
+			}
+			id: "570E6819B50704B8"
+			rewards: [{
+				id: "128C8752E1C292D6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3942AE8C68DD9BE1"
+				item: { count: 1, id: "immersiveengineering:steel_fence" }
+				type: "item"
+			}]
+			x: -13.75d
+			y: 1.42d
+		}
+		{
+			dependencies: ["3ACA4C50A98A3784"]
+			icon: {
+				id: "immersiveengineering:treated_fence"
+			}
+			id: "67FC08567C7E9BC3"
+			rewards: [{
+				id: "5EF5FFC2A9015EB3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "18AE5D33D507A40C"
+				item: { count: 1, id: "immersiveengineering:treated_fence" }
+				type: "item"
+			}]
+			x: -9.25d
+			y: -1.42d
+		}
+		{
+			dependencies: ["004A14000000000A"]
+			icon: {
+				id: "immersiveengineering:wirecutter"
+			}
+			id: "004A15000000000A"
+			rewards: [{
+				id: "1D3AD84B5ADC0D3D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5C618AC9EF73CFAE"
+				item: { count: 1, id: "immersiveengineering:wirecutter" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 7.66d
+		}
+		{
+			dependencies: ["004A15000000000A"]
+			icon: {
+				id: "immersiveengineering:screwdriver"
+			}
+			id: "004A16000000000A"
+			rewards: [{
+				id: "1B275959ED1DA305"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6CD89E10137283B9"
+				item: { count: 1, id: "immersiveengineering:screwdriver" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 7.66d
+		}
+		{
+			dependencies: ["004A16000000000A"]
+			icon: {
+				id: "immersiveengineering:voltmeter"
+			}
+			id: "5A96BBD9E5CBCC6A"
+			rewards: [{
+				id: "61559EE186781C45"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1B509D646D23C097"
+				item: { count: 1, id: "immersiveengineering:voltmeter" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 7.66d
+		}
+		{
+			dependencies: ["4000000000000000"]
+			icon: {
+				id: "immersiveengineering:manual"
+			}
+			id: "004A18000000000A"
+			rewards: [{
+				id: "61C9259EF91380A9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "68C9E5877F20F158"
+				item: { count: 1, id: "immersiveengineering:manual" }
+				type: "item"
+			}]
+			x: -14.75d
+			y: 7.66d
+		}
+		{
+			dependencies: ["5A96BBD9E5CBCC6A"]
+			icon: {
+				id: "immersiveengineering:craftingtable"
+			}
+			id: "2099DD7BD6316D0B"
+			rewards: [{
+				id: "14582625033754B1"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "325D03378DA2356A"
+				item: { count: 1, id: "immersiveengineering:craftingtable" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 7.66d
+		}
+		{
+			dependencies: ["2099DD7BD6316D0B"]
+			icon: {
+				id: "immersiveengineering:workbench"
+			}
+			id: "087B03CD76E6BE9B"
+			rewards: [{
+				id: "084A64A1A3872860"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "19844FA3AFD61611"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: -7.25d
+			y: 7.66d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:drill"
+			}
+			id: "742166AF7174005A"
+			rewards: [{
+				id: "46C89E8504D5A1EA"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "7961A3421C0BDBDF"
+				item: { count: 1, id: "immersiveengineering:drill" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 9.08d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:buzzsaw"
+			}
+			id: "4C76518C33A36531"
+			rewards: [{
+				id: "248B41CEDCAE502C"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "76D78E6EDBE169EE"
+				item: { count: 1, id: "immersiveengineering:buzzsaw" }
+				type: "item"
+			}]
+			x: -14.75d
+			y: 9.08d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			icon: {
+				id: "immersiveengineering:skyhook"
+			}
+			id: "3BC44971474CD495"
+			rewards: [{
+				id: "1A6857B8960F61E6"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "22311A2FC4B88EF1"
+				item: { count: 1, id: "immersiveengineering:skyhook" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 9.08d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			icon: {
+				id: "immersiveengineering:shield"
+			}
+			id: "77EA8E4B7625F9E5"
+			rewards: [{
+				id: "550C0F5D8B4F66DE"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "2CD63755442E435B"
+				item: { count: 1, id: "immersiveengineering:shield" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 9.08d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			icon: {
+				id: "immersiveengineering:powerpack"
+			}
+			id: "7CDE2D7C090D18BE"
+			rewards: [{
+				id: "1DC77FCC780CA0A0"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "6700A4BDD28940CB"
+				item: { count: 1, id: "immersiveengineering:powerpack" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 9.08d
+		}
+		{
+			dependencies: ["742166AF7174005A"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_drill_lube"
+			}
+			id: "42D7B1FF058C620E"
+			rewards: [{
+				id: "5F1DDFC86F7D08C3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "74200693C6EB8FEA"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_lube" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["742166AF7174005A"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_drill_capacity"
+			}
+			id: "0E2CCB1B3230F8EC"
+			rewards: [{
+				id: "2C6ED26FF66E4FA0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5CFD63F81E56D3EF"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_capacity" }
+				type: "item"
+			}]
+			x: -14.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["742166AF7174005A"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_drill_waterproof"
+			}
+			id: "0F547CE4AB315845"
+			rewards: [{
+				id: "23D68C146087F30F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0BE1783313F42B94"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_waterproof" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["742166AF7174005A"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_drill_damage"
+			}
+			id: "47E442F8144C487C"
+			rewards: [{
+				id: "1CFCC8847D0B0A60"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "78518040B8035C13"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_damage" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["742166AF7174005A"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_drill_fortune"
+			}
+			id: "53AC06242CF8175F"
+			rewards: [{
+				id: "58546C28C878D868"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "73C7BED6B72FC6F7"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_drill_fortune" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4C76518C33A36531"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+			}
+			id: "34755199CD93C2BF"
+			rewards: [{
+				id: "62B20EA8FDEA5E1F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3A2BC5224F3B233B"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_buzzsaw_spareblades" }
+				type: "item"
+			}]
+			x: -7.25d
+			y: 9.08d
+		}
+		{
+			dependencies: ["3BC44971474CD495"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:toolupgrade_skyhook_slope"
+			}
+			id: "503251EF7FEFE4B4"
+			rewards: [{
+				id: "3BFCAC2CB938D5F0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1CC11280E885233E"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_skyhook_slope" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 13.34d
+		}
+		{
+			dependencies: ["3BC44971474CD495"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:toolupgrade_skyhook_insulation"
+			}
+			id: "41C67547AE65BE62"
+			rewards: [{
+				id: "39E1958D24F7C01B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "14D20D938E7CE870"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_skyhook_insulation" }
+				type: "item"
+			}]
+			x: -14.75d
+			y: 13.34d
+		}
+		{
+			dependencies: ["3BC44971474CD495"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:toolupgrade_skyhook_mace"
+			}
+			id: "1AF5E3190BE51A5B"
+			rewards: [{
+				id: "70020C390DDE409A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "593C8AF9A98AE7D7"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_skyhook_mace" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 13.34d
+		}
+		{
+			dependencies: ["77EA8E4B7625F9E5"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_shield_flash"
+			}
+			id: "299BCE96FEA73AB3"
+			rewards: [{
+				id: "3F3A704FCD900A69"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "080D06F2F8372DEF"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_shield_flash" }
+				type: "item"
+			}]
+			x: -10.25d
+			y: 11.92d
+		}
+		{
+			dependencies: ["77EA8E4B7625F9E5"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_shield_shock"
+			}
+			id: "5672B45979199787"
+			rewards: [{
+				id: "003E39A285A3225B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0F1CFBE7A03C4FDE"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_shield_shock" }
+				type: "item"
+			}]
+			x: -7.25d
+			y: 11.92d
+		}
+		{
+			dependencies: ["77EA8E4B7625F9E5"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_shield_magnet"
+			}
+			id: "02F8183F2C7DA40A"
+			rewards: [{
+				id: "744418DA71417F6E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2E50F6E9B41971B6"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_shield_magnet" }
+				type: "item"
+			}]
+			x: -8.75d
+			y: 11.92d
+		}
+		{
+			dependencies: ["7CDE2D7C090D18BE"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_powerpack_antenna"
+			}
+			id: "4F06AB78AD0A1618"
+			rewards: [{
+				id: "275847AD94A98767"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5ED9D50B345A1AF1"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_antenna" }
+				type: "item"
+			}]
+			x: -7.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7CDE2D7C090D18BE"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_powerpack_induction"
+			}
+			id: "3F157A4950BC486A"
+			rewards: [{
+				id: "13F5CA1E02585444"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5BA5C89431CE9C77"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_induction" }
+				type: "item"
+			}]
+			x: -14.75d
+			y: 11.92d
+		}
+		{
+			dependencies: ["7CDE2D7C090D18BE"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_powerpack_magnet"
+			}
+			id: "69B3E480DBC8C60B"
+			rewards: [{
+				id: "467BC64846B1A387"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "26CA489227E93C97"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_magnet" }
+				type: "item"
+			}]
+			x: -13.25d
+			y: 11.92d
+		}
+		{
+			dependencies: ["7CDE2D7C090D18BE"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_powerpack_tesla"
+			}
+			id: "76D38B234DFD36A3"
+			rewards: [{
+				id: "7FA402B1FDC9AB53"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1D1A3799EA7DD933"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_powerpack_tesla" }
+				type: "item"
+			}]
+			x: -11.75d
+			y: 11.92d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:revolver"
+			}
+			id: "004D14000000000D"
+			rewards: [{
+				id: "428E4F701E43F95E"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "4556FFF5DBF278AC"
+				item: { count: 1, id: "immersiveengineering:revolver" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 9.37d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:railgun"
+			}
+			id: "004D15000000000D"
+			rewards: [{
+				id: "4C24058BB2C4B9E7"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "62F4E1F2442C7342"
+				item: { count: 1, id: "immersiveengineering:railgun" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 9.37d
+		}
+		{
+			dependencies: ["087B03CD76E6BE9B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:chemthrower"
+			}
+			id: "004D16000000000D"
+			rewards: [{
+				id: "38C4E71CB7AE816B"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "77625780FB603E7B"
+				item: { count: 1, id: "immersiveengineering:chemthrower" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 9.37d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			icon: {
+				id: "immersiveengineering:speedloader"
+			}
+			id: "69199F508F467EDA"
+			rewards: [{
+				id: "715D56ED2634A030"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1C93E292118A3BE5"
+				item: { count: 1, id: "immersiveengineering:speedloader" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 10.79d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:bullet_casull"
+			}
+			id: "1ECF20AE4166F873"
+			rewards: [{
+				id: "23C5319AB6E390E9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5FB2732B3768C89F"
+				item: { count: 1, id: "immersiveengineering:bullet_casull" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 10.79d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			icon: {
+				id: "immersiveengineering:empty_casing"
+			}
+			id: "531B2472BF43405D"
+			rewards: [{
+				id: "7CA32E1AC3D43B69"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "12E501DD47058AD5"
+				item: { count: 1, id: "immersiveengineering:empty_casing" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 10.79d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			icon: {
+				id: "immersiveengineering:empty_shell"
+			}
+			id: "4C4CFC3D7A7D861F"
+			rewards: [{
+				id: "388F01DF0B398BA8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "774B23CFF838262F"
+				item: { count: 1, id: "immersiveengineering:empty_shell" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 10.79d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:turret_gun"
+			}
+			id: "4DB8102B36ABAA77"
+			rewards: [{
+				id: "465368965D882086"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4226393172BEBC25"
+				item: { count: 1, id: "immersiveengineering:turret_gun" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 13.63d
+		}
+		{
+			dependencies: ["004D16000000000D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:turret_chem"
+			}
+			id: "6E613F23E2C487FA"
+			rewards: [{
+				id: "59E2BB6AB0727F4D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "44B4050106624AF6"
+				item: { count: 1, id: "immersiveengineering:turret_chem" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 13.63d
+		}
+		{
+			dependencies: ["004B15000000000B"]
+			icon: {
+				id: "immersiveengineering:razor_wire"
+			}
+			id: "23A10BF20333B105"
+			rewards: [{
+				id: "563A775436B5EBCE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3342632B95B9538E"
+				item: { count: 1, id: "immersiveengineering:razor_wire" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 9.37d
+		}
+		{
+			dependencies: ["004D19000000000D"]
+			icon: {
+				id: "immersiveengineering:armor_steel_chestplate"
+			}
+			id: "004D18000000000D"
+			rewards: [{
+				id: "69DCBB872FF51F09"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "7BA87EA1F8FF1CB5"
+				item: { count: 1, id: "immersiveengineering:armor_steel_chestplate" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 9.37d
+		}
+		{
+			dependencies: ["23A10BF20333B105"]
+			icon: {
+				id: "immersiveengineering:armor_faraday_chestplate"
+			}
+			id: "004D19000000000D"
+			rewards: [{
+				id: "6AE5F6D1BBD19F07"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2C4B5ACAAD9F0928"
+				item: { count: 1, id: "immersiveengineering:armor_faraday_chestplate" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 9.37d
+		}
+		{
+			dependencies: ["004D18000000000D"]
+			icon: {
+				id: "immersiveengineering:sawblade"
+			}
+			id: "2E0881D34D8A2561"
+			rewards: [{
+				id: "4975E12C7DB8CE60"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "737FAF34D19777B2"
+				item: { count: 1, id: "immersiveengineering:sawblade" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 10.79d
+		}
+		{
+			dependencies: ["004D15000000000D"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_railgun_scope"
+			}
+			id: "68C487D0E1BD3431"
+			rewards: [{
+				id: "64C695D311DDE5D9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "069BFAB7CABEC673"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_railgun_scope" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 12.21d
+		}
+		{
+			dependencies: ["004D15000000000D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:toolupgrade_railgun_capacitors"
+			}
+			id: "489FB99B4851BFA2"
+			rewards: [{
+				id: "1300D802D80456DF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4B2599F6055F2577"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_railgun_capacitors" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 12.21d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_revolver_bayonet"
+			}
+			id: "07DC6B731F49D001"
+			rewards: [{
+				id: "3B1B9FF659517F6B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "51F8CF9465D3E240"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_revolver_bayonet" }
+				type: "item"
+			}]
+			x: 2.25d
+			y: 12.21d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_revolver_electro"
+			}
+			id: "6CBDC2CB9A5FF59F"
+			rewards: [{
+				id: "17933A975A72A5A2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "49C99F6FF02B8FDE"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_revolver_electro" }
+				type: "item"
+			}]
+			x: 3.75d
+			y: 12.21d
+		}
+		{
+			dependencies: ["004D14000000000D"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_revolver_magazine"
+			}
+			id: "78E6EEDF82F95645"
+			rewards: [{
+				id: "4ACBC0A52FFBADF8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0421D5358FB000F9"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_revolver_magazine" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 12.21d
+		}
+		{
+			dependencies: ["004D16000000000D"]
+			icon: {
+				id: "immersiveengineering:toolupgrade_chemthrower_focus"
+			}
+			id: "010982E094669016"
+			rewards: [{
+				id: "7686D27D3628E8EC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "02BB458AF9B41357"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_chemthrower_focus" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 10.79d
+		}
+		{
+			dependencies: ["004D16000000000D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:toolupgrade_chemthrower_multitank"
+			}
+			id: "2B6F964A8A7A8D24"
+			rewards: [{
+				id: "05D360E19577718A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1F37226A62FA64D4"
+				item: { count: 1, id: "immersiveengineering:toolupgrade_chemthrower_multitank" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 12.21d
+		}
+	]
+}

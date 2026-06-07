@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "1A8B3F2C4D5E6789"
+	icon: { id: "industrialforegoing:laser_drill" }
+	id: "2121212121212101"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "industrialforegoing:plant_sower"
+			}
+			id: "2100000000000001"
+			rewards: [{
+				id: "2200000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2300000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2100000000000001"]
+			id: "2100000000000002"
+			rewards: [{
+				count: 4
+				id: "2200000000000002"
+				item: {
+					count: 1
+					id: "industrialforegoing:plastic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2300000000000002"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2100000000000002"]
+			id: "2100000000000003"
+			rewards: [{
+				id: "2200000000000003"
+				item: {
+					count: 1
+					id: "industrialforegoing:plant_sower"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2300000000000003"
+				item: { count: 1, id: "industrialforegoing:plant_sower" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2100000000000002"]
+			id: "2100000000000004"
+			rewards: [{
+				id: "2200000000000004"
+				item: {
+					count: 1
+					id: "industrialforegoing:plant_gatherer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2300000000000004"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2100000000000002"]
+			id: "2100000000000005"
+			rewards: [{
+				id: "2200000000000005"
+				item: {
+					count: 1
+					id: "industrialforegoing:animal_rancher"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2300000000000005"
+				item: { count: 1, id: "industrialforegoing:animal_rancher" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2100000000000002"]
+			id: "2100000000000006"
+			rewards: [{
+				id: "2200000000000006"
+				item: {
+					count: 1
+					id: "industrialforegoing:mob_slaughter_factory"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2300000000000006"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2100000000000004"]
+			id: "2100000000000007"
+			rewards: [{
+				id: "2200000000000007"
+				item: {
+					count: 1
+					id: "industrialforegoing:bioreactor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2300000000000007"
+				item: { count: 1, id: "industrialforegoing:bioreactor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["2100000000000007"]
+			id: "2100000000000008"
+			rewards: [{
+				id: "2200000000000008"
+				item: {
+					count: 1
+					id: "industrialforegoing:biofuel_generator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2300000000000008"
+				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2100000000000002"]
+			id: "2100000000000009"
+			rewards: [
+				{
+					id: "2200000000000009"
+					item: { count: 1, id: "industrialforegoing:infinity_backpack" }
+					type: "item"
+				}
+				{
+					id: "220000000000000A"
+					item: { count: 1, id: "industrialforegoing:infinity_backpack" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2300000000000009"
+				item: { count: 1, id: "industrialforegoing:infinity_backpack" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2100000000000009"]
+			id: "210000000000FFFF"
+			rewards: [
+				{
+					id: "220000000000FFFF"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "220000000000FF01"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "230000000000FFFF"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.75d
+		}
+	]
+}

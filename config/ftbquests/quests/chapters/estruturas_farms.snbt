@@ -1,0 +1,614 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "estruturas_farms"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "mekanism:digital_miner"
+	}
+	id: "760EFF0C8127767D"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "industrialforegoing:laser_drill"
+			}
+			id: "0BF2A5C3E7E8C70C"
+			rewards: [{
+				id: "5BF5A16EFBD36FE8"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "186534490DA85B3D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF2A5C3E7E8C70C"]
+			id: "105A146A184F04FC"
+			rewards: [
+				{
+					id: "2C9F6282DC7C1A59"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "63FE90E6A5C70765"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7543471F917300E1"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D2E93F5DFE3EDD1"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105A146A184F04FC"]
+			id: "344B47199CB4C51A"
+			rewards: [
+				{
+					id: "72AE8B62E886CF1D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "5DEEB41D955CCBFF"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0F56392D817B2D90"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40D5C34F682F94C8"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["344B47199CB4C51A"]
+			id: "591F5F3455E94DFC"
+			rewards: [
+				{
+					id: "53BD9F0025F8E59E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "18F8A2E2F51515EF"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "75085F67432B50C2"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "1255052F1720A052"
+				item: { count: 1, id: "industrialforegoing:plant_sower" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["591F5F3455E94DFC"]
+			id: "3F4FF674C2B43A88"
+			rewards: [
+				{
+					id: "6A0767FB2FB3CD57"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "301C3749439F1F51"
+					item: {
+						count: 1
+						id: "industrialforegoing:iron_gear"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4AE5661907C36C30"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23DE4DB31C8BEB21"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["591F5F3455E94DFC"]
+			id: "12894F5D1BF4F6DB"
+			rewards: [
+				{
+					id: "0129E40C4E37E565"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "0BDF25EFC9130C2D"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+				{
+					id: "1C88E85ED4D6BCA6"
+					item: {
+						count: 1
+						id: "industrialforegoing:machine_frame_pity"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06FFBE3179A9E95C"
+				item: { count: 1, id: "industrialforegoing:animal_rancher" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["12894F5D1BF4F6DB"]
+			id: "6B3B8550ED7E19BD"
+			rewards: [
+				{
+					id: "5A03EB516DFE661B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "23C2391EC0AB0F8F"
+					item: {
+						count: 1
+						id: "industrialforegoing:iron_gear"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3E454231CC91883D"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4713E760CEE6E70C"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B3B8550ED7E19BD"]
+			id: "3DC1656154A72FCE"
+			rewards: [
+				{
+					id: "62D06DC0A90B487C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "1A4E42A02C2DB8EB"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+				{
+					id: "0BA2332DF560CE5C"
+					item: {
+						count: 1
+						id: "industrialforegoing:machine_frame_pity"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7768188FD2E3FBCA"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3F4FF674C2B43A88"]
+			id: "1CAF904CB8B4FBA2"
+			rewards: [
+				{
+					id: "54202CBA2B725131"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7254EACEC3D83CF0"
+					item: {
+						count: 1
+						id: "industrialforegoing:machine_frame_pity"
+					}
+					type: "item"
+				}
+				{
+					id: "2B16165EEFE82BE8"
+					item: {
+						count: 1
+						id: "industrialforegoing:latex_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A4DEB83101D4FEF"
+				item: { count: 1, id: "industrialforegoing:bioreactor" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F4FF674C2B43A88"]
+			id: "423007626FA4524D"
+			rewards: [
+				{
+					id: "29085350B6F01A8D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "05A49BB89AEED628"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "06C088EF052C49A2"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33BC88BB4FF34406"
+				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["423007626FA4524D"]
+			id: "02F46568F5FDD5E5"
+			rewards: [
+				{
+					id: "53B0CE65EDB62979"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "234E0ECC089BEDB4"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "68FD21BF046EE355"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "31C8645451D7DDD9"
+				item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["02F46568F5FDD5E5"]
+			id: "7FD8DE95844AED9A"
+			rewards: [
+				{
+					id: "594ED1215DCD3C1A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "60F4DA4B39CDF52F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5EE500FD9221C87F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "199EDC8FD734FD92"
+				item: { count: 1, id: "mysticalagriculture:awakening_altar" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DC1656154A72FCE"]
+			id: "1328299038B56CDC"
+			rewards: [
+				{
+					id: "218D620ED4472FDC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "4730B56DFBCDAD90"
+					item: {
+						count: 1
+						id: "industrialforegoing:iron_gear"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4DEDF4AF89DE4A0A"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E2C7B09D8ED04BC"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1328299038B56CDC"]
+			id: "40828EBF99C2F31F"
+			rewards: [
+				{
+					id: "3F43425C1CF06E58"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "61B89F4B5F69AB42"
+					item: {
+						count: 1
+						id: "industrialforegoing:fertilizer"
+					}
+					type: "item"
+				}
+				{
+					id: "640558B584AA0824"
+					item: {
+						count: 1
+						id: "industrialforegoing:latex_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3232F483C52A6D6C"
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["1328299038B56CDC"]
+			id: "69D2AE629E4CEC79"
+			rewards: [
+				{
+					id: "1E273ED86A1BB228"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7912052D59434A86"
+					item: {
+						count: 1
+						id: "immersiveengineering:wire_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2DFE11DAE5613D03"
+					item: {
+						count: 1
+						id: "immersiveengineering:plate_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1316C7FF78A30564"
+				item: { count: 1, id: "immersiveengineering:excavator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3DC1656154A72FCE"]
+			id: "631DEF21FFC5D3C2"
+			rewards: [
+				{
+					id: "629D7093CA8C0447"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "4EB2AFD42FD662F3"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F36016AF3ED0B33"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "688FB095FEF1A55C"
+				item: { count: 1, id: "occultism:dimensional_mineshaft" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"69D2AE629E4CEC79"
+				"631DEF21FFC5D3C2"
+			]
+			id: "57F4C09E50F92157"
+			rewards: [
+				{
+					id: "4946839F22BBA488"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2A9187070938BE1C"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "519419DF6E28EC60"
+					item: {
+						count: 1
+						id: "mekanism:hdpe_pellet"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "0B2D017290BDD547"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+	]
+}

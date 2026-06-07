@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aeronautics"
+	group: "6F1A8C7B9D2E5432"
+	icon: { id: "aeronautics:wooden_propeller" }
+	id: "0D418429EEC96505"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "aeronautics:wooden_propeller" }
+			id: "61B84C4C401F3627"
+			rewards: [{
+				id: "583FF6DCB0285549"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0E818753D82726DD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6677DFA4068CC041"
+			rewards: [{
+				count: 4
+				id: "5DF2537DFD586C1E"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "16C4D6E7B72FAED9"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "65250D92A4083545"
+			rewards: [{
+				count: 4
+				id: "6004026834FE7B14"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0405474BEA102EF2"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "2DB755EA8D813C6E"
+			rewards: [{
+				id: "25A7A5C2D7C01E5C"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "195AD866D3FA9786"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "4E7494CE52FDC010"
+			rewards: [{
+				count: 4
+				id: "11A1D08DC0C3FF3D"
+				item: { count: 1, id: "aeronautics:levitite" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2FAA396CDCA5DA15"
+				item: { count: 1, id: "aeronautics:levitite" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "0ED2EA5174798AED"
+			rewards: [
+				{
+					id: "03F745141F406018"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					id: "08FB6C1B12D24147"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4ACA796D83712C6B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+}

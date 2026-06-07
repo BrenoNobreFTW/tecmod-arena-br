@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enigmatic_legacy"
+	group: "3C7D5F4E6A8B9C12"
+	icon: {
+		id: "enigmaticlegacyplus:cursed_ring"
+	}
+	id: "6B5C49C4AC53ABC7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "enigmaticlegacyplus:cursed_ring"
+			}
+			id: "36C424AEE3C19C7C"
+			rewards: [{
+				id: "348A3488A91F95A9"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5B7B83ACF0977CDE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4FCE8435F34C1EB3"
+			rewards: [{
+				id: "124B76B9EF9E7B6C"
+				item: {
+					count: 1
+					id: "enigmaticlegacyplus:cursed_ring"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05CCECB69830216E"
+				item: { count: 1, id: "enigmaticlegacyplus:cursed_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "780784F2A7E51158"
+			rewards: [{
+				id: "5175B7E3EAD23025"
+				item: {
+					count: 1
+					id: "enigmaticlegacyplus:soul_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "468A1804E9D184BB"
+				item: { count: 1, id: "enigmaticlegacyplus:soul_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2FBCDDCD8A8C284C"
+			rewards: [{
+				id: "05108CE0AD1394FF"
+				item: { count: 1, id: "enigmaticlegacyplus:creation_heart" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF4814D6606F997"
+				item: { count: 1, id: "enigmaticlegacyplus:creation_heart" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "7C51F8586CF77300"
+			rewards: [{
+				id: "51290228773CEAAC"
+				item: {
+					count: 1
+					id: "enigmaticlegacyplus:abyssal_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0764BBE065AB1223"
+				item: { count: 1, id: "enigmaticlegacyplus:abyssal_heart" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "516CD5A5EF0C6FC6"
+			rewards: [{
+				id: "6CB7B223F75F3A52"
+				item: {
+					count: 1
+					id: "enigmaticlegacyplus:cosmic_heart"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AF2219481B152F2"
+				item: { count: 1, id: "enigmaticlegacyplus:cosmic_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "6B8806A3E219C1FD"
+			rewards: [
+				{
+					id: "6D7BE6379A0A5DA8"
+					item: { count: 1, id: "enigmaticlegacyplus:cursed_stone" }
+					type: "item"
+				}
+				{
+					id: "4D13014E1B23CB8F"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "13D7E7FC8567A8A1"
+				item: { count: 1, id: "enigmaticlegacyplus:cursed_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+}

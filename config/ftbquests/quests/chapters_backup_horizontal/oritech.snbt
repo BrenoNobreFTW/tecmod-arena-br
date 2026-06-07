@@ -1,0 +1,243 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "oritech:pulverizer_block"
+	}
+	id: "0202020202020201"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "oritech:pulverizer_block"
+			}
+			id: "0200000000000001"
+			rewards: [{
+				id: "0300000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0400000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0200000000000001"]
+			id: "0200000000000002"
+			rewards: [{
+				count: 4
+				id: "0300000000000002"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0400000000000002"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0200000000000002"]
+			id: "0200000000000003"
+			rewards: [{
+				id: "0300000000000003"
+				item: {
+					count: 1
+					id: "oritech:pulverizer_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0400000000000003"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0200000000000002"]
+			id: "0200000000000004"
+			rewards: [{
+				id: "0300000000000004"
+				item: {
+					count: 1
+					id: "oritech:foundry_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0400000000000004"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0200000000000002"]
+			id: "0200000000000005"
+			rewards: [{
+				id: "0300000000000005"
+				item: {
+					count: 1
+					id: "oritech:assembler_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0400000000000005"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0200000000000003"]
+			id: "0200000000000006"
+			rewards: [
+				{
+					count: 4
+					id: "0300000000000006"
+					item: {
+						count: 1
+						id: "oritech:basic_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "0300000000000007"
+					item: {
+						count: 1
+						id: "oritech:small_storage_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0400000000000006"
+				item: { count: 1, id: "oritech:small_storage_block" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0200000000000003"]
+			id: "0200000000000007"
+			rewards: [{
+				count: 4
+				id: "0300000000000008"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0400000000000007"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0200000000000003"]
+			id: "0200000000000008"
+			rewards: [{
+				id: "0300000000000009"
+				item: {
+					count: 1
+					id: "oritech:fragment_forge_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0400000000000008"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0200000000000004"]
+			id: "0200000000000009"
+			rewards: [{
+				id: "030000000000000A"
+				item: {
+					count: 1
+					id: "oritech:atomic_forge_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0400000000000009"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0200000000000005"]
+			id: "020000000000000A"
+			rewards: [{
+				id: "030000000000000B"
+				item: {
+					count: 1
+					id: "oritech:laser_arm_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "040000000000000A"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0200000000000009"]
+			id: "020000000000FFFF"
+			rewards: [
+				{
+					count: 4
+					id: "030000000000FFFF"
+					item: {
+						count: 1
+						id: "oritech:adamant_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "030000000000FF01"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "040000000000FFFF"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+	]
+}

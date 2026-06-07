@@ -1,0 +1,1738 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tfmg"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "tfmg:cast_iron_block"
+	}
+	id: "341680433DF32BF6"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "tfmg:cast_iron_block"
+			}
+			id: "20BB79EACA791D74"
+			rewards: [
+				{
+					id: "025DF143944AD6CE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "2F42995CAD3BCA94"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7125922477236ACD"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0F041CC24449FFF1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20BB79EACA791D74"]
+			id: "54C2AE81263DD0E6"
+			rewards: [
+				{
+					id: "325E834D87CB74B5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 8
+					id: "1617E19E6F83A1C2"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1CA97DFE35AC00F9"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0C57F4EEDDCCD51A"
+				item: { count: 1, id: "tfmg:cast_iron_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54C2AE81263DD0E6"]
+			id: "0C5F867454CCBC6D"
+			rewards: [
+				{
+					id: "697B74E1540B9062"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "6E5D77833FE4B763"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6159575EA9D14D04"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "5E444BD00F956038"
+				item: { count: 1, id: "tfmg:heavy_plate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C5F867454CCBC6D"]
+			id: "3D9171D49AAF27A8"
+			rewards: [
+				{
+					id: "6351FAAE780BB572"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 8
+					id: "088510CB9B314AED"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "036F6D3CA794F474"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				count: 4L
+				id: "6327A245DBCED920"
+				item: { count: 1, id: "tfmg:cast_iron_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54C2AE81263DD0E6"]
+			id: "4EA60FD4F24DC291"
+			rewards: [
+				{
+					id: "2342D44755CD2060"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "0C20CF6D2803FA6E"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1B92802CCFA02136"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BC33CBD3FF42750"
+				item: { count: 1, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "5E29F565E2FDA7E0"
+			rewards: [
+				{
+					id: "0B54DBA17969E19D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 8
+					id: "1A026AA3EF9FEAC4"
+					item: {
+						count: 1
+						id: "tfmg:coal_coke"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F26763946D2A251"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "4E37FB487578F691"
+				item: { count: 1, id: "tfmg:coal_coke" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "0F31EF4371683584"
+			rewards: [
+				{
+					id: "18F8EF57C2157662"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "5A3CF68B67FB86EC"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F2F3F69B5F23E49"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E419C771D4F8ADB"
+				item: { count: 1, id: "tfmg:blast_stove" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			id: "21320AF172BD1E12"
+			rewards: [
+				{
+					id: "337F7F0542C92545"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "3F201C29137C007A"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "746BEF40AE1634E0"
+					item: {
+						count: 1
+						id: "minecraft:bricks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "73E4E8E8B3EA1D6A"
+				item: { count: 1, id: "tfmg:blast_furnace_reinforcement" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			id: "0CCDAC8EB49AAF2F"
+			rewards: [
+				{
+					id: "27FBC786C4F2FEE8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "7A0438FDF12ACDEB"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "47500FACB6A5471C"
+					item: {
+						count: 1
+						id: "tfmg:heavy_plate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "379EFDA00FDF8EB6"
+				item: { count: 1, id: "tfmg:blast_furnace_hatch" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0CCDAC8EB49AAF2F"]
+			id: "7AEAC2A939EEBFC0"
+			rewards: [
+				{
+					id: "02CBDB42532592D9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 8
+					id: "034DAF65E8EF49DD"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5541D84F7332094D"
+					item: {
+						count: 1
+						id: "tfmg:coal_coke"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "7812BEFBE65102F5"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			id: "4536414389AE7423"
+			rewards: [
+				{
+					id: "68FC149349BD97DE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3A9AB63C67DED962"
+					item: {
+						count: 1
+						id: "minecraft:stripped_oak_log"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "77474D51E00C7829"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "02C0C156CABE0A16"
+				item: { count: 1, id: "tfmg:steel_casing" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			id: "6EFA8F849D73201E"
+			rewards: [
+				{
+					id: "5551A4CBAA21F0C8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "794731FFE9121431"
+					item: {
+						count: 1
+						id: "tfmg:heavy_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5CF06CDE572E2869"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "57C53924EC544CD2"
+				item: { count: 1, id: "tfmg:heavy_machinery_casing" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			id: "54851A26AC15BC71"
+			rewards: [
+				{
+					id: "5FAC8D41663C2452"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "55449946D8114142"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1F6B62A308EFEF09"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "6F35F8E5F47CA5A7"
+				item: { count: 1, id: "tfmg:steel_mechanism" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			id: "3AE789879CF6DF8A"
+			rewards: [
+				{
+					id: "45AEFE02D02866C3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7884CDF961EB3290"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D303826B280632F"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39C46C5B75CF32F3"
+					item: { count: 1, id: "tfmg:surface_scanner" }
+					type: "item"
+				}
+				{
+					id: "0D6B304A34D891A9"
+					item: { count: 1, id: "tfmg:oil_hammer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "2F1785AE156A19DE"
+			rewards: [
+				{
+					id: "3D3C5F6B52759627"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "7CE931340CE3F988"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "650540AE1FC2DD4E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "270E12422E3759FE"
+					item: { count: 1, id: "tfmg:pumpjack_base" }
+					type: "item"
+				}
+				{
+					id: "400DDA159A31855F"
+					item: { count: 1, id: "tfmg:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "5FD5222307B45D79"
+					item: { count: 1, id: "tfmg:pumpjack_hammer" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "551158195D9D6A35"
+			rewards: [
+				{
+					id: "76226F16A9A63494"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "4BB22088142DF5AA"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49F78CD975704507"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "420A79A218F3EA4F"
+				item: { count: 1, id: "tfmg:crude_oil_bucket" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "4146A3BA38FC9304"
+			rewards: [
+				{
+					id: "5A48AA1182286BC1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "29D07D07B51A1FBF"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B4B9DCD115B112A"
+					item: {
+						count: 1
+						id: "tfmg:heavy_plate"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4D6264A4FFB293D5"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "04FAEC4B05A7DC06"
+				item: { count: 1, id: "tfmg:steel_distillation_controller" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4146A3BA38FC9304"]
+			id: "52D329FD6BA21221"
+			rewards: [
+				{
+					id: "5FE522A53146CD5A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "422A93396788B35E"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D9919DF4245BE31"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3F8C5E36468E4052"
+				item: { count: 1, id: "tfmg:steel_distillation_output" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4146A3BA38FC9304"]
+			id: "17B45CEB8EBB7F64"
+			rewards: [
+				{
+					id: "4D4461F4E2007EDB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "73747398B7E26C88"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05C65D72EB3FDC28"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "644F439348A04FC9"
+				item: { count: 1, id: "tfmg:gasoline_bucket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4146A3BA38FC9304"]
+			id: "0E450ECBE856DAD6"
+			rewards: [
+				{
+					id: "603323804315013C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "35AE172EED86C49F"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "718F65052A63E245"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37AB914E0045B512"
+				item: { count: 1, id: "tfmg:diesel_bucket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4146A3BA38FC9304"]
+			id: "23E4943EE716E4FF"
+			rewards: [
+				{
+					id: "356A10E6CF8C4B74"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "2A01C0C9D48BB5CE"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "24E10811102DCD66"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3E980428B4577D07"
+					item: { count: 1, id: "tfmg:heavy_oil_bucket" }
+					type: "item"
+				}
+				{
+					id: "4D766FF6F92D967B"
+					item: { count: 1, id: "tfmg:lubrication_oil_bucket" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			id: "26AF708821A4A4CE"
+			rewards: [
+				{
+					id: "68EAD157603CF5D1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 8
+					id: "012D158BA0541104"
+					item: {
+						count: 1
+						id: "minecraft:gravel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1AF311FBEA00EA09"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "38001C7314053C55"
+					item: { count: 1, id: "tfmg:asphalt" }
+					type: "item"
+				}
+				{
+					id: "47FA4071C8875E4C"
+					item: { count: 1, id: "tfmg:bitumen" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			id: "5A59D4383C4E4573"
+			rewards: [
+				{
+					id: "5E4F5192649493C6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "03ED94D935BE4F9B"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20234767AC2B5E39"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "01D5B63E60604FB5"
+				item: { count: 1, id: "tfmg:simple_engine_cylinder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "6C37DA2A2B2B5C74"
+			rewards: [
+				{
+					id: "2468D761D37A1728"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "39ABFD5AA0065CDD"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F2A948BC2B3CA1F"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7ACF60588758E41E"
+				item: { count: 1, id: "tfmg:diesel_engine_cylinder" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C37DA2A2B2B5C74"]
+			id: "4AD2AA167605B9F7"
+			rewards: [
+				{
+					id: "271B41A07101AC0A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "3ADDD2B1EAA3BD20"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D487071413443F8"
+					item: {
+						count: 1
+						id: "tfmg:heavy_plate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F60EEFC9751A31C"
+					item: { count: 1, id: "tfmg:engine_controller" }
+					type: "item"
+				}
+				{
+					id: "69F058BB13C4CADF"
+					item: { count: 1, id: "tfmg:engine_gearbox" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "4259596A16EDA09B"
+			rewards: [
+				{
+					id: "7AC82D10A5736441"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 8
+					id: "2EA0EB9D7C5CFFD4"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56D5C75605C07A50"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49016E97BA909958"
+					item: { count: 1, id: "tfmg:regular_engine" }
+					type: "item"
+				}
+				{
+					id: "3ABD45DC6B40DDB6"
+					item: { count: 1, id: "tfmg:simple_large_engine" }
+					type: "item"
+				}
+				{
+					id: "226DCB2C863C402E"
+					item: { count: 1, id: "tfmg:radial_engine" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "69DE86E9648E5A43"
+			rewards: [
+				{
+					id: "1924306E7948AC83"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "344018881AA166FC"
+					item: {
+						count: 1
+						id: "tfmg:turbine_blade"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0DD3C336E9299909"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3609D133EB5D41BC"
+				item: { count: 1, id: "tfmg:turbine_engine" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			id: "35DEB00007360BF0"
+			rewards: [
+				{
+					id: "7D47927C90407FAA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "5A90321154D62FE6"
+					item: {
+						count: 1
+						id: "tfmg:bauxite"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4CE95978EC74882D"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "025030DAC1AC5197"
+				item: { count: 1, id: "tfmg:aluminum_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			id: "41BA9D99BFB79A9A"
+			rewards: [
+				{
+					id: "23BFC04A8A2896FA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "6CF9A9CF1825BC24"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "02BC4E3A440C595D"
+					item: {
+						count: 1
+						id: "tfmg:aluminum_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0905DF9A8002177B"
+					item: { count: 1, id: "tfmg:copper_wire" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65F28050E55EFD52"
+					item: { count: 1, id: "tfmg:aluminum_wire" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "02836D29FD5EFE34"
+					item: { count: 1, id: "tfmg:constantan_wire" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			id: "1B28C69E0741FBFC"
+			rewards: [
+				{
+					id: "502AC4569ABC9644"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "647048129DC5CBDA"
+					item: {
+						count: 1
+						id: "tfmg:copper_wire"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6383A617AEAFB070"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "3B9889108F31ADFD"
+				item: { count: 1, id: "tfmg:electromagnetic_coil" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "387041CD44CE33C0"
+			rewards: [
+				{
+					id: "1FE56DF50E238465"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "5F6FE01BF7F841AE"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76711C9956383A33"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C30C0CA29303A0F"
+				item: { count: 1, id: "tfmg:generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			id: "1524BBB299D45D34"
+			rewards: [
+				{
+					id: "5C0DF3D30D8CB84A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "128C0852F4BCC298"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63902F25F34BD578"
+					item: {
+						count: 1
+						id: "tfmg:electromagnetic_coil"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "737D5DBBF33D05E2"
+				item: { count: 1, id: "tfmg:electric_motor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			id: "60F415ECF546B805"
+			rewards: [
+				{
+					id: "51D37FF8EC35535F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5725B3ADBA100C22"
+					item: {
+						count: 1
+						id: "tfmg:copper_wire"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D3F4F3B6AE4A439"
+					item: {
+						count: 1
+						id: "tfmg:aluminum_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B44C254A6FFD6F7"
+					item: { count: 1, id: "tfmg:capacitor_item" }
+					type: "item"
+				}
+				{
+					id: "3B2BCD11EFC62908"
+					item: { count: 1, id: "tfmg:accumulator" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			id: "305891529A070F92"
+			rewards: [
+				{
+					id: "4CABF1A5FEA2F45D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "0E30D74635D9FD11"
+					item: {
+						count: 1
+						id: "tfmg:capacitor_item"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "316B099DBC487189"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34F2B923FBCABE9D"
+				item: { count: 1, id: "tfmg:etched_circuit_board" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			id: "008DEFB329174F1B"
+			rewards: [
+				{
+					id: "0C9CC382F244416F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "178EBEBE95ADEE25"
+					item: {
+						count: 1
+						id: "tfmg:etched_circuit_board"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3FA0660335B19CF9"
+					item: {
+						count: 1
+						id: "tfmg:electromagnetic_coil"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "203B59F50ED981C5"
+					item: { count: 1, id: "tfmg:transformer" }
+					type: "item"
+				}
+				{
+					id: "3485D129FB28FF54"
+					item: { count: 1, id: "tfmg:transistor_item" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			id: "0EC76ADBA70D2BF4"
+			rewards: [
+				{
+					id: "6ACC6257DC279A04"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "708D5F022BE812E6"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "66E83BA0B7629F23"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16C0B4631CC417FB"
+				item: { count: 1, id: "tfmg:industrial_mixer" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			id: "60F3EB53BAB2E687"
+			rewards: [
+				{
+					id: "4ADB11554E093949"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "26D8DFBDF96DDF7E"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77BE26B177DF0E06"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E4DA491326F0C55"
+				item: { count: 1, id: "tfmg:centrifuge" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54C2AE81263DD0E6"]
+			id: "1DC260E1EB0B3CD9"
+			rewards: [
+				{
+					id: "6AC3B9C5E51EA3A3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "3F4801805CAD7B68"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "62A8D031521E43D3"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1900B07AA64E531D"
+					item: { count: 1, id: "tfmg:copper_grenade" }
+					type: "item"
+				}
+				{
+					id: "7F32F005E50D867F"
+					item: { count: 1, id: "tfmg:zinc_grenade" }
+					type: "item"
+				}
+				{
+					id: "406AECE2592B25E5"
+					item: { count: 1, id: "tfmg:thermite_grenade" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "5882A74692081DA4"
+			rewards: [
+				{
+					id: "3D5AB98FA7D9B1A7"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 8
+					id: "46B977808BE82504"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "063CFED1A5EAD50B"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C901B551846A83B"
+				item: { count: 1, id: "tfmg:flamethrower" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "1534963BBCF73A3D"
+			rewards: [
+				{
+					id: "731C9E4DC909C21D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7DF1D9D88BADB112"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2547388991D96A16"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F0F057318C929A6"
+				item: { count: 1, id: "tfmg:advanced_potato_cannon" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20BB79EACA791D74"]
+			id: "3AFC030CFDA928DC"
+			rewards: [
+				{
+					id: "3CBB33C94D5AA456"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "3E562822A7BAF607"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C218B8B7A94AB6C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "486FF2F8D268070D"
+					item: { count: 1, id: "tfmg:electricians_wrench" }
+					type: "item"
+				}
+				{
+					id: "42F1A377C19ED665"
+					item: { count: 1, id: "tfmg:screwdriver" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "16B2EC6EC576E375"
+			rewards: [
+				{
+					id: "73B5A142A9938E20"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "29D93504973C758D"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32920ED37F4A922E"
+					item: {
+						count: 1
+						id: "tfmg:cast_iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "054A60496EF9A660"
+					item: { count: 1, id: "tfmg:steel_mechanical_pump" }
+					type: "item"
+				}
+				{
+					id: "6474DA80696FD863"
+					item: { count: 1, id: "tfmg:steel_smart_fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "3D408B1520BA85B6"
+					item: { count: 1, id: "tfmg:steel_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C5F867454CCBC6D"]
+			id: "240421BDC8D55589"
+			optional: true
+			rewards: [
+				{
+					id: "71EEF9E422435A44"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "110ABBBCA4EF3216"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "15A12D1DB11AD013"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "242F1C37BE1ACAD1"
+				item: { count: 1, id: "create:yellow_toolbox" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "046352CCA33CA915"
+			rewards: [
+				{
+					id: "30734C24F8C3E0BC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 16
+					id: "07631FC43AAE8928"
+					item: {
+						count: 1
+						id: "tfmg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "306FD5B0BB37F2AC"
+					item: {
+						count: 1
+						id: "tfmg:steel_mechanism"
+					}
+					type: "item"
+				}
+				{
+					id: "76C2C459EE3E9AE1"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: false
+					id: "05B2C4917077A759"
+					item: { count: 1, id: "tfmg:turbine_engine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7EE81C0DAFE1F187"
+					item: { count: 1, id: "tfmg:transformer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6051FB381BF79B8F"
+					item: { count: 1, id: "tfmg:asphalt" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 7.0d
+		}
+	]
+}

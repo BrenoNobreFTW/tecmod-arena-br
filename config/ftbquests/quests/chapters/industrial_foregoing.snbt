@@ -1,0 +1,3348 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "industrialforegoing:laser_drill"
+	}
+	id: "2121212121212101"
+	images: [
+		{
+			height: 1.0d
+			image: "tecmod:textures/quest_labels/if_title.png"
+			rotation: 0.0d
+			width: 5.5d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_materiais.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_maquinas.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: -9.9d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_fluidos.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 8.0d
+			y: -7.8d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_mycelial.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -8.0d
+			y: -2.4d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_mobs.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: -0.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_laser.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 8.0d
+			y: -0.3d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_conveyor.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -8.0d
+			y: 7.2d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_fazenda.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			height: 0.6d
+			image: "tecmod:textures/quest_labels/if_encanto.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 8.0d
+			y: 7.9d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "industrialforegoing:plastic"
+			}
+			id: "7000000000000000"
+			rewards: [
+				{
+					id: "0F06DB80F3120C84"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "14ED2A85D52F5056"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "7C3DC925BB2E57D0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "007F19000000000F"
+			rewards: [
+				{
+					id: "1529A6D3C6ACF0A5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "4A12E1F7ABA86BF6"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "43FCE09026E603AB"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05898FA75B622084"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: -7.4d
+		}
+		{
+			dependencies: ["007F19000000000F"]
+			id: "0887A3E19835977E"
+			rewards: [
+				{
+					id: "57920850F006546A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "17DA322EB8964BE8"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F98827C1EED53B8"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "296C5B0B1002B911"
+				item: { count: 1, id: "industrialforegoing:latex_bucket" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: -7.4d
+		}
+		{
+			id: "54517FF6878E31F4"
+			rewards: [
+				{
+					id: "55C8A1EA24DB0F37"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6526061DEDB7020C"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D134D30F18FC51C"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C9AB361DAD1EBFF"
+				item: { count: 1, id: "industrialforegoing:dryrubber" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: -7.4d
+		}
+		{
+			dependencies: ["54517FF6878E31F4"]
+			id: "3FB9FF2A0B48010F"
+			rewards: [
+				{
+					id: "6B8E1B652342E8BA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "618FDD59E5E5A5E8"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D081469DB1AB209"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E1993A549359280"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: -7.4d
+		}
+		{
+			dependencies: ["3FB9FF2A0B48010F"]
+			id: "57EC3915948A3C1F"
+			rewards: [
+				{
+					id: "1CA43322CC367349"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7C3D7579F1025819"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "195B2E700E66BF29"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50DF645FC0091811"
+				item: { count: 1, id: "industrialforegoing:pink_slime" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: -6.0d
+		}
+		{
+			id: "2FF44953376CB839"
+			rewards: [
+				{
+					id: "144E3E60505E42E6"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6DB1C22AA41283C9"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "133400B67FDFCB4B"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21A2E5F8BD5192EE"
+				item: { count: 1, id: "industrialforegoing:pink_slime_ingot" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: -6.0d
+		}
+		{
+			id: "6D27672A07AAEAE4"
+			rewards: [
+				{
+					id: "231A327FE3A4DF32"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6652C389097A3547"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5FFA39081C099B89"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19F6CA7AE71AB16A"
+				item: { count: 1, id: "industrialforegoing:pink_slime_bucket" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D27672A07AAEAE4"]
+			id: "0FEB38DC259BB5A4"
+			rewards: [
+				{
+					id: "00538A666F1B7F4B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "40667A01EB911FD9"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F9112EF2E757FDF"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1951F43BCCCFB116"
+				item: { count: 1, id: "industrialforegoing:iron_gear" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FEB38DC259BB5A4"]
+			id: "64A4FD763F951E85"
+			rewards: [
+				{
+					id: "46CB948B4BD6CBCA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6C1209168B5F3178"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "19E450B8A5D85B66"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "316F6BFF6764DA6B"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: -4.6d
+		}
+		{
+			id: "6462CE6076CD1E65"
+			rewards: [
+				{
+					id: "41B739B662D7826D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7D6276BDF64A3B46"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07FD037B20FA8F8C"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5783C59D2BE39133"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: -4.6d
+		}
+		{
+			dependencies: ["6462CE6076CD1E65"]
+			id: "6477BCAA11C1EBD4"
+			rewards: [
+				{
+					id: "453BBB5F2F2265F9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "460BEAB1D84DD405"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4CFFBFA6C1FCE372"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "338B194C88634FDA"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: -4.6d
+		}
+		{
+			dependencies: ["6477BCAA11C1EBD4"]
+			id: "3D2289682CC3109D"
+			rewards: [
+				{
+					id: "6F8ACBE4099F981C"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7F2E342BD7DBA3CC"
+					item: {
+						count: 1
+						id: "minecraft:iron_nugget"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E792E4CA7290450"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44D3234B9A97396B"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: -4.6d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "007D14000000000D"
+			rewards: [
+				{
+					id: "4CA511827F49F427"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "7094C082BA9032FA"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10E8ABF23CF894C0"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3067DC5B4526E2DA"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -8.8d
+		}
+		{
+			dependencies: ["007D14000000000D"]
+			id: "007D16000000000D"
+			rewards: [
+				{
+					id: "1CBB86ACBB2357F0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5403236FFB68849E"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "74C700631124E1A6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11A4FC977855BE98"
+				item: { count: 1, id: "industrialforegoing:fermentation_station" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -8.8d
+		}
+		{
+			dependencies: ["007D16000000000D"]
+			id: "007C1A000000000C"
+			rewards: [
+				{
+					id: "060ED1252B054A32"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3A4DE1F0BA606754"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "03F555E6209B30F7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F03E3E191E13E3E"
+				item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -8.8d
+		}
+		{
+			dependencies: ["007C1A000000000C"]
+			id: "007C19000000000C"
+			rewards: [
+				{
+					id: "3B62435F0F742140"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "7717A3ED5B9F0E31"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "29B8E472B64F368C"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55978D1CA3B1B5D1"
+				item: { count: 1, id: "industrialforegoing:fluid_collector" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -8.8d
+		}
+		{
+			dependencies: ["007C19000000000C"]
+			id: "007D17000000000D"
+			rewards: [
+				{
+					id: "66EAFF3BFF4BD1A3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "34489801B7548FD2"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D77EAFB19450199"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ED788F1075EE9F1"
+				item: { count: 1, id: "industrialforegoing:fluid_sieving_machine" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -7.4d
+		}
+		{
+			dependencies: ["007D17000000000D"]
+			id: "007D19000000000D"
+			rewards: [
+				{
+					id: "59A493EA1AC61A74"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2DF262D904DF307D"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25127F71D11420F0"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04C713C13C9403E8"
+				item: { count: 1, id: "industrialforegoing:washing_factory" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -7.4d
+		}
+		{
+			dependencies: ["007D19000000000D"]
+			id: "007D1A000000000D"
+			rewards: [
+				{
+					id: "6E3B329CE5A32B47"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "1BD30AB4F5A1BF64"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18B1DF44E7E481DD"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "042487553E7047F9"
+				item: { count: 1, id: "industrialforegoing:sludge_refiner" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -7.4d
+		}
+		{
+			dependencies: ["007D1A000000000D"]
+			id: "007E18000000000E"
+			rewards: [
+				{
+					id: "340F26A891C60937"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3795CFBCE50E05A1"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A58B963480F2672"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53A79E5A8ACB77C0"
+				item: { count: 1, id: "industrialforegoing:resourceful_furnace" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -7.4d
+		}
+		{
+			dependencies: ["007E18000000000E"]
+			id: "007D18000000000D"
+			rewards: [
+				{
+					id: "31053C87B8181676"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "2029210AE971324D"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "13D8BA30AD9578B3"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35FFEACB8F0D0410"
+				item: { count: 1, id: "industrialforegoing:material_stonework_factory" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -6.0d
+		}
+		{
+			dependencies: ["007D18000000000D"]
+			id: "007D15000000000D"
+			rewards: [
+				{
+					id: "11238EAC357C4D95"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "053ECCFB3E114408"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "483E837A2CBB9965"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "225E719975A1146B"
+				item: { count: 1, id: "industrialforegoing:dye_mixer" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -6.0d
+		}
+		{
+			dependencies: ["007D15000000000D"]
+			id: "7853545BF27E2914"
+			rewards: [
+				{
+					id: "107EF0772D865D23"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "4E8E5A7CF98CB45D"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30D6F1A182F7316A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17443C0AE306D3D2"
+				item: { count: 1, id: "industrialforegoing:fertilizer" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7853545BF27E2914"]
+			id: "007C17000000000C"
+			rewards: [
+				{
+					id: "46C4EC11AA9EE155"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3E790745B7B1A466"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2744819FC3CBF4D6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BCEFBA2D021164B"
+				item: { count: 1, id: "industrialforegoing:block_breaker" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -6.0d
+		}
+		{
+			dependencies: ["007C17000000000C"]
+			id: "007C18000000000C"
+			rewards: [
+				{
+					id: "070EB54FDBA24106"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5362F5E029068FE3"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12128EDD3F2D0FB2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "559C54E98D9E1F77"
+				item: { count: 1, id: "industrialforegoing:block_placer" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -4.6d
+		}
+		{
+			dependencies: ["007C18000000000C"]
+			id: "5475EF666C493DF5"
+			rewards: [
+				{
+					id: "3D5A05B37FE413F4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "73B8C319A0F4CE75"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4116ECBD1C025D86"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "764899EB915A84CB"
+				item: { count: 1, id: "industrialforegoing:fluid_placer" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: -4.6d
+		}
+		{
+			dependencies: ["5475EF666C493DF5"]
+			id: "62D14A100CFEFAE1"
+			rewards: [
+				{
+					id: "5673B725C1ED1B3D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "16B95771658F190A"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0FCE29744F32FE75"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4863AC047AE24C91"
+				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: -4.6d
+		}
+		{
+			id: "74DD30FE685CF3DF"
+			rewards: [
+				{
+					id: "6CEB3F1F8C550FC9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "66E60B39DA816C98"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5AA224BA6F25D90D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CA20958B02488D6"
+				item: { count: 1, id: "industrialforegoing:potion_brewer" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: -4.6d
+		}
+		{
+			id: "007A1A000000000A"
+			rewards: [
+				{
+					id: "1B8B3B780839FEE5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "12349C500BC77B8F"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4BB3CB6CFEF8B5B6"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "275760DB9325E0A0"
+				item: { count: 1, id: "industrialforegoing:sewage_composter" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: -3.2d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "2821AF8EE719249D"
+			rewards: [
+				{
+					id: "1ECAA26E246DF4A5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7D8677C10A20AA0F"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30C8520B3E1971D4"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A1AFF2AFBCBF55E"
+				item: { count: 1, id: "industrialforegoing:meat_bucket" }
+				type: "item"
+			}]
+			x: 5.9d
+			y: -6.7d
+		}
+		{
+			id: "04F8BA2B6CC162CC"
+			rewards: [
+				{
+					id: "5BC3628759374B12"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "645E85B2B3899C39"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4794892801B639B9"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EC58C7CFEEF173F"
+				item: { count: 1, id: "industrialforegoing:sewage_bucket" }
+				type: "item"
+			}]
+			x: 7.3d
+			y: -6.7d
+		}
+		{
+			dependencies: ["04F8BA2B6CC162CC"]
+			id: "166F80BBFE65C487"
+			rewards: [
+				{
+					id: "1FDC2BE2CC6E42CA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7F067B77734D2DE2"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34F819774781D32E"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CA9052D87816AE2"
+				item: { count: 1, id: "industrialforegoing:sludge_bucket" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: -6.7d
+		}
+		{
+			dependencies: ["166F80BBFE65C487"]
+			id: "426EFF148E33EA68"
+			rewards: [
+				{
+					id: "189D142D6F06DBEE"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "41641C014C557806"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D848B9D2BF82A4B"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "670650F270A64677"
+				item: { count: 1, id: "industrialforegoing:biofuel_bucket" }
+				type: "item"
+			}]
+			x: 10.1d
+			y: -6.7d
+		}
+		{
+			dependencies: ["426EFF148E33EA68"]
+			id: "16070B0341F6A901"
+			rewards: [
+				{
+					id: "1D05D95404992794"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "44928D5FE9257291"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49444AF474288094"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F2370654F4C06DB"
+				item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
+				type: "item"
+			}]
+			x: 5.9d
+			y: -5.3d
+		}
+		{
+			id: "246B60B071D4A01B"
+			rewards: [
+				{
+					id: "34B7F763F25A5530"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "6472BACB9911D938"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "546A66B563571EA4"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "594E05C66336AA3A"
+				item: { count: 1, id: "industrialforegoing:fluid_transporter_type" }
+				type: "item"
+			}]
+			x: 7.3d
+			y: -5.3d
+		}
+		{
+			dependencies: ["246B60B071D4A01B"]
+			id: "6115DC018AD08F70"
+			rewards: [
+				{
+					id: "2100049A6DD08AE1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "09BA3133CE1EFC6E"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4003E43577D961FF"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B9592499FB3733D"
+				item: { count: 1, id: "industrialforegoing:item_transporter_type" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: -5.3d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "2C89C1D1D307E2D0"
+			rewards: [
+				{
+					id: "0E8C81973DB02569"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "58EAE346EBABE8A7"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "57540010927E1FF7"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "299E8F2F79DEDCFB"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: -1.3d
+		}
+		{
+			dependencies: ["2C89C1D1D307E2D0"]
+			id: "4EA67F7DA8A58322"
+			rewards: [
+				{
+					id: "07DE1E921D9E3D57"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "06FBD88DA9B73827"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7382E1999CC655E0"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DF9BFD285986DE0"
+				item: { count: 1, id: "industrialforegoing:mycelial_furnace" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: -1.3d
+		}
+		{
+			id: "128793A0B4578A80"
+			rewards: [
+				{
+					id: "16CF64D90EB17423"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "5FF7727E27121202"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DC81B5E6F310CD4"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "062CD55AD1EBA02D"
+				item: { count: 1, id: "industrialforegoing:mycelial_pink" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: -1.3d
+		}
+		{
+			dependencies: ["128793A0B4578A80"]
+			id: "74B867E49BDF3DDD"
+			rewards: [
+				{
+					id: "72F35EF7412E4701"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "6760D29CB861AE52"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51F158D5B510ACA0"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BF8213D68BDE052"
+				item: { count: 1, id: "industrialforegoing:mycelial_slimey" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: -1.3d
+		}
+		{
+			id: "36E8F02ED29D3AFE"
+			rewards: [
+				{
+					id: "07F7857EEC5FBA2A"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "44493699237DA2F8"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0EA1EA8C13E90598"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FAC7A03ADAE430A"
+				item: { count: 1, id: "industrialforegoing:mycelial_frosty" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: 0.1d
+		}
+		{
+			dependencies: ["36E8F02ED29D3AFE"]
+			id: "0077E65E68E5A3A7"
+			rewards: [
+				{
+					id: "7EC8AC5C65359CD5"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "142C87AF9BFB0A51"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32327F508C8C6566"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44D5E888ED714599"
+				item: { count: 1, id: "industrialforegoing:mycelial_magma" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: 0.1d
+		}
+		{
+			dependencies: ["0077E65E68E5A3A7"]
+			id: "1D2C19A09DA43C67"
+			rewards: [
+				{
+					id: "34D8AA5577EFB535"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "0ECAA8292268C17C"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "13C8C3AB66949E37"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "069651FAB1FAE0E1"
+				item: { count: 1, id: "industrialforegoing:mycelial_explosive" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: 0.1d
+		}
+		{
+			dependencies: ["1D2C19A09DA43C67"]
+			id: "2B51932E4398CCAE"
+			rewards: [
+				{
+					id: "31CDC4A2540211DC"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "0BB850A947475434"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "62C1108DB6A83B87"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2277546E89AB7438"
+				item: { count: 1, id: "industrialforegoing:mycelial_ender" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: 0.1d
+		}
+		{
+			dependencies: ["2B51932E4398CCAE"]
+			id: "706D7B45C0FD0FE6"
+			rewards: [
+				{
+					id: "4F05EDDCC1A69E3E"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "67BD2766A402E4EF"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "73DDA9FBE68110E6"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "658DB5756E9FFE74"
+				item: { count: 1, id: "industrialforegoing:mycelial_crimed" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: 1.5d
+		}
+		{
+			dependencies: ["706D7B45C0FD0FE6"]
+			id: "1C10D1A8C06012DA"
+			rewards: [
+				{
+					id: "009934654359572C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "58552DED8D33E8CD"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2151ED51F9DD45E7"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "219C033880A9059D"
+				item: { count: 1, id: "industrialforegoing:mycelial_culinary" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: 1.5d
+		}
+		{
+			id: "31F4DBD420D26697"
+			rewards: [
+				{
+					id: "7C7EAA495F700A79"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "52A9E30AD01C7BB4"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3C390DB4F19F5F38"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71CD4CF33B550B68"
+				item: { count: 1, id: "industrialforegoing:mycelial_death" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: 1.5d
+		}
+		{
+			id: "361B984D085A3B0B"
+			rewards: [
+				{
+					id: "129433CFDAD196B2"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "7DF3020D86C29B12"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07495B1040C67D1A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4469188CFA88A6EA"
+				item: { count: 1, id: "industrialforegoing:mycelial_disenchantment" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: 1.5d
+		}
+		{
+			dependencies: ["361B984D085A3B0B"]
+			id: "7BC1AC0FDA28BEB0"
+			rewards: [
+				{
+					id: "7FBE52F7307345E9"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "75492C7911D60F5D"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B4169A2EA96B1DE"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55DF99F43D370CD3"
+				item: { count: 1, id: "industrialforegoing:mycelial_halitosis" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: 2.9d
+		}
+		{
+			id: "3E826C4EFFC54EBF"
+			rewards: [
+				{
+					id: "4EDE93DA5E59D345"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "5D56DD89F48FE2E1"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A51CFC0C36AB329"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DAF6D276F27A033"
+				item: { count: 1, id: "industrialforegoing:mycelial_meatallurgic" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: 2.9d
+		}
+		{
+			dependencies: ["3E826C4EFFC54EBF"]
+			id: "096764D9F85D377F"
+			rewards: [
+				{
+					id: "4343A9F70B3FAE1C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "71BCAB1511AAAF44"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E13055ED9EE649A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6719AEBD6C3AE0D3"
+				item: { count: 1, id: "industrialforegoing:mycelial_netherstar" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: 2.9d
+		}
+		{
+			id: "0B2E0E05F2873C9C"
+			rewards: [
+				{
+					id: "76D2304226242919"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "6AE1C7BA08046EF5"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70DC9C7684F32414"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45E3E126688F291E"
+				item: { count: 1, id: "industrialforegoing:mycelial_potion" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: 2.9d
+		}
+		{
+			id: "09DA945B35C0F38B"
+			rewards: [
+				{
+					id: "3C5EAC788D89731B"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 4
+					id: "098E957D1509EE6C"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B7E7D9A580313F8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D1E033E681EBC40"
+				item: { count: 1, id: "industrialforegoing:mycelial_rocket" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: 4.3d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "007B18000000000B"
+			rewards: [
+				{
+					id: "40B18DCCB4DD357A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "73491C924BAFDF94"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3DC67AF1F947B31E"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14EDC67790553E45"
+				item: { count: 1, id: "industrialforegoing:mob_crusher" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 0.8d
+		}
+		{
+			dependencies: ["007B18000000000B"]
+			id: "007B19000000000B"
+			rewards: [
+				{
+					id: "6EB3C2CB84EEFB82"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "23377B5669ED40BB"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2CBC219EA5732142"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "015A88E24AF49F5F"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 0.8d
+		}
+		{
+			dependencies: ["007B19000000000B"]
+			id: "007B17000000000B"
+			rewards: [
+				{
+					id: "6BD182C4A473B1EA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "39EFF18D476140E2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "358B67C6F51733BC"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2892CB68C7BE1E37"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 0.8d
+		}
+		{
+			dependencies: ["007B17000000000B"]
+			id: "007B1A000000000B"
+			rewards: [
+				{
+					id: "3BA23EDAA789AF14"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "60CDE916D89FAFD7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B3B5A50A1C6E6FF"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "567C1FA2FCC9A4C7"
+				item: { count: 1, id: "industrialforegoing:mob_detector" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 0.8d
+		}
+		{
+			dependencies: ["007B1A000000000B"]
+			id: "276DD111F8F6EF18"
+			rewards: [
+				{
+					id: "104ECF00AD3154A8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5A8CD714208B71F1"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3361CCB5516F87E4"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F2C97EE21F37665"
+				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 2.2d
+		}
+		{
+			dependencies: ["276DD111F8F6EF18"]
+			id: "007E19000000000E"
+			rewards: [
+				{
+					id: "23361A8591699D53"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "50582DFB6CE6597B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "135E96A2C505546E"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5384290AA4BDA15E"
+				item: { count: 1, id: "industrialforegoing:wither_builder" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 2.2d
+		}
+		{
+			dependencies: ["007E19000000000E"]
+			id: "5922BD5A2D28B8A8"
+			rewards: [
+				{
+					id: "4B576AD23EC5F842"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "347C11A239C9C965"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12621C7EF901624B"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7743A81BA067A317"
+				item: { count: 1, id: "industrialforegoing:marine_fisher" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 2.2d
+		}
+		{
+			id: "37941809F8C51C5C"
+			rewards: [
+				{
+					id: "45DB3069510C5844"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3D0C765E082AE627"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6024BAB349715D27"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D93F5BECC65D113"
+				item: { count: 1, id: "industrialforegoing:meat_feeder" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 2.2d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "007C14000000000C"
+			rewards: [
+				{
+					id: "3D263F145DFE39EB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "5709DD1A2B984A66"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2A1F5B3C935DAA4A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51EC49441D240313"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 5.9d
+			y: 0.8d
+		}
+		{
+			dependencies: ["007C14000000000C"]
+			id: "007C16000000000C"
+			rewards: [
+				{
+					id: "65406DBB6B7EC032"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "5488507DD09DA6CE"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3503AD5744F7793A"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74D7840E150784E5"
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+				type: "item"
+			}]
+			x: 7.3d
+			y: 0.8d
+		}
+		{
+			dependencies: ["007C16000000000C"]
+			id: "007C15000000000C"
+			rewards: [
+				{
+					id: "7FAFE85EC5106A56"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2BE88E587F23CF16"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3AAE527F83082E8C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "251D30A5E94A18D4"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 0.8d
+		}
+		{
+			dependencies: ["007C15000000000C"]
+			id: "174E357E364B6FF8"
+			rewards: [
+				{
+					id: "6623057DF8D06D69"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "52F2DAAAE166E74C"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07CCBD79591E4B7E"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "129A33D7F28C210E"
+				item: { count: 1, id: "industrialforegoing:blue_laser_lens" }
+				type: "item"
+			}]
+			x: 10.1d
+			y: 0.8d
+		}
+		{
+			dependencies: ["174E357E364B6FF8"]
+			id: "337C5A30533759E1"
+			rewards: [
+				{
+					id: "26FD200513A07C70"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "385420DBADE25784"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "52A817474CE37695"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "388D4CEC705D96D9"
+				item: { count: 1, id: "industrialforegoing:purple_laser_lens" }
+				type: "item"
+			}]
+			x: 5.9d
+			y: 2.2d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "2F1616EA76A813A1"
+			rewards: [
+				{
+					id: "49F9B51909E56312"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "441322832C935553"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1790C9F18F685D9D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5475668A2A10C503"
+				item: { count: 1, id: "industrialforegoing:conveyor" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: 8.3d
+		}
+		{
+			dependencies: ["2F1616EA76A813A1"]
+			id: "3B17556CBD9096B3"
+			rewards: [
+				{
+					id: "5866D47AEF1B611C"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "49ED4E6D71009B46"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5CE067253F579BE2"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CEEE8D0304EC4F6"
+				item: { count: 1, id: "industrialforegoing:conveyor_insertion_upgrade" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: 8.3d
+		}
+		{
+			dependencies: ["3B17556CBD9096B3"]
+			id: "134CDF2C76BC0531"
+			rewards: [
+				{
+					id: "523F08F186A72BAA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "07E4DCA7F7C41296"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53CA168D39C47EDE"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CCF4EA941DCFE38"
+				item: { count: 1, id: "industrialforegoing:conveyor_extraction_upgrade" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: 8.3d
+		}
+		{
+			id: "2FDF6EBD22248E07"
+			rewards: [
+				{
+					id: "1119707E5C46A975"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "5E06BB5ACD418928"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21D5574FBE6DA457"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EE84DF0E03B010E"
+				item: { count: 1, id: "industrialforegoing:conveyor_dropping_upgrade" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: 8.3d
+		}
+		{
+			id: "6620DE7A6B447EB6"
+			rewards: [
+				{
+					id: "72C31E67DCFE7297"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "582F9F120A4D4746"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45EE5872E2C8F07F"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57578131287A86FB"
+				item: { count: 1, id: "industrialforegoing:conveyor_splitting_upgrade" }
+				type: "item"
+			}]
+			x: -10.1d
+			y: 9.7d
+		}
+		{
+			dependencies: ["6620DE7A6B447EB6"]
+			id: "09F77FF80320A8FE"
+			rewards: [
+				{
+					id: "58FDB2A44CD8A8E0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "5A5A443BC779F590"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B21F3344C707489"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "281650C43232752C"
+				item: { count: 1, id: "industrialforegoing:conveyor_detection_upgrade" }
+				type: "item"
+			}]
+			x: -8.7d
+			y: 9.7d
+		}
+		{
+			dependencies: ["09F77FF80320A8FE"]
+			id: "48D8F2A4E556910B"
+			rewards: [
+				{
+					id: "5E5BDC10D2DD1208"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "2F0D846D8B19B13B"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CE6872196AC547D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DAA01CD9FD49358"
+				item: { count: 1, id: "industrialforegoing:conveyor_bouncing_upgrade" }
+				type: "item"
+			}]
+			x: -7.3d
+			y: 9.7d
+		}
+		{
+			dependencies: ["48D8F2A4E556910B"]
+			id: "52590D860F2294B8"
+			rewards: [
+				{
+					id: "7B4B2628134A2336"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "2BD966C830FCBCA1"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C6E59F42092B4E3"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7525092930F96FE3"
+				item: { count: 1, id: "industrialforegoing:conveyor_blinking_upgrade" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: 9.7d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "007A14000000000A"
+			rewards: [
+				{
+					id: "7CB56045E8BCCBCC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5D4F50C133F66BE3"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E1F5AD50B9B178A"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74E4E95CC37781C1"
+				item: { count: 1, id: "industrialforegoing:plant_sower" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 7.6d
+		}
+		{
+			dependencies: ["007A14000000000A"]
+			id: "007A15000000000A"
+			rewards: [
+				{
+					id: "75C48C14D8859CFE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "1DAEC1FA4A79E103"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18B1F07DB0A16D38"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3806D690E614FE4F"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 7.6d
+		}
+		{
+			dependencies: ["007A15000000000A"]
+			id: "007A16000000000A"
+			rewards: [
+				{
+					id: "671DFD879910182A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "47A08D42075BF375"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "571D941742351F1A"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7849FCDEE957544C"
+				item: { count: 1, id: "industrialforegoing:plant_fertilizer" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 7.6d
+		}
+		{
+			dependencies: ["007A16000000000A"]
+			id: "007A17000000000A"
+			rewards: [
+				{
+					id: "64BFCB17644EDF5F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "3DB7F0D24252EFD8"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D9EBC6099590E74"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08346971E1A31D72"
+				item: { count: 1, id: "industrialforegoing:hydroponic_bed" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 7.6d
+		}
+		{
+			dependencies: ["007A17000000000A"]
+			id: "55C13969F7F903B6"
+			rewards: [
+				{
+					id: "4204357DCB68EAFE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "6472C0CD4CA0AF2E"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67937005E79755C1"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11183C3F6703FECA"
+				item: { count: 1, id: "industrialforegoing:simulated_hydroponic_bed" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 9.0d
+		}
+		{
+			dependencies: ["55C13969F7F903B6"]
+			id: "007A18000000000A"
+			rewards: [
+				{
+					id: "05031B6D7CDFEBB7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "61FE94F4EFA914AA"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53C698AC4CF27BFA"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E92FB133FC4EE25"
+				item: { count: 1, id: "industrialforegoing:bioreactor" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 9.0d
+		}
+		{
+			dependencies: ["007A18000000000A"]
+			id: "007B15000000000B"
+			rewards: [
+				{
+					id: "12CC4E1705CAD923"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5A5EEF4C230CB091"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3631E7AFFD817273"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78C76178E8DABB91"
+				item: { count: 1, id: "industrialforegoing:animal_feeder" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 9.0d
+		}
+		{
+			dependencies: ["007B15000000000B"]
+			id: "007B14000000000B"
+			rewards: [
+				{
+					id: "38279F8CDD7DDA36"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "13DCDCED4029D2F3"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F090AEC05CD0342"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FF76B969CB9423D"
+				item: { count: 1, id: "industrialforegoing:animal_rancher" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 9.0d
+		}
+		{
+			dependencies: ["007B14000000000B"]
+			id: "007B16000000000B"
+			rewards: [
+				{
+					id: "5CCCA58560518A2E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "190C2F20354B4586"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "533E929C5F4C8ED3"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BF9463223342B58"
+				item: { count: 1, id: "industrialforegoing:animal_baby_separator" }
+				type: "item"
+			}]
+			x: -2.1d
+			y: 10.4d
+		}
+		{
+			dependencies: ["007B16000000000B"]
+			id: "007A19000000000A"
+			rewards: [
+				{
+					id: "409E33A29B6471E7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5E9D712AA46C1A65"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70E59AA284676E20"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41F2F9BA1DF0A2A0"
+				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
+				type: "item"
+			}]
+			x: -0.7d
+			y: 10.4d
+		}
+		{
+			dependencies: ["007A19000000000A"]
+			id: "007F18000000000F"
+			rewards: [
+				{
+					id: "45CB2F0242535686"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "70301A4A8A3AC556"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6AA4137E671ADB39"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EB0871AD6440040"
+				item: { count: 1, id: "industrialforegoing:pitiful_generator" }
+				type: "item"
+			}]
+			x: 0.7d
+			y: 10.4d
+		}
+		{
+			dependencies: ["007F18000000000F"]
+			id: "007F16000000000F"
+			rewards: [
+				{
+					id: "4C7D6CCB281ABE9A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "368FA0399AF6F2B1"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "024E2BDAC2506DA6"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EF5C153685A1772"
+				item: { count: 1, id: "industrialforegoing:infinity_charger" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 10.4d
+		}
+		{
+			dependencies: ["7000000000000000"]
+			id: "007E14000000000E"
+			rewards: [
+				{
+					id: "18572ACB68B640B0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "4AC1BA21EAB83C6D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D1D9B1517E8ECF6"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44DADAD43DDC2C2C"
+				item: { count: 1, id: "industrialforegoing:enchantment_factory" }
+				type: "item"
+			}]
+			x: 5.9d
+			y: 9.0d
+		}
+		{
+			dependencies: ["007E14000000000E"]
+			id: "007E15000000000E"
+			rewards: [
+				{
+					id: "090FAECDEE77E5F5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "29E49ED337558B54"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "232F77D963B2FD18"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0368D540F0F118CB"
+				item: { count: 1, id: "industrialforegoing:enchantment_applicator" }
+				type: "item"
+			}]
+			x: 7.3d
+			y: 9.0d
+		}
+		{
+			dependencies: ["007E15000000000E"]
+			id: "007E16000000000E"
+			rewards: [
+				{
+					id: "69B0BADA8882DB5D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "290D24DA34B7BCB8"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "439401F132662D24"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77D3A05ED766875C"
+				item: { count: 1, id: "industrialforegoing:enchantment_extractor" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 9.0d
+		}
+		{
+			dependencies: ["007E16000000000E"]
+			id: "007E17000000000E"
+			rewards: [
+				{
+					id: "16906AF69D4AFB24"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2DAEEB0925F35C08"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69427D2C35BD9AE1"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67DA04AD825A57D1"
+				item: { count: 1, id: "industrialforegoing:enchantment_sorter" }
+				type: "item"
+			}]
+			x: 10.1d
+			y: 9.0d
+		}
+	]
+}

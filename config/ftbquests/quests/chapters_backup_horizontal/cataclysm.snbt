@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "3C7D5F4E6A8B9C12"
+	icon: {
+		id: "cataclysm:void_crystal"
+	}
+	id: "331B0A9F083CB380"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cataclysm:void_crystal"
+			}
+			id: "051AD5464E67FDD0"
+			rewards: [{
+				id: "4AF9F9AE206EB6F0"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "3303B38752A49CF8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "13D68792AC622C97"
+			rewards: [{
+				id: "4883E3F1F67B66B2"
+				item: { count: 1, id: "cataclysm:monstrous_horn" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "187DDF2401252B65"
+				item: { count: 1, id: "cataclysm:monstrous_horn" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "1BA13FEF504C3D49"
+			rewards: [{
+				id: "6F1EDDFC3909FED8"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BCAFAE5AFD15B37"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "59AB63173B93ACB3"
+			rewards: [{
+				id: "434B3D8634C932F5"
+				item: {
+					count: 1
+					id: "cataclysm:void_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "031E33D5FEAA1D83"
+				item: { count: 1, id: "cataclysm:void_crystal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "1769298C901E958C"
+			rewards: [{
+				id: "5BC6ECF4145C1B76"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "00CBD14329402015"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "505C1FCEEBF7FBED"
+			rewards: [{
+				id: "5E7F28EB3F3AEF8A"
+				item: { count: 1, id: "cataclysm:void_crystal" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D8442E2795BA9EE"
+				item: { count: 1, id: "cataclysm:void_crystal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "08EA45466420D2F5"
+			optional: true
+			rewards: [{
+				id: "57D2E4AA9BBAA33C"
+				item: { count: 1, id: "cataclysm:chain_of_soul_binding" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "106FEDC24D431FA1"
+				item: { count: 1, id: "cataclysm:chain_of_soul_binding" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "65495A8A5D9EA296"
+			rewards: [
+				{
+					count: 8
+					id: "084A4983B4B764EC"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5036DA74FF0B0A46"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "74A042632FAB211E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+}

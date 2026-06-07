@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enderio"
+	group: "1A8B3F2C4D5E6789"
+	icon: {
+		id: "enderio:dark_steel_ingot"
+	}
+	id: "4F4F4F4F4F4F4F01"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "enderio:dark_steel_ingot"
+			}
+			id: "4F00000000000001"
+			rewards: [{
+				id: "5F00000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6F00000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F00000000000001"]
+			id: "4F00000000000002"
+			rewards: [{
+				id: "5F00000000000002"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F00000000000002"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F00000000000002"]
+			id: "4F00000000000003"
+			rewards: [{
+				count: 4
+				id: "5F00000000000003"
+				item: {
+					count: 1
+					id: "enderio:redstone_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6F00000000000003"
+				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F00000000000002"]
+			id: "4F00000000000004"
+			rewards: [{
+				count: 4
+				id: "5F00000000000004"
+				item: {
+					count: 1
+					id: "enderio:energetic_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6F00000000000004"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F00000000000002"]
+			id: "4F00000000000005"
+			rewards: [{
+				count: 4
+				id: "5F00000000000005"
+				item: {
+					count: 1
+					id: "enderio:vibrant_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6F00000000000005"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F00000000000004"]
+			id: "4F00000000000006"
+			rewards: [{
+				count: 4
+				id: "5F00000000000006"
+				item: {
+					count: 1
+					id: "enderio:dark_steel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6F00000000000006"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F00000000000006"]
+			id: "4F00000000000007"
+			rewards: [{
+				count: 4
+				id: "5F00000000000007"
+				item: {
+					count: 1
+					id: "enderio:end_steel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6F00000000000007"
+				item: { count: 1, id: "enderio:end_steel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F00000000000003"]
+			id: "4F00000000000008"
+			rewards: [{
+				count: 4
+				id: "5F00000000000008"
+				item: { count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6F00000000000008"
+				item: { count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F00000000000004"]
+			id: "4F00000000000009"
+			rewards: [{
+				id: "5F00000000000009"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F00000000000009"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F00000000000005"]
+			id: "4F0000000000000A"
+			optional: true
+			rewards: [{
+				id: "5F0000000000000A"
+				item: {
+					count: 1
+					id: "enderio:powered_spawner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F0000000000000A"
+				item: { count: 1, id: "enderio:powered_spawner" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F00000000000006"]
+			id: "4F0000000000000B"
+			optional: true
+			rewards: [{
+				id: "5F0000000000000B"
+				item: {
+					count: 1
+					id: "enderio:vacuum_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F0000000000000B"
+				item: { count: 1, id: "enderio:vacuum_chest" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F00000000000007"]
+			id: "4F0000000000FFFF"
+			rewards: [
+				{
+					count: 8
+					id: "5F0000000000FFFF"
+					item: {
+						count: 1
+						id: "enderio:end_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5F0000000000FF01"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "6F0000000000FFFF"
+				item: { count: 1, id: "enderio:end_steel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+	]
+}

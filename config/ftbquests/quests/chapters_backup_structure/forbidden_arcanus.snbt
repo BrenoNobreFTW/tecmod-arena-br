@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_arcanus"
+	group: "2B9C4E5D6F7A1234"
+	icon: {
+		id: "forbidden_arcanus:arcane_crystal"
+	}
+	id: "132A6E853271FCA6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "forbidden_arcanus:arcane_crystal"
+			}
+			id: "2E2E0A39637B1172"
+			rewards: [{
+				id: "20889DDB869FCA24"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7CE5A376F3D895F9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E2E0A39637B1172"]
+			id: "0F8E3D96CD5868AD"
+			rewards: [{
+				count: 8
+				id: "4E7EE1107F37B07F"
+				item: {
+					count: 1
+					id: "forbidden_arcanus:arcane_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "40906237688EC980"
+				item: { count: 1, id: "forbidden_arcanus:arcane_crystal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F8E3D96CD5868AD"]
+			id: "643DB1A4CB6FD712"
+			rewards: [{
+				id: "2225C3B4F0DEECCA"
+				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "6850195F7654C162"
+				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0F8E3D96CD5868AD"]
+			id: "2DA0C99A8E8FA70C"
+			rewards: [{
+				count: 4
+				id: "33734C56ADC2E299"
+				item: {
+					count: 1
+					id: "forbidden_arcanus:obsidian_skull"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5641833742AF5759"
+				item: { count: 1, id: "forbidden_arcanus:obsidian_skull" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["643DB1A4CB6FD712"]
+			id: "3CD8091A6A9D6C72"
+			rewards: [
+				{
+					id: "580776241F381F5C"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:soul_extractor"
+					}
+					type: "item"
+				}
+				{
+					id: "2161FE386AC7D72A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "64B00B500476C82F"
+				item: { count: 1, id: "forbidden_arcanus:soul_extractor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "helpCallPitch": 1.0,
+  "revivalPitch": 1.0,
+  "useCustomHelpCall": false,
+  "useCustomRevival": false,
+  "helpCallFileName": "",
+  "revivalFileName": ""
+}
