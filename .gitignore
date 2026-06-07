@@ -108,6 +108,13 @@ user-prefs.json
 win_event*.txt
 modlist.html
 
+# ===== Runtime data gerado por mods =====
+data/
+debug/
+config/euphoria_patcher/.data.json
+*-had-error.json5
+config/crash_assistant/modlist.json
+
 # ===== IDE / Editor =====
 .vscode/
 .idea/
