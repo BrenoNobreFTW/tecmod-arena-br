@@ -1,12 +1,12 @@
 # Tecmod Arena BR — Changelog Histórico Completo
 
-> **Cobertura:** v1.4 (7 Jul 2025) → v3.1.4 (30 Mai 2026)
+> **Cobertura:** v1.4 (7 Jul 2025) → v3.1.5 (7 Jun 2026)
 > **Período:** ~11 meses, 28 releases publicadas no CurseForge
 > **Modpack ID:** 322830 · **Autor:** BrenoSNobreFTW · **MC:** 1.21.1 NeoForge
 
 ---
 
-## v3.1.4 — Mod Updates & Quest Fix (30 Mai 2026)
+## v3.1.5 — Mod Updates & Quest Fix (7 Jun 2026)
 
 Atualização de manutenção: 54 mods atualizados via CurseForge App, fix do crash ao receber quests, NeoForge 21.1.230 → 21.1.233.
 
